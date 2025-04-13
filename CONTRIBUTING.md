@@ -25,6 +25,11 @@ Help us expand our documentation! You can contribute:
 Current documentation languages:
 - 🇺🇸 English
 - 🇨🇳 Chinese
+- 🇯🇵 Japanese
+- 🇫🇷 French
+- 🇩🇪 German
+- 🇸🇦 Arabic
+- 🇪🇸 Spanish
 
 ### 3. Community Samples
 
@@ -38,6 +43,14 @@ Share your A2A implementations! We accept:
 Current supported languages:
 - 🐍 Python
 - 🚀 JavaScript/TypeScript
+- 🦀 Rust
+- 🐹 Go
+- ☕ Java
+- 💎 C#
+- 🐘 PHP
+- 🔵 Ruby
+- 🦫 Swift
+- 🦫 Kotlin
 
 ### 4. Reporting Issues
 
