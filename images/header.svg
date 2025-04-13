@@ -15,10 +15,10 @@
     <!-- Logo 部分 -->
     <g transform="translate(100, 165)">
         <circle cx="150" cy="150" r="120" fill="#007AFF"/>
-        <text x="150" y="175" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">A2A</text>
-        <path d="M60 150 L240 150" stroke="white" stroke-width="6" stroke-dasharray="12 6"/>
-        <circle cx="60" cy="150" r="10" fill="white"/>
-        <circle cx="240" cy="150" r="10" fill="white"/>
+        <text x="150" y="165" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">A2A</text>
+        <path d="M60 200 L240 200" stroke="white" stroke-width="6" stroke-dasharray="12 6"/>
+        <circle cx="60" cy="200" r="10" fill="white"/>
+        <circle cx="240" cy="200" r="10" fill="white"/>
     </g>
     
     <!-- 文字部分 -->
