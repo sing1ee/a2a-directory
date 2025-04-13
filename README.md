@@ -2,6 +2,8 @@
 
 ![PR Welcome](/images/prs-welcome.svg)
 
+🌐 [中文](README.zh-CN.md)
+
 ## Contents
 
 - 📋 [Overview](#overview)
