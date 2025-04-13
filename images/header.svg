@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="1200" height="630" fill="#F8F9FA"/>
+    
+    <!-- 渐变背景装饰 -->
+    <path d="M0 0 L1200 0 L1200 630 L0 630 Z" fill="url(#gradient)"/>
+    <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#007AFF" stop-opacity="0.1"/>
+            <stop offset="100%" stop-color="#007AFF" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Logo 部分 -->
+    <g transform="translate(100, 165)">
+        <circle cx="150" cy="150" r="120" fill="#007AFF"/>
+        <text x="150" y="175" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">A2A</text>
+        <path d="M60 150 L240 150" stroke="white" stroke-width="6" stroke-dasharray="12 6"/>
+        <circle cx="60" cy="150" r="10" fill="white"/>
+        <circle cx="240" cy="150" r="10" fill="white"/>
+    </g>
+    
+    <!-- 文字部分 -->
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#1A1A1A">A2A Directory</text>
+    <text x="400" y="280" font-family="Arial, sans-serif" font-size="32" fill="#666666">Comprehensive directory of Agent2Agent</text>
+    <text x="400" y="330" font-family="Arial, sans-serif" font-size="32" fill="#666666">Cards, Servers, Clients, and Documentation</text>
+    
+    <!-- 装饰性图形 -->
+    <g transform="translate(900, 150)">
+        <rect x="0" y="0" width="40" height="40" fill="#007AFF" opacity="0.2"/>
+        <rect x="60" y="0" width="40" height="40" fill="#007AFF" opacity="0.4"/>
+        <rect x="120" y="0" width="40" height="40" fill="#007AFF" opacity="0.6"/>
+    </g>
+</svg> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="240" height="240" fill="#F5F5F5"/>
+    
+    <!-- A2A Logo -->
+    <g transform="translate(40, 60)">
+        <!-- 主圆形 -->
+        <circle cx="80" cy="80" r="70" fill="#007AFF"/>
+        
+        <!-- A2A 文字 -->
+        <text x="80" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">A2A</text>
+        
+        <!-- 连接线条装饰 -->
+        <path d="M30 80 L130 80" stroke="white" stroke-width="4" stroke-dasharray="8 4"/>
+        <circle cx="30" cy="80" r="6" fill="white"/>
+        <circle cx="130" cy="80" r="6" fill="white"/>
+    </g>
+</svg> 
