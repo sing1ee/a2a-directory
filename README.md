@@ -1,7 +1,5 @@
 # ✨ Agent2Agent Protocol ✨
 
-![a2aprotocol.ai](/images/a2a-protocol.png)
-
 ![PR Welcome](/images/prs-welcome.svg)
 
 ## Contents
@@ -72,7 +70,6 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 
 - [GitHub Issues](https://github.com/google/A2A/issues)
 - [GitHub Discussions](https://github.com/google/A2A/discussions/)
-- [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform)
 
 ## Contributing
 
