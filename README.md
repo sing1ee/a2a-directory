@@ -43,15 +43,15 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 ## Resources
 
 ### Official Documentation
-- 📄 [Technical Documentation](https://google.github.io/A2A/#/documentation)
-- 📋 [JSON Specification](https://github.com/google/A2A/tree/main/specification/json)
-- 🎴 [Agent Card Specification](https://google.github.io/A2A/#/documentation?id=agent-card)
+- 🇺🇸 [Technical Documentation](https://google.github.io/A2A/#/documentation)
+- 🇺🇸 [JSON Specification](https://github.com/google/A2A/tree/main/specification/json)
+- 🇺🇸 [Agent Card Specification](https://google.github.io/A2A/#/documentation?id=agent-card)
 
 ### Community Documentation
-- 📚 [A2A TypeScript Guide](docs/a2a-typescript-guide.md) - A comprehensive guide for implementing A2A in TypeScript
-- 🔄 [A2A vs MCP](docs/a2a-vs-mcp.md) - Comparison between A2A and Model Context Protocol
-- 🧠 [Understanding A2A Protocol](docs/understanding-a2a-protocol.md) - Deep dive into A2A protocol concepts
-- 📝 [A2A Sample Methods and JSON Responses](docs/a2a-sample-methods-and-json-responses.md) - Detailed examples of A2A methods and responses
+- 🇺🇸 [A2A TypeScript Guide](docs/a2a-typescript-guide.md) - A comprehensive guide for implementing A2A in TypeScript
+- 🇺🇸 [A2A vs MCP](docs/a2a-vs-mcp.md) - Comparison between A2A and Model Context Protocol
+- 🇺🇸 [Understanding A2A Protocol](docs/understanding-a2a-protocol.md) - Deep dive into A2A protocol concepts
+- 🇺🇸 [A2A Sample Methods and JSON Responses](docs/a2a-sample-methods-and-json-responses.md) - Detailed examples of A2A methods and responses
 - 🇨🇳 [A2A 协议介绍](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - A2A 协议的中文介绍
 
 ## Implementations
