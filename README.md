@@ -8,8 +8,10 @@
 - 🚀 [Getting Started](#getting-started)
 - 📚 [Resources](#resources)
 - 💻 [Implementations](#implementations)
+- 🎴 [AgentCard](#agentcard)
 - 👥 [Community](#community)
 - 🤝 [Contributing](#contributing)
+
 
 ## Overview
 
