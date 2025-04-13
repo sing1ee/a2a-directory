@@ -9,11 +9,11 @@
         <circle cx="80" cy="80" r="70" fill="#007AFF"/>
         
         <!-- A2A 文字 -->
-        <text x="80" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">A2A</text>
+        <text x="80" y="85" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">A2A</text>
         
-        <!-- 连接线条装饰 -->
-        <path d="M30 80 L130 80" stroke="white" stroke-width="4" stroke-dasharray="8 4"/>
-        <circle cx="30" cy="80" r="6" fill="white"/>
-        <circle cx="130" cy="80" r="6" fill="white"/>
+        <!-- 连接线条装饰 - 移到下方 -->
+        <path d="M30 110 L130 110" stroke="white" stroke-width="4" stroke-dasharray="8 4"/>
+        <circle cx="30" cy="110" r="6" fill="white"/>
+        <circle cx="130" cy="110" r="6" fill="white"/>
     </g>
 </svg> 
