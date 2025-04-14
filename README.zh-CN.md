@@ -55,6 +55,7 @@ A2A (Agent2Agent) 是 Google 推出的一个开放协议，使 AI 智能体能�
 - 🇺🇸 [A2A vs MCP](docs/a2a-vs-mcp.md) - A2A 和模型上下文协议的比较
 - 🇺🇸 [理解 A2A 协议](docs/understanding-a2a-protocol.md) - 深入探讨 A2A 协议概念
 - 🇺🇸 [A2A 示例方法和 JSON 响应](docs/a2a-sample-methods-and-json-responses.md) - A2A 方法和响应的详细示例
+- 🇺🇸 [Python A2A：Google Agent-to-Agent 协议全面指南](docs/python-a2a.md) - Python A2A 是一个强大且易用的库，用于实现 Google 的 [Agent-to-Agent (A2A) 协议](https://google.github.io/A2A/)
 - 🇨🇳 [A2A 协议介绍](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - A2A 协议的中文介绍
 
 ## 实现
