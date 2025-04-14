@@ -2,6 +2,8 @@
 
 ![PR Welcome](/images/prs-welcome.svg)
 
+🌐 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md)
+
 ## 目录
 
 - 📋 [概述](#概述)
