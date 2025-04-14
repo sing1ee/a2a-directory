@@ -72,12 +72,14 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 - 🚀 **Client Library**: Client implementation - [Link](https://github.com/google/A2A/tree/main/samples/js/src/client)
 - 🚀 **Host (Client)**: Command-line client example - [Link](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
 
+
 ### Framework Integrations
 
 #### Python
 - 🐍 **LangGraph**: Currency conversion (Features: Tools, Streaming, Multi-turn) - [Link](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph)
 - 🐍 **CrewAI**: Image generation (Features: Non-textual Artifacts (Files)) - [Link](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)
 - 🐍 **Google ADK**: Expense reimbursement (Features: Multi-turn, Forms (DataPart)) - [Link](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)
+- 🐍 **Python A2A**：一个强大且易用的库，用于实现 Google 的 [Agent-to-Agent (A2A) 协议](https://google.github.io/A2A/) - [链接](https://github.com/themanojdesai/python-a2a)
 
 #### JavaScript/TypeScript
 - 🚀 **Genkit**: Movie info / Code generation (Features: Tools, Artifacts (Files), Async) - [Link](https://github.com/google/A2A/tree/main/samples/js/src/agents)

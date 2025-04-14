@@ -75,6 +75,7 @@ A2A (Agent2Agent) 是 Google 推出的一个开放协议，使 AI 智能体能�
 - 🐍 **LangGraph**：货币转换（特性：工具、流式处理、多轮对话） - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph)
 - 🐍 **CrewAI**：图像生成（特性：非文本工件（文件）） - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)
 - 🐍 **Google ADK**：费用报销（特性：多轮对话、表单（DataPart）） - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)
+- 🐍 **Python A2A**：一个强大且易用的库，用于实现 Google 的 [Agent-to-Agent (A2A) 协议](https://google.github.io/A2A/) - [链接](https://github.com/themanojdesai/python-a2a)
 
 #### JavaScript/TypeScript
 - 🚀 **Genkit**：电影信息/代码生成（特性：工具、工件（文件）、异步） - [链接](https://github.com/google/A2A/tree/main/samples/js/src/agents)
