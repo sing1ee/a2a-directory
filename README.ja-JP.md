@@ -55,6 +55,7 @@ A2A (Agent2Agent) は、Google が提供するオープンプロトコルで、A
 - 🇺🇸 [A2A vs MCP](docs/a2a-vs-mcp.md) - A2A とモデルコンテキストプロトコルの比較
 - 🇺🇸 [A2A プロトコルの理解](docs/understanding-a2a-protocol.md) - A2A プロトコル概念の詳細な解説
 - 🇺🇸 [A2A サンプルメソッドと JSON レスポンス](docs/a2a-sample-methods-and-json-responses.md) - A2A メソッドとレスポンスの詳細な例
+- 🇺🇸 [Python A2A：Google Agent-to-Agent プロトコル完全ガイド](docs/python-a2a.md) - Python A2A は、Google の [Agent-to-Agent (A2A) プロトコル](https://google.github.io/A2A/) を実装するための強力で使いやすいライブラリです
 - 🇨🇳 [A2A プロトコル紹介](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - A2A プロトコルの中国語紹介
 
 ## 実装
