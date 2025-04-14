@@ -2,7 +2,7 @@
 
 ![PR Welcome](/images/prs-welcome.svg)
 
-🌐 [中文](README.zh-CN.md)
+🌐 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md)
 
 ## Contents
 
