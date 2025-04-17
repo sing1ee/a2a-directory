@@ -11,6 +11,7 @@
 - 📚 [リソース](#リソース)
 - 💻 [実装](#実装)
 - 🎴 [AgentCard](#agentcard)
+- 🤝 [コミュニティ実装](#コミュニティ実装)
 - 👥 [コミュニティ](#コミュニティ)
 - 🤝 [貢献](#貢献)
 
@@ -71,6 +72,22 @@ A2A (Agent2Agent) は、Google が提供するオープンプロトコルで、A
 - 🚀 **サーバーライブラリ**：コアサーバー実装 - [リンク](https://github.com/google/A2A/tree/main/samples/js/src/server)
 - 🚀 **クライアントライブラリ**：クライアント実装 - [リンク](https://github.com/google/A2A/tree/main/samples/js/src/client)
 - 🚀 **ホスト（クライアント）**：コマンドラインクライアント例 - [リンク](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
+
+## コミュニティ実装
+
+| 名前 | 作者 | 説明 | スター |
+|------|--------|-------------|-------|
+| [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | A2A サーバーを構築するための Go ライブラリ、サンプル実装付き | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
+| [a2a-rs](https://github.com/EmilLindfors/a2a-rs) | [@EmilLindfors](https://github.com/EmilLindfors) | ヘキサゴナルアーキテクチャの原則に従った慣用的な Rust 実装 | [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) |
+| [a2a_min](https://github.com/pcingola/a2a_min) | [@pcingola](https://github.com/pcingola) | A2A 通信のための最小限の Python SDK | [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) |
+| [a2adotnet](https://github.com/azixaka/a2adotnet) | [@azixaka](https://github.com/azixaka) | A2A プロトコルの C#/.NET 実装 | [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) |
+| [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) | [@thestupd](https://github.com/thestupd) | NestJS アプリケーションに A2A プロトコルを統合するモジュール | [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) |
+| [python-a2a](https://github.com/themanojdesai/python-a2a) | [@themanojdesai](https://github.com/themanojdesai) | A2A プロトコルを実装するための使いやすい Python ライブラリ | [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) |
+| [Aira](https://github.com/IhateCreatingUserNames2/Aira) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | エージェントのホスティング、登録、発見、相互作用のための A2A ネットワーク実装 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) |
+| [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | Google の ADK 上に構築された AI エージェント開発フレームワーク、A2A ネットワーク用のエージェント作成を促進 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) |
+
+<!-- あなたの実装をここに追加してください！CONTRIBUTING.md を参照 -->
+
 
 ### フレームワーク統合
 

@@ -10,6 +10,7 @@
 - 🚀 [快速开始](#快速开始)
 - 📚 [资源](#资源)
 - 💻 [实现](#实现)
+- 📋 [社区实现](#社区实现)
 - 🎴 [AgentCard](#agentcard)
 - 👥 [社区](#社区)
 - 🤝 [贡献](#贡献)
@@ -72,6 +73,21 @@ A2A (Agent2Agent) 是 Google 推出的一个开放协议，使 AI 智能体能�
 - 🚀 **客户端库**：客户端实现 - [链接](https://github.com/google/A2A/tree/main/samples/js/src/client)
 - 🚀 **主机（客户端）**：命令行客户端示例 - [链接](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
 
+## 社区实现
+
+| 名称 | 作者 | 描述 | 星标 |
+|------|--------|-------------|-------|
+| [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | 用于构建 A2A 服务器的 Go 库，包含示例实现 | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
+| [a2a-rs](https://github.com/EmilLindfors/a2a-rs) | [@EmilLindfors](https://github.com/EmilLindfors) | 遵循六边形架构原则的惯用 Rust 实现 | [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) |
+| [a2a_min](https://github.com/pcingola/a2a_min) | [@pcingola](https://github.com/pcingola) | 用于 A2A 通信的极简 Python SDK | [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) |
+| [a2adotnet](https://github.com/azixaka/a2adotnet) | [@azixaka](https://github.com/azixaka) | A2A 协议的 C#/.NET 实现 | [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) |
+| [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) | [@thestupd](https://github.com/thestupd) | 用于将 A2A 协议集成到 NestJS 应用程序的模块 | [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) |
+| [python-a2a](https://github.com/themanojdesai/python-a2a) | [@themanojdesai](https://github.com/themanojdesai) | 用于实现 A2A 协议的易用 Python 库 | [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) |
+| [Aira](https://github.com/IhateCreatingUserNames2/Aira) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | 用于托管、注册、发现和交互智能体的 A2A 网络实现 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) |
+| [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | 基于 Google ADK 构建的 AI 智能体开发框架，促进 A2A 网络的智能体创建 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) |
+
+<!-- 在此添加您的实现！请参阅 CONTRIBUTING.md -->
+
 ### 框架集成
 
 #### Python
@@ -89,6 +105,7 @@ A2A (Agent2Agent) 是 Google 推出的一个开放协议，使 AI 智能体能�
 - 🚀 **a2a-agent-coder**：带有 A2A 服务器和客户端的编码器智能体实现 - [链接](https://github.com/sing1ee/a2a-agent-coder)
 
 ## AgentCard
+
 
 ## 社区
 
