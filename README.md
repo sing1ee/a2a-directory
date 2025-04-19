@@ -1,9 +1,12 @@
 # ✨ Agent2Agent Protocol ✨
 
+![Awesome A2A](/images/a2a-protocol.png)
+
 ![PR Welcome](/images/prs-welcome.svg)
 
 🌐 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md)
 
+<a id="contents"></a>
 ## Contents
 
 - 📋 [Overview](#overview)
@@ -45,6 +48,7 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
    - 🛠️ Use official libraries or adapt samples
    - 🏗️ Start with a basic A2A agent or client
 
+
 ## Resources
 
 ### Official Documentation
@@ -59,6 +63,8 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 - 🇺🇸 [A2A Sample Methods and JSON Responses](docs/a2a-sample-methods-and-json-responses.md) - Detailed examples of A2A methods and responses
 - 🇺🇸 [Python A2A](docs/python-a2a.md): A powerful and easy-to-use library for implementing Google's [Agent-to-Agent (A2A) protocol](https://google.github.io/A2A/) - [Link](https://a2aprotocol.ai/blog/python-a2a)
 - 🇨🇳 [A2A 协议介绍](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - A2A 协议的中文介绍
+
+[⬆️ Back to Contents](#contents)
 
 ## Implementations
 
@@ -78,6 +84,7 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 
 | Name | Author | Description | Stars |
 |------|--------|-------------|-------|
+| [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | A TypeScript implementation of the A2A protocol with a focus on modularity and extensibility | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
 | [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | A Go library for building A2A servers, with example implementations | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
 | [a2a-rs](https://github.com/EmilLindfors/a2a-rs) | [@EmilLindfors](https://github.com/EmilLindfors) | An idiomatic Rust implementation following hexagonal architecture principles | [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) |
 | [a2a_min](https://github.com/pcingola/a2a_min) | [@pcingola](https://github.com/pcingola) | A minimalistic Python SDK for A2A communication | [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) |
@@ -86,6 +93,8 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 | [python-a2a](https://github.com/themanojdesai/python-a2a) | [@themanojdesai](https://github.com/themanojdesai) | An easy-to-use Python library for implementing the A2A protocol | [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) |
 | [Aira](https://github.com/IhateCreatingUserNames2/Aira) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | An A2A network implementation for hosting, registering, discovering, and interacting with agents | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) |
 | [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | An AI agent development framework built on Google's ADK, facilitating agent creation potentially for A2A networks | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) |
+
+[⬆️ Back to Contents](#contents)
 
 ### Framework Integrations
 
@@ -102,6 +111,8 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 
 #### JavaScript/TypeScript
 - 🚀 **a2a-agent-coder**: A Coder Agent implementation with A2A Server and Client - [Link](https://github.com/sing1ee/a2a-agent-coder)
+
+[⬆️ Back to Contents](#contents)
 
 ## AgentCard
 
