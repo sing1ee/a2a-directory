@@ -1,4 +1,4 @@
-# ✨ Agent2Agent Protocol ✨
+# ✨ A2A Directory ✨
 
 ![Awesome A2A](/images/a2a-protocol.png)
 
