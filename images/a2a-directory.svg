@@ -1,0 +1,88 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="450" fill="#f8f9fa" />
+  
+  <!-- 顶部渐变装饰 -->
+  <rect width="800" height="80" fill="#4285f4" />
+  <rect y="80" width="800" height="20" fill="url(#top-gradient)" />
+  
+  <!-- 定义渐变 -->
+  <defs>
+    <linearGradient id="top-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4285f4" />
+      <stop offset="100%" stop-color="#f8f9fa" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="card-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea4335" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#fbbc05" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 主标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="white">A2A Directory</text>
+  
+  <!-- 副标题 -->
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#202124">Agent2Agent (A2A) Protocol</text>
+  
+  <!-- 四个卡片区域 -->
+  <g transform="translate(80, 170)">
+    <!-- AgentCards 卡片 -->
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="white" stroke="#dadce0" stroke-width="1" />
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="url(#card-gradient)" />
+    <text x="75" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#202124">AgentCards</text>
+    <circle cx="75" cy="90" r="30" fill="#ea4335" fill-opacity="0.2" stroke="#ea4335" stroke-width="2" />
+    <text x="75" y="95" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#ea4335">🎴</text>
+    <text x="75" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Agent Profiles &amp;</text>
+    <text x="75" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Capabilities</text>
+  </g>
+  
+  <g transform="translate(260, 170)">
+    <!-- Servers 卡片 -->
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="white" stroke="#dadce0" stroke-width="1" />
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="url(#card-gradient)" />
+    <text x="75" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#202124">Servers</text>
+    <circle cx="75" cy="90" r="30" fill="#4285f4" fill-opacity="0.2" stroke="#4285f4" stroke-width="2" />
+    <text x="75" y="95" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#4285f4">🖥️</text>
+    <text x="75" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Implementation &amp;</text>
+    <text x="75" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Hosting</text>
+  </g>
+  
+  <g transform="translate(440, 170)">
+    <!-- Clients 卡片 -->
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="white" stroke="#dadce0" stroke-width="1" />
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="url(#card-gradient)" />
+    <text x="75" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#202124">Clients</text>
+    <circle cx="75" cy="90" r="30" fill="#0f9d58" fill-opacity="0.2" stroke="#0f9d58" stroke-width="2" />
+    <text x="75" y="95" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#0f9d58">📱</text>
+    <text x="75" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">SDKs &amp;</text>
+    <text x="75" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Integration</text>
+  </g>
+  
+  <g transform="translate(620, 170)">
+    <!-- Docs 卡片 -->
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="white" stroke="#dadce0" stroke-width="1" />
+    <rect x="0" y="0" width="150" height="180" rx="10" ry="10" fill="url(#card-gradient)" />
+    <text x="75" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#202124">Docs</text>
+    <circle cx="75" cy="90" r="30" fill="#fbbc05" fill-opacity="0.2" stroke="#fbbc05" stroke-width="2" />
+    <text x="75" y="95" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#fbbc05">📚</text>
+    <text x="75" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Protocol Specs &amp;</text>
+    <text x="75" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Guidelines</text>
+  </g>
+  
+  <!-- 底部信息 -->
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#5f6368">Connecting AI Agents for Secure Collaboration</text>
+  
+  <!-- 底部徽标 -->
+  <g transform="translate(330, 415)">
+    <circle cx="10" cy="10" r="8" fill="#ea4335" />
+    <circle cx="35" cy="10" r="8" fill="#4285f4" />
+    <circle cx="60" cy="10" r="8" fill="#fbbc05" />
+    <circle cx="85" cy="10" r="8" fill="#0f9d58" />
+    <text x="110" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5f6368">A2A Protocol</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <path d="M155 260 H 260" stroke="#dadce0" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M410 260 H 440" stroke="#dadce0" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M590 260 H 620" stroke="#dadce0" stroke-width="2" stroke-dasharray="5,5" />
+</svg>
