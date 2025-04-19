@@ -4,7 +4,7 @@
 
 ![PR Welcome](/images/prs-welcome.svg)
 
-🌐 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md)
+🌐 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md) | [Deutsch](README.de-DE.md)
 
 <a id="contents"></a>
 ## Contents

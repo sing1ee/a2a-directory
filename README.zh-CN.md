@@ -1,36 +1,40 @@
 # ✨ Agent2Agent 协议 ✨
 
+![Awesome A2A](/images/a2a-protocol.png)
+
 ![PR Welcome](/images/prs-welcome.svg)
 
-🌐 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md)
+🌐 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja-JP.md) | [Deutsch](README.de-DE.md)
 
+<a id="contents"></a>
 ## 目录
 
-- 📋 [概述](#概述)
-- 🚀 [快速开始](#快速开始)
-- 📚 [资源](#资源)
-- 💻 [实现](#实现)
-- 📋 [社区实现](#社区实现)
+- 📋 [概述](#overview)
+- 🚀 [入门指南](#getting-started)
+- 📚 [资源](#resources)
+- 💻 [实现](#implementations)
 - 🎴 [AgentCard](#agentcard)
-- 👥 [社区](#社区)
-- 🤝 [贡献](#贡献)
+- 🤝 [社区实现](#community-implementations)
+- 👥 [社区](#community)
+- 🤝 [贡献](#contributing)
+
 
 ## 概述
 
-A2A (Agent2Agent) 是 Google 推出的一个开放协议，使 AI 智能体能够安全地通信和协作。它打破了孤立智能体系统之间的壁垒，实现了复杂的跨应用自动化。
+A2A (Agent2Agent) 是谷歌开发的开放协议，使AI代理能够安全通信和协作。它打破了孤立代理系统之间的壁垒，实现复杂的跨应用自动化。
 
-**主要特性：**
-- 🎯 简单：使用 HTTP、JSON-RPC、SSE
-- 🏢 企业级：注重安全性和隐私
-- ⚡ 异步优先：处理长时间运行的任务
-- 🔄 模态无关：支持文本、文件、表单、流
-- 🔒 不透明执行：智能体交互时不共享内部逻辑
+**主要特点:**
+- 🎯 简单: 使用HTTP、JSON-RPC、SSE
+- 🏢 企业就绪: 注重安全性和隐私
+- ⚡ 异步优先: 处理长时间运行的任务
+- 🔄 模态无关: 支持文本、文件、表单、流
+- 🔒 不透明执行: 代理之间交互不共享内部逻辑
 
-**官方链接：**
-- 🌐 网站：[google.github.io/A2A](https://google.github.io/A2A)
-- 📦 GitHub：[github.com/google/A2A](https://github.com/google/A2A)
+**官方链接:**
+- 🌐 网站: [google.github.io/A2A](https://google.github.io/A2A)
+- 📦 GitHub: [github.com/google/A2A](https://github.com/google/A2A)
 
-## 快速开始
+## 入门指南
 
 1. **学习基础知识**
    - 📖 阅读[技术文档](https://google.github.io/A2A/#/documentation)
@@ -38,80 +42,85 @@ A2A (Agent2Agent) 是 Google 推出的一个开放协议，使 AI 智能体能�
 
 2. **运行示例**
    - 📥 克隆[官方仓库](https://github.com/google/A2A)
-   - 📝 按照 `/samples` 目录中的说明操作
+   - 📝 按照`/samples`中的说明操作
 
-3. **构建自己的实现**
-   - 🛠️ 使用官方库或改编示例
-   - 🏗️ 从基本的 A2A 智能体或客户端开始
+3. **构建自己的应用**
+   - 🛠️ 使用官方库或修改示例
+   - 🏗️ 从基本的A2A代理或客户端开始
+
 
 ## 资源
 
 ### 官方文档
 - 🇺🇸 [技术文档](https://google.github.io/A2A/#/documentation)
-- 🇺🇸 [JSON 规范](https://github.com/google/A2A/tree/main/specification/json)
-- 🇺🇸 [智能体卡片规范](https://google.github.io/A2A/#/documentation?id=agent-card)
+- 🇺🇸 [JSON规范](https://github.com/google/A2A/tree/main/specification/json)
+- 🇺🇸 [Agent Card规范](https://google.github.io/A2A/#/documentation?id=agent-card)
 
 ### 社区文档
-- 🇺🇸 [A2A TypeScript 指南](docs/a2a-typescript-guide.md) - TypeScript 实现 A2A 的全面指南
-- 🇺🇸 [A2A vs MCP](docs/a2a-vs-mcp.md) - A2A 和模型上下文协议的比较
-- 🇺🇸 [理解 A2A 协议](docs/understanding-a2a-protocol.md) - 深入探讨 A2A 协议概念
-- 🇺🇸 [A2A 示例方法和 JSON 响应](docs/a2a-sample-methods-and-json-responses.md) - A2A 方法和响应的详细示例
-- 🇺🇸 [Python A2A](docs/python-a2a.md)：Google Agent-to-Agent 协议全面指南](docs/python-a2a.md) - Python A2A 是一个强大且易用的库，用于实现 Google 的 [Agent-to-Agent (A2A) 协议](https://google.github.io/A2A/)
+- 🇺🇸 [A2A TypeScript指南](docs/a2a-typescript-guide.md) - 在TypeScript中实现A2A的综合指南
+- 🇺🇸 [A2A vs MCP](docs/a2a-vs-mcp.md) - A2A与Model Context Protocol的比较
+- 🇺🇸 [理解A2A协议](docs/understanding-a2a-protocol.md) - 深入了解A2A协议概念
+- 🇺🇸 [A2A示例方法和JSON响应](docs/a2a-sample-methods-and-json-responses.md) - A2A方法和响应的详细示例
+- 🇺🇸 [Python A2A](docs/python-a2a.md): 一个强大且易用的库，用于实现谷歌的[Agent-to-Agent (A2A)协议](https://google.github.io/A2A/) - [链接](https://a2aprotocol.ai/blog/python-a2a)
 - 🇨🇳 [A2A 协议介绍](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - A2A 协议的中文介绍
+
+[⬆️ 返回目录](#contents)
 
 ## 实现
 
 ### 官方示例
 
 #### Python
-- 🐍 **通用库**：核心 HTTP、JSON-RPC、SSE 处理 - [链接](https://github.com/google/A2A/tree/main/samples/python/common)
-- 🐍 **主机（客户端）**：命令行客户端示例 - [链接](https://github.com/google/A2A/tree/main/samples/python/hosts/cli)
-- 🐍 **主机（智能体）**：协调多个 A2A 智能体的编排器 - [链接](https://github.com/google/A2A/tree/main/samples/python/hosts/multiagent)
+- 🐍 **通用库**: 核心HTTP、JSON-RPC、SSE处理 - [链接](https://github.com/google/A2A/tree/main/samples/python/common)
+- 🐍 **主机(客户端)**: 命令行客户端示例 - [链接](https://github.com/google/A2A/tree/main/samples/python/hosts/cli)
+- 🐍 **主机(代理)**: 委托给A2A代理的编排代理 - [链接](https://github.com/google/A2A/tree/main/samples/python/hosts/multiagent)
 
 #### JavaScript/TypeScript
-- 🚀 **服务器库**：核心服务器实现 - [链接](https://github.com/google/A2A/tree/main/samples/js/src/server)
-- 🚀 **客户端库**：客户端实现 - [链接](https://github.com/google/A2A/tree/main/samples/js/src/client)
-- 🚀 **主机（客户端）**：命令行客户端示例 - [链接](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
+- 🚀 **服务器库**: 核心服务器实现 - [链接](https://github.com/google/A2A/tree/main/samples/js/src/server)
+- 🚀 **客户端库**: 客户端实现 - [链接](https://github.com/google/A2A/tree/main/samples/js/src/client)
+- 🚀 **主机(客户端)**: 命令行客户端示例 - [链接](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
 
 ## 社区实现
 
 | 名称 | 作者 | 描述 | 星标 |
 |------|--------|-------------|-------|
-| [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | 用于构建 A2A 服务器的 Go 库，包含示例实现 | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
-| [a2a-rs](https://github.com/EmilLindfors/a2a-rs) | [@EmilLindfors](https://github.com/EmilLindfors) | 遵循六边形架构原则的惯用 Rust 实现 | [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) |
-| [a2a_min](https://github.com/pcingola/a2a_min) | [@pcingola](https://github.com/pcingola) | 用于 A2A 通信的极简 Python SDK | [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) |
-| [a2adotnet](https://github.com/azixaka/a2adotnet) | [@azixaka](https://github.com/azixaka) | A2A 协议的 C#/.NET 实现 | [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) |
-| [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) | [@thestupd](https://github.com/thestupd) | 用于将 A2A 协议集成到 NestJS 应用程序的模块 | [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) |
-| [python-a2a](https://github.com/themanojdesai/python-a2a) | [@themanojdesai](https://github.com/themanojdesai) | 用于实现 A2A 协议的易用 Python 库 | [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) |
-| [Aira](https://github.com/IhateCreatingUserNames2/Aira) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | 用于托管、注册、发现和交互智能体的 A2A 网络实现 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) |
-| [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | 基于 Google ADK 构建的 AI 智能体开发框架，促进 A2A 网络的智能体创建 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) |
+| [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | A2A协议的TypeScript实现，注重模块化和可扩展性 | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
+| [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | 用于构建A2A服务器的Go库，附带示例实现 | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
+| [a2a-rs](https://github.com/EmilLindfors/a2a-rs) | [@EmilLindfors](https://github.com/EmilLindfors) | 遵循六边形架构原则的惯用Rust实现 | [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) |
+| [a2a_min](https://github.com/pcingola/a2a_min) | [@pcingola](https://github.com/pcingola) | 用于A2A通信的极简Python SDK | [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) |
+| [a2adotnet](https://github.com/azixaka/a2adotnet) | [@azixaka](https://github.com/azixaka) | A2A协议的C#/.NET实现 | [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) |
+| [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) | [@thestupd](https://github.com/thestupd) | 用于将A2A协议集成到NestJS应用程序的模块 | [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) |
+| [python-a2a](https://github.com/themanojdesai/python-a2a) | [@themanojdesai](https://github.com/themanojdesai) | 用于实现A2A协议的易用Python库 | [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) |
+| [Aira](https://github.com/IhateCreatingUserNames2/Aira) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | 用于托管、注册、发现和与代理交互的A2A网络实现 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) |
+| [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | 基于谷歌ADK构建的AI代理开发框架，促进潜在用于A2A网络的代理创建 | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) |
 
-<!-- 在此添加您的实现！请参阅 CONTRIBUTING.md -->
+[⬆️ 返回目录](#contents)
 
 ### 框架集成
 
 #### Python
-- 🐍 **LangGraph**：货币转换（特性：工具、流式处理、多轮对话） - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph)
-- 🐍 **CrewAI**：图像生成（特性：非文本工件（文件）） - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)
-- 🐍 **Google ADK**：费用报销（特性：多轮对话、表单（DataPart）） - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)
-- 🐍 **Python A2A**：一个强大且易用的库，用于实现 Google 的 [Agent-to-Agent (A2A) 协议](https://google.github.io/A2A/) - [链接](https://github.com/themanojdesai/python-a2a)
+- 🐍 **LangGraph**: 货币转换(特性: 工具、流式处理、多轮对话) - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph)
+- 🐍 **CrewAI**: 图像生成(特性: 非文本工件(文件)) - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)
+- 🐍 **Google ADK**: 费用报销(特性: 多轮对话、表单(DataPart)) - [链接](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)
+- 🐍 **Python A2A**: 用于实现谷歌[Agent-to-Agent (A2A)协议](https://google.github.io/A2A/)的强大且易用的库 - [链接](https://github.com/themanojdesai/python-a2a)
 
 #### JavaScript/TypeScript
-- 🚀 **Genkit**：电影信息/代码生成（特性：工具、工件（文件）、异步） - [链接](https://github.com/google/A2A/tree/main/samples/js/src/agents)
+- 🚀 **Genkit**: 电影信息/代码生成(特性: 工具、工件(文件)、异步) - [链接](https://github.com/google/A2A/tree/main/samples/js/src/agents)
 
 ### 社区示例
 
 #### JavaScript/TypeScript
-- 🚀 **a2a-agent-coder**：带有 A2A 服务器和客户端的编码器智能体实现 - [链接](https://github.com/sing1ee/a2a-agent-coder)
+- 🚀 **a2a-agent-coder**: 具有A2A服务器和客户端的Coder代理实现 - [链接](https://github.com/sing1ee/a2a-agent-coder)
+
+[⬆️ 返回目录](#contents)
 
 ## AgentCard
 
-
 ## 社区
 
-- 🐛 [GitHub Issues](https://github.com/google/A2A/issues)
-- 💬 [GitHub Discussions](https://github.com/google/A2A/discussions/)
+- 🐛 [GitHub问题](https://github.com/google/A2A/issues)
+- 💬 [GitHub讨论](https://github.com/google/A2A/discussions/)
 
 ## 贡献
 
-欢迎贡献！请先阅读[贡献指南](CONTRIBUTING.md)。 
+欢迎贡献！请先阅读[贡献指南](CONTRIBUTING.md)。
