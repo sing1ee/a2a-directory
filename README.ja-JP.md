@@ -1,6 +1,6 @@
 # ✨ A2A Directory ✨
 
-![Awesome A2A](/images/a2a-directory.png)
+![Awesome A2A](/images/a2a-directory.svg)
 
 ![PR Welcome](/images/prs-welcome.svg)
 
