@@ -94,6 +94,7 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 | [Aira](https://github.com/IhateCreatingUserNames2/Aira) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | Eine A2A-Netzwerkimplementierung zum Hosten, Registrieren, Entdecken und Interagieren mit Agenten | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) |
 | [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) | [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) | Ein KI-Agentenentwicklungsframework auf Basis von Googles ADK, das die Agentenerstellung potenziell für A2A-Netzwerke erleichtert | [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) |
 | [a2a-server](https://github.com/chrishayuk/a2a-server) | [@chrishayuk](https://github.com/chrishayuk) | Eine leichtgewichtige A2A-Python-Implementierung | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-server?style=social)](https://github.com/chrishayuk/a2a-server) |
+| [a2a-cli](https://github.com/chrishayuk/a2a-cli) | [@chrishayuk](https://github.com/chrishayuk) | Ein Kommandozeilen-Client für das A2A | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-cli?style=social)](https://github.com/chrishayuk/a2a-cli) |
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
