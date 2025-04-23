@@ -96,6 +96,7 @@ A2A (Agent2Agent) 係 Google 推出嘅開放協議，令 AI 代理能夠安全�
 | [a2a-server](https://github.com/chrishayuk/a2a-server) | [@chrishayuk](https://github.com/chrishayuk) | 輕量級 A2A Python 實現 | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-server?style=social)](https://github.com/chrishayuk/a2a-server) |
 | [a2a-cli](https://github.com/chrishayuk/a2a-cli) | [@chrishayuk](https://github.com/chrishayuk) | A2A 嘅命令行客戶端 | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-cli?style=social)](https://github.com/chrishayuk/a2a-cli) |
 | [A2A Test Suit](https://github.com/robert-at-pretension-io/A2A) | [@robert-at-pretension-io](https://github.com/robert-at-pretension-io) | A2A 測試套件 | [![Stars](https://img.shields.io/github/stars/robert-at-pretension-io/A2A?style=social)](https://github.com/robert-at-pretension-io/A2A) |
+| [Grasp](https://github.com/aircodelabs/grasp) | [@adcentury](https://github.com/adcentury) | 一個自託管的瀏覽器，使用內置MCP和A2A支持的代理 | [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) |
 
 [⬆️ 返回目錄](#contents)
 
