@@ -96,6 +96,7 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 | [a2a-server](https://github.com/chrishayuk/a2a-server) | [@chrishayuk](https://github.com/chrishayuk) | Eine leichtgewichtige A2A-Python-Implementierung | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-server?style=social)](https://github.com/chrishayuk/a2a-server) |
 | [a2a-cli](https://github.com/chrishayuk/a2a-cli) | [@chrishayuk](https://github.com/chrishayuk) | Ein Kommandozeilen-Client für das A2A | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-cli?style=social)](https://github.com/chrishayuk/a2a-cli) |
 | [A2A Test-Suite](https://github.com/robert-at-pretension-io/A2A) | [@robert-at-pretension-io](https://github.com/robert-at-pretension-io) | A2A Test-Suite | [![Stars](https://img.shields.io/github/stars/robert-at-pretension-io/A2A?style=social)](https://github.com/robert-at-pretension-io/A2A) |
+| [Grasp](https://github.com/aircodelabs/grasp) | [@adcentury](https://github.com/adcentury) | Ein selbst-gehosteter Browser mit einem Agenten mit integrierter MCP- und A2A-Unterstützung | [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) |
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
