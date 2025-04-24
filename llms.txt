@@ -1,0 +1,113 @@
+# A2A Directory Project Overview
+
+The A2A Directory is a comprehensive resource hub for the Agent2Agent (A2A) protocol, an open standard initiated by Google that enables communication and interoperability between AI agent systems. This directory serves as a central repository for A2A-related resources, implementations, and community contributions.
+
+## 1. Project Overview
+
+* **Project Name:** A2A Directory
+* **Purpose:** A centralized resource hub for the A2A protocol ecosystem
+* **Core Goal:** Provide comprehensive documentation, implementation examples, and community resources for A2A protocol adoption
+* **Key Features:**
+  * Multi-language documentation (English, Chinese, Japanese, German)
+  * Community implementation showcase
+  * Framework integration guides
+  * Resource aggregation
+
+## 2. Core Components
+
+### 2.1. Documentation
+* **Technical Documentation:** Links to official A2A protocol documentation
+* **JSON Specification:** Reference to the A2A protocol JSON schema
+* **Agent Card Specification:** Guidelines for creating Agent Cards
+* **Community Guides:**
+  * TypeScript implementation guide
+  * A2A vs MCP comparison
+  * Protocol deep dive
+  * Sample methods and responses
+  * Python implementation guide
+
+### 2.2. Implementations
+
+#### Official Samples
+* **Python:**
+  * Common Library: Core HTTP, JSON-RPC, SSE handling
+  * Host (Client): Command-line client example
+  * Host (Agent): Orchestrator agent implementation
+* **JavaScript/TypeScript:**
+  * Server Library: Core server implementation
+  * Client Library: Client implementation
+  * Host (Client): Command-line client example
+
+#### Framework Integrations
+* **Python:**
+  * LangGraph: Currency conversion with tools, streaming, multi-turn
+  * CrewAI: Image generation with file artifacts
+  * Google ADK: Expense reimbursement with forms
+* **JavaScript/TypeScript:**
+  * Genkit: Movie info and code generation
+
+### 2.3. Community Resources
+
+#### Community Implementations
+* **TypeScript:**
+  * legion-a2a: Modular and extensible implementation
+  * nestjs-a2a: NestJS integration module
+* **Go:**
+  * a2a-go: Go library for A2A servers
+* **Rust:**
+  * a2a-rs: Idiomatic Rust implementation
+* **Python:**
+  * a2a_min: Minimalistic Python SDK
+  * python-a2a: Easy-to-use implementation
+* **C#/.NET:**
+  * a2adotnet: C# implementation
+* **Other:**
+  * Aira: A2A network implementation
+  * Cognisphere: AI agent development framework
+  * Grasp: Browser agent with A2A support
+
+## 3. Getting Started
+
+1. **Learn the Basics**
+   * Read the technical documentation
+   * Watch the demo video
+   * Explore the JSON specification
+
+2. **Choose Implementation**
+   * Select preferred language/framework
+   * Review relevant documentation
+   * Study sample implementations
+
+3. **Community Engagement**
+   * Join GitHub discussions
+   * Report issues
+   * Contribute implementations
+
+## 4. Resources
+
+### Official Resources
+* Website: google.github.io/A2A
+* GitHub: github.com/google/A2A
+* Documentation: Technical docs, JSON spec, Agent Card spec
+
+### Community Resources
+* TypeScript Guide
+* A2A vs MCP comparison
+* Protocol deep dive
+* Sample methods and responses
+* Python implementation guide
+
+## 5. Community
+
+* GitHub Issues: Bug reports and feature requests
+* GitHub Discussions: Community discussions
+* Contributing Guidelines: How to contribute to the project
+
+## 6. Contribution
+
+The project welcomes contributions from the community. Please refer to the CONTRIBUTING.md file for guidelines on:
+* Code contributions
+* Documentation updates
+* Bug reports
+* Feature requests
+* Community support 
