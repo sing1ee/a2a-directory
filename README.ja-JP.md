@@ -12,7 +12,6 @@
 - 📋 [概要](#overview)
 - 🚀 [はじめに](#getting-started)
 - 📚 [リソース](#resources)
-- 💻 [実装](#implementations)
 - 🎴 [AgentCard](#agentcard)
 - 🤝 [コミュニティ実装](#community-implementations)
 - 👥 [コミュニティ](#community)
@@ -63,6 +62,10 @@ A2A（Agent2Agent）はGoogleが提供するオープンプロトコルで、AI�
 - 🇺🇸 [A2AサンプルメソッドとJSON応答](docs/a2a-sample-methods-and-json-responses.md) - A2Aメソッドと応答の詳細な例
 - 🇺🇸 [Python A2A](docs/python-a2a.md): Google の [Agent-to-Agent (A2A) プロトコル](https://google.github.io/A2A/) を実装するための強力で使いやすいライブラリ - [リンク](https://a2aprotocol.ai/blog/python-a2a)
 - 🇨🇳 [A2A プロトコル紹介](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - A2A プロトコルの中国語紹介
+
+## 論文
+
+- 📄 [AI Agent プロトコルの調査](https://arxiv.org/pdf/2504.16736) - 既存の LLM agent 通信プロトコル（A2A が属するカテゴリを含む）を調査し、分類し、性能を分析し、将来の課題について議論する学術論文。
 
 [⬆️ 目次に戻る](#contents)
 
