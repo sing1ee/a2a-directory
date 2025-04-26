@@ -64,6 +64,10 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 - 🇺🇸 [Python A2A](docs/python-a2a.md): Eine leistungsstarke und benutzerfreundliche Bibliothek zur Implementierung von Googles [Agent-to-Agent (A2A) Protokoll](https://google.github.io/A2A/) - [Link](https://a2aprotocol.ai/blog/python-a2a)
 - 🇨🇳 [A2A Protokoll-Einführung](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - Einführung zum A2A-Protokoll auf Chinesisch
 
+## Wissenschaftliche Arbeiten
+
+- 📄 [Eine Übersicht über KI-Agenten-Protokolle](https://arxiv.org/pdf/2504.16736) - Wissenschaftliche Arbeit, die bestehende LLM-Agenten-Kommunikationsprotokolle (einschließlich der Kategorie, zu der A2A gehört) untersucht, klassifiziert, die Leistung analysiert und zukünftige Herausforderungen diskutiert.
+
 [⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
 ## Implementierungen

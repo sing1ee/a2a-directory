@@ -64,6 +64,10 @@ A2A (Agent2Agent) 係 Google 推出嘅開放協議，令 AI 代理能夠安全�
 - 🇺🇸 [Python A2A](docs/python-a2a.md)：一個強大且易用嘅庫，用於實現 Google 嘅 [Agent-to-Agent (A2A) 協議](https://google.github.io/A2A/) - [連結](https://a2aprotocol.ai/blog/python-a2a)
 - 🇨🇳 [A2A 協議介紹](https://mp.weixin.qq.com/s/ySDTLuWvJeO9n7uBw2XxmQ) - A2A 協議嘅中文介紹
 
+## 論文
+
+- 📄 [AI Agent 協議綜述](https://arxiv.org/pdf/2504.16736) - 一篇學術論文，調查了現有的 LLM agent 通信協議（包括 A2A 所屬的類別），對它們進行分類，分析性能，並討論未來挑戰。
+
 [⬆️ 返回目錄](#contents)
 
 ## 實現方案
