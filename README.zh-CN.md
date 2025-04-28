@@ -101,7 +101,8 @@ A2A (Agent2Agent) 是谷歌开发的开放协议，使AI代理能够安全通信
 | [a2a-cli](https://github.com/chrishayuk/a2a-cli) | [@chrishayuk](https://github.com/chrishayuk) | A2A的命令行客户端 | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-cli?style=social)](https://github.com/chrishayuk/a2a-cli) |
 | [A2A 测试套件](https://github.com/robert-at-pretension-io/A2A) | [@robert-at-pretension-io](https://github.com/robert-at-pretension-io) | A2A 测试套件 | [![Stars](https://img.shields.io/github/stars/robert-at-pretension-io/A2A?style=social)](https://github.com/robert-at-pretension-io/A2A) |
 | [Grasp](https://github.com/aircodelabs/grasp) | [@adcentury](https://github.com/adcentury) | 一个内置 MCP 和 A2A 支持的自托管浏览器代理 | [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) |
-| [swissknife](https://github.com/daltonnyx/swissknife) | [@daltonnyx](https://github.com/daltonnyx) | 一个支持 MCP 的多代理聊天应用，旨在通过 A2A 协议暴露代理并作为客户端连接到远程 A2A 代理 | [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) |
+| [swissknife](https://github.com/daltonnyx/swissknife) | [@daltonnyx](https://github.com/daltonnyx) | 一个支持 MCP 的多智能体聊天应用，旨在通过 A2A 协议暴露智能体并作为客户端连接到远程 A2A 智能体 | [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) |
+| [artinet-sdk](https://github.com/the-artinet-project/artinet-sdk) | [@the-artinet-project](https://github.com/the-artinet-project) | 一个专注于开发者体验和全面功能的 Agent2Agent 协议 JS/TS SDK | [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) |
 
 [⬆️ 返回目录](#contents)
 
