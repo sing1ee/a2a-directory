@@ -102,6 +102,7 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 | [A2A Test Suit](https://github.com/robert-at-pretension-io/A2A) | [@robert-at-pretension-io](https://github.com/robert-at-pretension-io) | A2A Test Suite | [![Stars](https://img.shields.io/github/stars/robert-at-pretension-io/A2A?style=social)](https://github.com/robert-at-pretension-io/A2A) |
 | [Grasp](https://github.com/aircodelabs/grasp) | [@adcentury](https://github.com/adcentury) | A Self-hosted Browser Using Agent with built-in MCP and A2A support | [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) |
 | [swissknife](https://github.com/daltonnyx/swissknife) | [@daltonnyx](https://github.com/daltonnyx) | A multi-agent chat application with MCP support, aiming to expose agents via the A2A protocol and connect to remote A2A agents as a client | [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) |
+| [artinet-sdk](https://github.com/the-artinet-project/artinet-sdk) | [@the-artinet-project](https://github.com/the-artinet-project) | A JS/TS SDK for the Agent2Agent Protocol with a focus on developer experience and comprehensive features | [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) |
 
 [⬆️ Back to Contents](#contents)
 
