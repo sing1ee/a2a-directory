@@ -86,9 +86,10 @@ A2A (Agent2Agent) 是谷歌开发的开放协议，使AI代理能够安全通信
 
 ## 社区实现
 
-| 名称 | 作者 | 描述 | 星标 |
+| 名称 | 作者 | 描述 | Stars |
 |------|--------|-------------|-------|
-| [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | A2A协议的TypeScript实现，注重模块化和可扩展性 | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
+| [a2ajava](https://github.com/vishalmysore/a2ajava) | [@vishalmysore](https://github.com/vishalmysore) | 基于 Spring Boot 的纯 Java A2A 协议实现，包含客户端和服务器端实现 | [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) |
+| [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | 一个注重模块化和可扩展性的 TypeScript A2A 协议实现 | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
 | [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) | [@trpc-group](https://github.com/trpc-group) | tRPC 团队的 Go A2A 实现，具有完整的客户端/服务器支持、内存任务管理、流式响应、会话管理、多种认证方法（JWT、API Key、OAuth2）和全面的示例 | [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) |
 | [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | 用于构建A2A服务器的Go库，附带示例实现 | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
 | [a2a-rs](https://github.com/EmilLindfors/a2a-rs) | [@EmilLindfors](https://github.com/EmilLindfors) | 遵循六边形架构原则的惯用Rust实现 | [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) |

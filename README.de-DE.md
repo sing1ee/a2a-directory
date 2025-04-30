@@ -86,8 +86,9 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 
 ## Community-Implementierungen
 
-| Name | Autor | Beschreibung | Sterne |
+| Name | Autor | Beschreibung | Stars |
 |------|--------|-------------|-------|
+| [a2ajava](https://github.com/vishalmysore/a2ajava) | [@vishalmysore](https://github.com/vishalmysore) | Eine reine Java-Implementierung des Google A2A-Protokolls für Spring Boot-Anwendungen mit Client- und Server-Implementierung | [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) |
 | [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | Eine TypeScript-Implementierung des A2A-Protokolls mit Fokus auf Modularität und Erweiterbarkeit | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
 | [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) | [@trpc-group](https://github.com/trpc-group) | Go A2A-Implementierung des tRPC-Teams mit vollständiger Client/Server-Unterstützung, In-Memory-Aufgabenverwaltung, Streaming-Antworten, Sitzungsverwaltung, mehreren Authentifizierungsmethoden (JWT, API-Schlüssel, OAuth2) und umfassenden Beispielen | [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) |
 | [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | Eine Go-Bibliothek zum Erstellen von A2A-Servern mit Beispielimplementierungen | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
