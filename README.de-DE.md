@@ -83,6 +83,7 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 - 🚀 **Server Library**: Kern-Server-Implementierung - [Link](https://github.com/google/A2A/tree/main/samples/js/src/server)
 - 🚀 **Client Library**: Client-Implementierung - [Link](https://github.com/google/A2A/tree/main/samples/js/src/client)
 - 🚀 **Host (Client)**: Kommandozeilen-Client-Beispiel - [Link](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
+- 🚀 **Demo Web-App**: Interaktive Weboberfläche für A2A - [Link](https://github.com/google/A2A/tree/main/demo/ui)
 
 ## Community-Implementierungen
 
