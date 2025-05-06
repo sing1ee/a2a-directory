@@ -83,6 +83,7 @@ A2A (Agent2Agent) 係 Google 推出嘅開放協議，令 AI 代理能夠安全�
 - 🚀 **伺服器庫**：核心伺服器實現 - [連結](https://github.com/google/A2A/tree/main/samples/js/src/server)
 - 🚀 **客戶端庫**：客戶端實現 - [連結](https://github.com/google/A2A/tree/main/samples/js/src/client)
 - 🚀 **主機（客戶端）**：命令行客戶端示例 - [連結](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
+- 🚀 **演示網頁應用**：A2A 嘅互動式網頁界面 - [連結](https://github.com/google/A2A/tree/main/demo/ui)
 
 ## 社區實現
 

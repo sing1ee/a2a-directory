@@ -83,6 +83,7 @@ A2A (Agent2Agent) 是谷歌开发的开放协议，使AI代理能够安全通信
 - 🚀 **服务器库**: 核心服务器实现 - [链接](https://github.com/google/A2A/tree/main/samples/js/src/server)
 - 🚀 **客户端库**: 客户端实现 - [链接](https://github.com/google/A2A/tree/main/samples/js/src/client)
 - 🚀 **主机(客户端)**: 命令行客户端示例 - [链接](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
+- 🚀 **演示网页应用**: A2A的交互式网页界面 - [链接](https://github.com/google/A2A/tree/main/demo/ui)
 
 ## 社区实现
 
