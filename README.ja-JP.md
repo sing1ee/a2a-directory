@@ -122,8 +122,11 @@ A2A（Agent2Agent）はGoogleが提供するオープンプロトコルで、AI�
 
 ### コミュニティサンプル
 
-#### JavaScript/TypeScript
-- 🚀 **a2a-agent-coder**: A2Aサーバーとクライアントを備えたCoderエージェント実装 - [リンク](https://github.com/sing1ee/a2a-agent-coder)
+| 名前 | 作者 | 説明 | Stars |
+|------|--------|-------------|-------|
+| [a2a-agent-coder](https://github.com/sing1ee/a2a-agent-coder) | [@sing1ee](https://github.com/sing1ee) | A2Aサーバーとクライアントを備えたCoder Agentの実装 | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-agent-coder?style=social)](https://github.com/sing1ee/a2a-agent-coder) |
+| [agentic-trading](https://github.com/kweinmeister/agentic-trading) | [@kweinmeister](https://github.com/kweinmeister) | Google ADKとA2Aの相互運用性を示す取引自動化のサンプルアプリケーション | [![Stars](https://img.shields.io/github/stars/kweinmeister/agentic-trading?style=social)](https://github.com/kweinmeister/agentic-trading) |
+| [python-a2a-tutorial](https://github.com/sing1ee/python-a2a-tutorial) | [@sing1ee](https://github.com/sing1ee) | 実践的な例を含むPython A2A実装の包括的なチュートリアル | [![Stars](https://img.shields.io/github/stars/sing1ee/python-a2a-tutorial?style=social)](https://github.com/sing1ee/python-a2a-tutorial) |
 
 [⬆️ 目次に戻る](#contents)
 

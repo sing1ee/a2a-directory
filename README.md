@@ -123,8 +123,11 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 
 ### Community Samples
 
-#### JavaScript/TypeScript
-- 🚀 **a2a-agent-coder**: A Coder Agent implementation with A2A Server and Client - [Link](https://github.com/sing1ee/a2a-agent-coder)
+| Name | Author | Description | Stars |
+|------|--------|-------------|-------|
+| [a2a-agent-coder](https://github.com/sing1ee/a2a-agent-coder) | [@sing1ee](https://github.com/sing1ee) | A Coder Agent implementation with A2A Server and Client | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-agent-coder?style=social)](https://github.com/sing1ee/a2a-agent-coder) |
+| [agentic-trading](https://github.com/kweinmeister/agentic-trading) | [@kweinmeister](https://github.com/kweinmeister) | A sample application demonstrating Google ADK and A2A interoperability for trading automation | [![Stars](https://img.shields.io/github/stars/kweinmeister/agentic-trading?style=social)](https://github.com/kweinmeister/agentic-trading) |
+| [python-a2a-tutorial](https://github.com/sing1ee/python-a2a-tutorial) | [@sing1ee](https://github.com/sing1ee) | A comprehensive tutorial for implementing A2A in Python with practical examples | [![Stars](https://img.shields.io/github/stars/sing1ee/python-a2a-tutorial?style=social)](https://github.com/sing1ee/python-a2a-tutorial) |
 
 [⬆️ Back to Contents](#contents)
 
