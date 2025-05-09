@@ -123,8 +123,11 @@ A2A (Agent2Agent) 是谷歌开发的开放协议，使AI代理能够安全通信
 
 ### 社区示例
 
-#### JavaScript/TypeScript
-- 🚀 **a2a-agent-coder**: 具有A2A服务器和客户端的Coder代理实现 - [链接](https://github.com/sing1ee/a2a-agent-coder)
+| 名称 | 作者 | 描述 | Stars |
+|------|--------|-------------|-------|
+| [a2a-agent-coder](https://github.com/sing1ee/a2a-agent-coder) | [@sing1ee](https://github.com/sing1ee) | 一个带有 A2A 服务器和客户端的 Coder Agent 实现 | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-agent-coder?style=social)](https://github.com/sing1ee/a2a-agent-coder) |
+| [agentic-trading](https://github.com/kweinmeister/agentic-trading) | [@kweinmeister](https://github.com/kweinmeister) | 一个展示 Google ADK 和 A2A 互操作性的交易自动化示例应用 | [![Stars](https://img.shields.io/github/stars/kweinmeister/agentic-trading?style=social)](https://github.com/kweinmeister/agentic-trading) |
+| [python-a2a-tutorial](https://github.com/sing1ee/python-a2a-tutorial) | [@sing1ee](https://github.com/sing1ee) | 一个包含实践示例的 Python A2A 实现综合教程 | [![Stars](https://img.shields.io/github/stars/sing1ee/python-a2a-tutorial?style=social)](https://github.com/sing1ee/python-a2a-tutorial) |
 
 [⬆️ 返回目录](#contents)
 
