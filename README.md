@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/sing1ee-a2a-directory-badge.png)](https://mseep.ai/app/sing1ee-a2a-directory)
+
 # ✨ A2A Directory ✨
 
 ![Awesome A2A](/images/a2a-directory.svg)
