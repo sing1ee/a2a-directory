@@ -89,7 +89,8 @@ A2A (Agent2Agent) 是谷歌开发的开放协议，使AI代理能够安全通信
 
 | 名称 | 作者 | 描述 | Stars |
 |------|--------|-------------|-------|
-| [a2ajava](https://github.com/vishalmysore/a2ajava) | [@vishalmysore](https://github.com/vishalmysore) | 基于 Spring Boot 的纯 Java A2A 协议实现，包含客户端和服务器端实现 | [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) |
+| [a2a-python](https://github.com/google/a2a-python) | [@google](https://github.com/google) | 谷歌官方的 Agent2Agent (A2A) 协议 Python SDK | [![Stars](https://img.shields.io/github/stars/google/a2a-python?style=social)](https://github.com/google/a2a-python) |
+| [a2ajava](https://github.com/vishalmysore/a2ajava) | [@vishalmysore](https://github.com/vishalmysore) | 为 Spring Boot 应用提供的纯 Java 实现的 A2A 协议，包含客户端和服务器端实现 | [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) |
 | [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | 一个注重模块化和可扩展性的 TypeScript A2A 协议实现 | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
 | [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) | [@trpc-group](https://github.com/trpc-group) | tRPC 团队的 Go A2A 实现，具有完整的客户端/服务器支持、内存任务管理、流式响应、会话管理、多种认证方法（JWT、API Key、OAuth2）和全面的示例 | [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) |
 | [jira-a2a](https://github.com/tuannvm/jira-a2a) | [@tuannvm](https://github.com/tuannvm) | Jira A2A 系统是一个使用 tRPC-A2A-Go 框架的 DevOps 工作流自动化平台。它由独立的 Go 代理组成，这些代理通过 A2A 消息进行通信。 | [![Stars](https://img.shields.io/github/stars/tuannvm/jira-a2a?style=social)](https://github.com/tuannvm/jira-a2a) |
