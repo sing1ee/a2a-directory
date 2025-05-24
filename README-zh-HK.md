@@ -108,6 +108,8 @@ A2A (Agent2Agent) 係 Google 推出嘅開放協議，令 AI 代理能夠安全�
 | [Grasp](https://github.com/aircodelabs/grasp) | [@adcentury](https://github.com/adcentury) | 一個自託管的瀏覽器，使用內置MCP和A2A支持的代理 | [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) |
 | [swissknife](https://github.com/daltonnyx/swissknife) | [@daltonnyx](https://github.com/daltonnyx) | 一個支援 MCP 的多智能體聊天應用，旨在通過 A2A 協議暴露智能體並作為客戶端連接到遠程 A2A 智能體 | [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) |
 | [artinet-sdk](https://github.com/the-artinet-project/artinet-sdk) | [@the-artinet-project](https://github.com/the-artinet-project) | 一個專注於開發者體驗和全面功能的 Agent2Agent 協議 JS/TS SDK | [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) |
+| [a2a-validation-tool](https://github.com/llmx-de/a2a-validation-tool) | [@llmx-de](https://github.com/llmx-de) | 一個用於測試和驗證 Agent-to-Agent (A2A) 協議實現嘅桌面應用程式 | [![Stars](https://img.shields.io/github/stars/llmx-de/a2a-validation-tool?style=social)](https://github.com/llmx-de/a2a-validation-tool) |
+| [a2a-python-currency](https://github.com/sing1ee/a2a-python-currency) | [@sing1ee](https://github.com/sing1ee) | 使用 A2A Python SDK 嘅貨幣代理教程實現 | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-python-currency?style=social)](https://github.com/sing1ee/a2a-python-currency) |
 
 [⬆️ 返回目錄](#contents)
 
