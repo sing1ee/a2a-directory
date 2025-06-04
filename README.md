@@ -13,6 +13,7 @@
 - 🚀 [Getting Started](#getting-started)
 - 📚 [Resources](#resources)
 - 📦 [Official Samples](#official-samples)
+- 🛠️ [Tools](#tools)
 - 🤝 [Community Implementations](#community-implementations)
 - 🎯 [Community Samples](#community-samples)
 - 👥 [Community](#community)
@@ -106,6 +107,16 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 
 
 
+## Tools
+
+Essential tools for A2A protocol development, testing, and validation.
+
+**🔗 [A2A Protocol Validator](https://a2aprotocol.ai/a2a-protocol-validator)**
+
+
+[⬆️ Back to Contents](#contents)
+
+
 ## Community Implementations
 
 | Name | Author | Description | Stars |
@@ -155,3 +166,5 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 ## Contributing
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first. 
+
+[⬆️ Back to Contents](#contents) 
