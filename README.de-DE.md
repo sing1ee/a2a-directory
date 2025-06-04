@@ -12,10 +12,11 @@
 - 📋 [Überblick](#überblick)
 - 🚀 [Erste Schritte](#erste-schritte)
 - 📚 [Ressourcen](#ressourcen)
-- 💻 [Implementierungen](#implementierungen)
-- 🎴 [AgentCard](#agentcard)
+- 🎯 [Offizielle Beispiele](#offizielle-beispiele)
+- 🛠️ [Tools](#tools)
 - 🤝 [Community-Implementierungen](#community-implementierungen)
-- 👥 [Community](#community)
+- 🎨 [Community-Beispiele](#community-beispiele)
+- 🔗 [Community-Links](#community-links)
 - 🤝 [Mitwirken](#mitwirken)
 
 
@@ -33,6 +34,7 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 **Offizielle Links:**
 - 🌐 Website: [google.github.io/A2A](https://google.github.io/A2A)
 - 📦 GitHub: [github.com/google/A2A](https://github.com/google/A2A)
+- 📦 Offizielle Beispiele: [github.com/google/A2A-examples](https://github.com/google/A2A-examples)
 
 ## Erste Schritte
 
@@ -41,8 +43,8 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
    - 🎥 Schauen Sie das [Demo-Video an](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4)
 
 2. **Beispiele ausführen**
-   - 📥 Klonen Sie das [offizielle Repository](https://github.com/google/A2A)
-   - 📝 Folgen Sie den Anweisungen in `/samples`
+   - 📥 Klonen Sie das [offizielle Beispiel-Repository](https://github.com/google/A2A-examples)
+   - 📝 Folgen Sie den Anweisungen für jedes Beispiel
 
 3. **Eigene Entwicklung**
    - 🛠️ Verwenden Sie offizielle Bibliotheken oder passen Sie Beispiele an
@@ -70,20 +72,29 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
-## Implementierungen
+## Offizielle Beispiele
 
-### Offizielle Beispiele
+### Python
+- 🐍 **Basis-Agent**: Grundlegende A2A-Agenten-Implementierung - [Link](https://github.com/google/A2A-examples/tree/main/python/basic_agent)
+- 🐍 **Host-Anwendung**: Host-Anwendung zur Interaktion mit A2A-Agenten - [Link](https://github.com/google/A2A-examples/tree/main/python/host_application)
 
-#### Python
-- 🐍 **Common Library**: Kern-HTTP, JSON-RPC, SSE-Handhabung - [Link](https://github.com/google/A2A/tree/main/samples/python/common)
-- 🐍 **Host (Client)**: Kommandozeilen-Client-Beispiel - [Link](https://github.com/google/A2A/tree/main/samples/python/hosts/cli)
-- 🐍 **Host (Agent)**: Orchestrator-Agent, der an A2A-Agenten delegiert - [Link](https://github.com/google/A2A/tree/main/samples/python/hosts/multiagent)
+### Go
+- 🔷 **Basis-Agent**: A2A-Agenten-Implementierung in Go - [Link](https://github.com/google/A2A-examples/tree/main/go/basic_agent)
+- 🔷 **Host-Anwendung**: Host-Anwendung in Go - [Link](https://github.com/google/A2A-examples/tree/main/go/host_application)
 
-#### JavaScript/TypeScript
-- 🚀 **Server Library**: Kern-Server-Implementierung - [Link](https://github.com/google/A2A/tree/main/samples/js/src/server)
-- 🚀 **Client Library**: Client-Implementierung - [Link](https://github.com/google/A2A/tree/main/samples/js/src/client)
-- 🚀 **Host (Client)**: Kommandozeilen-Client-Beispiel - [Link](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
-- 🚀 **Demo Web-App**: Interaktive Weboberfläche für A2A - [Link](https://github.com/google/A2A/tree/main/demo/ui)
+### JavaScript/TypeScript
+- 🚀 **Basis-Agent**: A2A-Agenten-Implementierung in TypeScript - [Link](https://github.com/google/A2A-examples/tree/main/typescript/basic_agent)
+- 🚀 **Host-Anwendung**: Host-Anwendung in TypeScript - [Link](https://github.com/google/A2A-examples/tree/main/typescript/host_application)
+
+[⬆️ Zurück zum Inhaltsverzeichnis](#contents)
+
+## Tools
+
+| Name | Autor | Beschreibung | Stars |
+|------|--------|-------------|-------|
+| [A2A-Protokoll-Validator](https://github.com/google/A2A-examples/tree/main/tools/validator) | [@google](https://github.com/google) | Validierungstool für A2A-Protokoll-Implementierungen | [![Stars](https://img.shields.io/github/stars/google/A2A-examples?style=social)](https://github.com/google/A2A-examples) |
+
+[⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
 ## Community-Implementierungen
 
@@ -113,31 +124,21 @@ A2A (Agent2Agent) ist ein offenes Protokoll von Google, das KI-Agenten ermöglic
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
-### Framework-Integrationen
+[⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
-#### Python
-- 🐍 **LangGraph**: Währungsumrechnung (Funktionen: Tools, Streaming, Multi-Turn) - [Link](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph)
-- 🐍 **CrewAI**: Bilderzeugung (Funktionen: Nicht-textuelle Artefakte (Dateien)) - [Link](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)
-- 🐍 **Google ADK**: Spesenabrechnung (Funktionen: Multi-Turn, Formulare (DataPart)) - [Link](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)
-- 🐍 **Python A2A**: Eine leistungsstarke und benutzerfreundliche Bibliothek zur Implementierung von Googles [Agent-to-Agent (A2A) Protokoll](https://google.github.io/A2A/) - [Link](https://github.com/themanojdesai/python-a2a)
-
-#### JavaScript/TypeScript
-- 🚀 **Genkit**: Filminformationen / Codegenerierung (Funktionen: Tools, Artefakte (Dateien), Asynchron) - [Link](https://github.com/google/A2A/tree/main/samples/js/src/agents)
-
-### Community-Beispiele
+## Community-Beispiele
 
 | Name | Autor | Beschreibung | Stars |
 |------|--------|-------------|-------|
 | [a2a-agent-coder](https://github.com/sing1ee/a2a-agent-coder) | [@sing1ee](https://github.com/sing1ee) | Eine Coder Agent-Implementierung mit A2A-Server und -Client | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-agent-coder?style=social)](https://github.com/sing1ee/a2a-agent-coder) |
 | [agentic-trading](https://github.com/kweinmeister/agentic-trading) | [@kweinmeister](https://github.com/kweinmeister) | Eine Beispielanwendung zur Demonstration der Interoperabilität zwischen Google ADK und A2A für Handelsautomatisierung | [![Stars](https://img.shields.io/github/stars/kweinmeister/agentic-trading?style=social)](https://github.com/kweinmeister/agentic-trading) |
 | [python-a2a-tutorial](https://github.com/sing1ee/python-a2a-tutorial) | [@sing1ee](https://github.com/sing1ee) | Ein umfassendes Tutorial zur A2A-Implementierung in Python mit praktischen Beispielen | [![Stars](https://img.shields.io/github/stars/sing1ee/python-a2a-tutorial?style=social)](https://github.com/sing1ee/python-a2a-tutorial) |
-
+| [a2a-mcp-openrouter](https://github.com/Aamir-Mallick/a2a-mcp-openrouter) | [@Aamir-Mallick](https://github.com/Aamir-Mallick) | Ein Projekt, das A2A-Protokoll und MCP integriert und LLM-Zugang über OpenRouter bereitstellt | [![Stars](https://img.shields.io/github/stars/Aamir-Mallick/a2a-mcp-openrouter?style=social)](https://github.com/Aamir-Mallick/a2a-mcp-openrouter) |
+| [a2a-mcp-bridge](https://github.com/Aamir-Mallick/a2a-mcp-bridge) | [@Aamir-Mallick](https://github.com/Aamir-Mallick) | Eine Brücken-Implementierung zwischen A2A-Protokoll und Model Context Protocol (MCP) | [![Stars](https://img.shields.io/github/stars/Aamir-Mallick/a2a-mcp-bridge?style=social)](https://github.com/Aamir-Mallick/a2a-mcp-bridge) |
 
 [⬆️ Zurück zum Inhaltsverzeichnis](#contents)
 
-## AgentCard
-
-## Community
+## Community-Links
 
 - 🐛 [GitHub Issues](https://github.com/google/A2A/issues)
 - 💬 [GitHub Diskussionen](https://github.com/google/A2A/discussions/)
