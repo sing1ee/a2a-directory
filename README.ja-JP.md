@@ -12,9 +12,11 @@
 - 📋 [概要](#overview)
 - 🚀 [はじめに](#getting-started)
 - 📚 [リソース](#resources)
-- 🎴 [AgentCard](#agentcard)
+- 🎯 [公式サンプル](#official-samples)
+- 🛠️ [ツール](#tools)
 - 🤝 [コミュニティ実装](#community-implementations)
-- 👥 [コミュニティ](#community)
+- 🎨 [コミュニティサンプル](#community-samples)
+- 🔗 [コミュニティリンク](#community-links)
 - 🤝 [貢献](#contributing)
 
 
@@ -32,6 +34,7 @@ A2A（Agent2Agent）はGoogleが提供するオープンプロトコルで、AI�
 **公式リンク:**
 - 🌐 ウェブサイト: [google.github.io/A2A](https://google.github.io/A2A)
 - 📦 GitHub: [github.com/google/A2A](https://github.com/google/A2A)
+- 📦 公式サンプル: [github.com/google/A2A-examples](https://github.com/google/A2A-examples)
 
 ## はじめに
 
@@ -40,8 +43,8 @@ A2A（Agent2Agent）はGoogleが提供するオープンプロトコルで、AI�
    - 🎥 [デモビデオ](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4)を見る
 
 2. **サンプルを実行する**
-   - 📥 [公式リポジトリ](https://github.com/google/A2A)をクローン
-   - 📝 `/samples`の指示に従う
+   - 📥 [公式サンプルリポジトリ](https://github.com/google/A2A-examples)をクローン
+   - 📝 各サンプルの指示に従う
 
 3. **独自のものを構築する**
    - 🛠️ 公式ライブラリを使用するか、サンプルを適応させる
@@ -69,20 +72,29 @@ A2A（Agent2Agent）はGoogleが提供するオープンプロトコルで、AI�
 
 [⬆️ 目次に戻る](#contents)
 
-## 実装
+## 公式サンプル
 
-### 公式サンプル
+### Python
+- 🐍 **基本エージェント**: 基本的なA2Aエージェント実装 - [リンク](https://github.com/google/A2A-examples/tree/main/python/basic_agent)
+- 🐍 **ホストアプリケーション**: A2Aエージェントと対話するホストアプリケーション - [リンク](https://github.com/google/A2A-examples/tree/main/python/host_application)
 
-#### Python
-- 🐍 **共通ライブラリ**: コアHTTP、JSON-RPC、SSE処理 - [リンク](https://github.com/google/A2A/tree/main/samples/python/common)
-- 🐍 **ホスト（クライアント）**: コマンドラインクライアント例 - [リンク](https://github.com/google/A2A/tree/main/samples/python/hosts/cli)
-- 🐍 **ホスト（エージェント）**: A2Aエージェントに委任するオーケストレーターエージェント - [リンク](https://github.com/google/A2A/tree/main/samples/python/hosts/multiagent)
+### Go
+- 🔷 **基本エージェント**: Go言語でのA2Aエージェント実装 - [リンク](https://github.com/google/A2A-examples/tree/main/go/basic_agent)
+- 🔷 **ホストアプリケーション**: Go言語でのホストアプリケーション - [リンク](https://github.com/google/A2A-examples/tree/main/go/host_application)
 
-#### JavaScript/TypeScript
-- 🚀 **サーバーライブラリ**: コアサーバー実装 - [リンク](https://github.com/google/A2A/tree/main/samples/js/src/server)
-- 🚀 **クライアントライブラリ**: クライアント実装 - [リンク](https://github.com/google/A2A/tree/main/samples/js/src/client)
-- 🚀 **ホスト（クライアント）**: コマンドラインクライアント例 - [リンク](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)
-- 🚀 **デモWebアプリ**: A2AのインタラクティブなWebインターフェース - [リンク](https://github.com/google/A2A/tree/main/demo/ui)
+### JavaScript/TypeScript
+- 🚀 **基本エージェント**: TypeScriptでのA2Aエージェント実装 - [リンク](https://github.com/google/A2A-examples/tree/main/typescript/basic_agent)
+- 🚀 **ホストアプリケーション**: TypeScriptでのホストアプリケーション - [リンク](https://github.com/google/A2A-examples/tree/main/typescript/host_application)
+
+[⬆️ 目次に戻る](#contents)
+
+## ツール
+
+| 名前 | 作者 | 説明 | Stars |
+|------|--------|-------------|-------|
+| [A2Aプロトコルバリデーター](https://github.com/google/A2A-examples/tree/main/tools/validator) | [@google](https://github.com/google) | A2Aプロトコル実装の検証ツール | [![Stars](https://img.shields.io/github/stars/google/A2A-examples?style=social)](https://github.com/google/A2A-examples) |
+
+[⬆️ 目次に戻る](#contents)
 
 ## コミュニティ実装
 
@@ -112,30 +124,21 @@ A2A（Agent2Agent）はGoogleが提供するオープンプロトコルで、AI�
 
 [⬆️ 目次に戻る](#contents)
 
-### フレームワーク統合
+[⬆️ 目次に戻る](#contents)
 
-#### Python
-- 🐍 **LangGraph**: 通貨変換（機能：ツール、ストリーミング、マルチターン） - [リンク](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph)
-- 🐍 **CrewAI**: 画像生成（機能：非テキストアーティファクト（ファイル）） - [リンク](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)
-- 🐍 **Google ADK**: 経費精算（機能：マルチターン、フォーム（DataPart）） - [リンク](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)
-- 🐍 **Python A2A**: Googleの[Agent-to-Agent (A2A) プロトコル](https://google.github.io/A2A/)を実装するための強力で使いやすいライブラリ - [リンク](https://github.com/themanojdesai/python-a2a)
-
-#### JavaScript/TypeScript
-- 🚀 **Genkit**: 映画情報/コード生成（機能：ツール、アーティファクト（ファイル）、非同期） - [リンク](https://github.com/google/A2A/tree/main/samples/js/src/agents)
-
-### コミュニティサンプル
+## コミュニティサンプル
 
 | 名前 | 作者 | 説明 | Stars |
 |------|--------|-------------|-------|
 | [a2a-agent-coder](https://github.com/sing1ee/a2a-agent-coder) | [@sing1ee](https://github.com/sing1ee) | A2Aサーバーとクライアントを備えたCoder Agentの実装 | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-agent-coder?style=social)](https://github.com/sing1ee/a2a-agent-coder) |
 | [agentic-trading](https://github.com/kweinmeister/agentic-trading) | [@kweinmeister](https://github.com/kweinmeister) | Google ADKとA2Aの相互運用性を示す取引自動化のサンプルアプリケーション | [![Stars](https://img.shields.io/github/stars/kweinmeister/agentic-trading?style=social)](https://github.com/kweinmeister/agentic-trading) |
 | [python-a2a-tutorial](https://github.com/sing1ee/python-a2a-tutorial) | [@sing1ee](https://github.com/sing1ee) | 実践的な例を含むPython A2A実装の包括的なチュートリアル | [![Stars](https://img.shields.io/github/stars/sing1ee/python-a2a-tutorial?style=social)](https://github.com/sing1ee/python-a2a-tutorial) |
+| [a2a-mcp-openrouter](https://github.com/Aamir-Mallick/a2a-mcp-openrouter) | [@Aamir-Mallick](https://github.com/Aamir-Mallick) | A2AプロトコルとMCPを統合し、OpenRouterを通じてLLMアクセスを提供するプロジェクト | [![Stars](https://img.shields.io/github/stars/Aamir-Mallick/a2a-mcp-openrouter?style=social)](https://github.com/Aamir-Mallick/a2a-mcp-openrouter) |
+| [a2a-mcp-bridge](https://github.com/Aamir-Mallick/a2a-mcp-bridge) | [@Aamir-Mallick](https://github.com/Aamir-Mallick) | A2AプロトコルとModel Context Protocol (MCP)間のブリッジ実装 | [![Stars](https://img.shields.io/github/stars/Aamir-Mallick/a2a-mcp-bridge?style=social)](https://github.com/Aamir-Mallick/a2a-mcp-bridge) |
 
 [⬆️ 目次に戻る](#contents)
 
-## AgentCard
-
-## コミュニティ
+## コミュニティリンク
 
 - 🐛 [GitHub Issues](https://github.com/google/A2A/issues)
 - 💬 [GitHub Discussions](https://github.com/google/A2A/discussions/)
