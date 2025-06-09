@@ -122,6 +122,7 @@ A2A协议开发、测试和验证的必备工具。
 | 名称 | 作者 | 描述 | Stars |
 |------|--------|-------------|-------|
 | [a2a-python](https://github.com/google/a2a-python) | [@google](https://github.com/google) | Agent2Agent (A2A) 协议的官方Python SDK | [![Stars](https://img.shields.io/github/stars/google/a2a-python?style=social)](https://github.com/google/a2a-python) |
+| [a2a-js](https://github.com/google-a2a/a2a-js) | [@google-a2a](https://github.com/google-a2a) | Agent2Agent (A2A) 协议的官方JavaScript SDK - 帮助运行遵循A2A协议的代理应用程序的JavaScript库 | [![Stars](https://img.shields.io/github/stars/google-a2a/a2a-js?style=social)](https://github.com/google-a2a/a2a-js) |
 | [a2ajava](https://github.com/vishalmysore/a2ajava) | [@vishalmysore](https://github.com/vishalmysore) | 为Spring Boot应用提供的纯Java实现的谷歌A2A协议，包含客户端和服务器端实现 | [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) |
 | [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | 注重模块化和可扩展性的TypeScript A2A协议实现 | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
 | [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) | [@trpc-group](https://github.com/trpc-group) | tRPC团队的Go A2A实现，具有完整的客户端/服务器支持、内存任务管理、流式响应、会话管理、多种认证方法（JWT、API Key、OAuth2）和全面的示例 | [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) |
