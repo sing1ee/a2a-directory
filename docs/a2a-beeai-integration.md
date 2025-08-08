@@ -1,45 +1,54 @@
-# A2A Protocol integration in BeeAI Framework （Python）
+# A2A Protocol integration in BeeAI Framework (Python）
 
-## Overview
+The BeeAI Framework is an open-source framework for building production-grade multi-agent systems. Hosted by the Linux Foundation under open governance, it ensures transparency, community-driven development, and enterprise-grade stability. The framework provides seamless integration with multiple protocols, including Agent-to-Agent (A2A) protocol and Model Context Protocol (MCP).
 
-BeeAI Framework is an open-source framework for building production-grade multi-agent systems. It is hosted by the Linux Foundation under open governance, ensuring transparency, community-driven development, and enterprise-grade stability. BeeAI Framework provides a simple way to integrate with multiple protocols like MCP and a2a.
+The A2A protocol enables direct communication between autonomous agents, allowing them to collaborate, share context, and distribute tasks across different systems and networks.
+
+## Prerequisites 
+
+- Python 3.8+
+- BeeAI Framework installed with A2A support: `pip install "beeai-framework[a2a]"`
+- Ollama or an LLM API key (e.g., Gemini, OpenAI, etc.)
 
 ## Table of Contents
 
-1. [Server Implementation](#server-implementation)
-2. [Client Implementation](#client-implementation)
+- [Server Implementation](#server-implementation)
+    - [Basic Server Example](#basic-server-example)
+    - [Advanced Server Configuration](#advanced-server-configuration) 
+- [Client Implementation](#client-implementation)
+    - [Basic Client Example](#basic-client-example)
 
 ## Server Implementation
 
-Exposing an agent with MCP is as simple as it can be using the BeeaI Framework. For a default exposure, four steps are sufficient:
+### Basic Server Example
 
-1. defining the LLM
-
-```python
-    llm = GeminiChatModel(api_key="xxx")
-```
-
-2. creating the agent
+The simplest A2A server setup requires just four lines of code:
 
 ```python
-    agent = RequirementAgent(llm=llm)
+from beeai_framework.adapters.a2a import A2AServer
+from beeai_framework.agents.experimental import RequirementAgent
+from beeai_framework.backend.models.gemini import GeminiChatModel
+
+# 1. Define the LLM
+llm = GeminiChatModel(api_key="your_api_key_here")
+
+# 2. Create the agent
+agent = RequirementAgent(llm=llm)
+
+# 3. Register the agent with the A2A server
+server = A2AServer().register(agent)
+
+# 4. Start the server
+server.serve()
 ```
 
-3. registering the agent with the a2a server
+This creates a basic A2A server running on `localhost:9999` with default settings.
 
-```python
-    server = A2AServer().register(agent)
-```
+### Advanced Server Configuration
 
-4. starting the server.
+If you want to customize the agent or configure the A2A server, you can use optional parameters. You can configure many aspects such as the host, port, provide your own MemoryManager implementation for managing a stateful server, or provide the agent's metadata.
 
-```python
-    server.serve()
-```
-
-If you want to further customize the agent or configure the a2a server itself, it's possible using optional parameters. You can configure many parameters, such as the host, port, provide your own MemoryManager implementation for managing a stateful server, or provide the agent's metadata itself.
-
-In the example below, we'll use a RequirementAgent with two tools and unlimited memory. We'll register it with the a2a server and run it on port 9999. We'll allow it to remember the context for 100 clients and define its description and version.
+Here's an example using a RequirementAgent with tools and unlimited memory, running on port 9999, with context memory for 100 clients:
 
 ```python
 from beeai_framework.adapters.a2a import A2AServer, A2AServerConfig
@@ -52,16 +61,25 @@ from beeai_framework.tools.weather import OpenMeteoTool
 
 
 def main() -> None:
+    # Initialize the language model
     llm = ChatModel.from_name("gemini:gemini-2.5-flash")
+
+    # Create agent with tools and memory
     agent = RequirementAgent(
         llm=llm,
         tools=[DuckDuckGoSearchTool(), OpenMeteoTool()],
         memory=UnconstrainedMemory(),
     )
 
+    # Configure and start the A2A server
     A2AServer(
-        config=A2AServerConfig(port=9999), memory_manager=LRUMemoryManager(maxsize=100)
-    ).register(agent, description="Simple Chat agent", version="1.0").serve()
+        config=A2AServerConfig(host="0.0.0.0", port=9999),
+        memory_manager=LRUMemoryManager(maxsize=100)
+    ).register(
+        agent,
+        description="Simple Chat agent",
+        version="1.0"
+    ).serve()
 
 
 if __name__ == "__main__":
@@ -70,9 +88,9 @@ if __name__ == "__main__":
 
 ## Client Implementation
 
-Consuming a remote agent is even simpler than exposing one. You just need to provide its URL and a Memory.
+Consuming a remote agent is even simpler than exposing one. You just need to provide its URL and memory configuration.
 
-In the following example is a demonstration of a simple chat interface for an a2a agent running on localhost on port 9999.
+### Basic Client Example
 
 ```python
 import asyncio
@@ -88,7 +106,11 @@ from examples.helpers.io import ConsoleReader
 async def main() -> None:
     reader = ConsoleReader()
 
-    agent = A2AAgent(url="http://127.0.0.1:9999", memory=UnconstrainedMemory())
+    # Create A2A client agent
+    agent = A2AAgent(
+        url="http://127.0.0.1:9999",
+        memory=UnconstrainedMemory()
+    )
     for prompt in reader:
         # Run the agent and observe events
         response = await agent.run(prompt).on(
@@ -106,3 +128,7 @@ if __name__ == "__main__":
         traceback.print_exc()
         sys.exit(e.explain())
 ```
+
+---
+
+Check out the [BeeAI Framework Documentation](https://framework.beeai.dev/introduction/welcome) to learn more!
