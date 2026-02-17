@@ -40,13 +40,13 @@ The following sequence diagram illustrates the main interaction flow of the A2A 
 
 The protocol supports several core methods:
 
-- `tasks/send`: Send a task message to an agent
+- `message/send`: Send a message to an agent
+- `message/stream`: Send a message and subscribe to streaming updates
 - `tasks/get`: Retrieve task status
 - `tasks/cancel`: Cancel a running task
 - `tasks/pushNotification/set`: Configure push notifications for a task
 - `tasks/pushNotification/get`: Get push notification configuration
 - `tasks/resubscribe`: Resubscribe to task updates
-- `tasks/sendSubscribe`: Send a task message and subscribe to updates
 
 ### Task States
 
@@ -310,7 +310,7 @@ def binary_search(arr, target):
 
 
 Coder Agent [4:28:02 PM]: ✅ Status: completed
-SSE stream finished for method tasks/sendSubscribe.
+SSE stream finished for method message/stream.
 --- End of response for this input ---
 Coder Agent > You: 
 Exiting terminal client. Goodbye!

@@ -59,7 +59,7 @@ metadata:
 }
 ```
 
-### Send a Task
+### Send a Message
 Allows a client to send content to a remote agent to start a new Task, resume an interrupted Task, or reopen a completed Task. A Task interrupt may be caused due to an agent requiring additional user input or a runtime error.
 
 #### Request
@@ -67,14 +67,14 @@ Allows a client to send content to a remote agent to start a new Task, resume an
 {
 "jsonrpc": "2.0",
 "id": 1,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "message": {
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "tell me a joke"
       }
     ]
@@ -100,7 +100,7 @@ Allows a client to send content to a remote agent to start a new Task, resume an
       "name": "joke",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "Why did the chicken cross the road? To get to the other side!"
         }
       ]
@@ -143,7 +143,7 @@ Clients may use this method to retrieve the generated artifacts for a Task. The 
     {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "Why did the chicken cross the road? To get to the other side!"
         }
       ]
@@ -154,7 +154,7 @@ Clients may use this method to retrieve the generated artifacts for a Task. The 
       "role": "user",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "tell me a joke"
         }
       ]
@@ -275,14 +275,14 @@ A Task may pause to be executed on the remote agent if it requires additional us
 {
 "jsonrpc": "2.0",
 "id": 1,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "message": {
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "request a new phone for me"
       }
     ]
@@ -305,7 +305,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
     "message": {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "Select a phone type (iPhone/Android)"
         }
       ]
@@ -321,7 +321,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
 {
 "jsonrpc": "2.0",
 "id": 2,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
@@ -329,7 +329,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "Android"
       }
     ]
@@ -355,7 +355,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
       "name": "order-confirmation",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "I have ordered a new Android device for you. Your request number is R12443"
         }
       ],
@@ -368,12 +368,12 @@ A Task may pause to be executed on the remote agent if it requires additional us
 ```
 
 ### Streaming Support
-For clients and remote agents capable of communicating over HTTP with SSE, clients can send the RPC request with method `tasks/sendSubscribe` when creating a new Task.
+For clients and remote agents capable of communicating over HTTP with SSE, clients can send the RPC request with method `message/stream` when creating a new Task.
 
 #### Request
 ```json
 {
-"method": "tasks/sendSubscribe",
+"method": "message/stream",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
@@ -381,11 +381,11 @@ For clients and remote agents capable of communicating over HTTP with SSE, clien
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "write a long paper describing the attached pictures"
       },
       {
-        "type": "file",
+        "kind": "file",
         "file": {
           "mimeType": "image/png",
           "data": "<base64-encoded-content>"
@@ -439,7 +439,7 @@ A disconnected client may resubscribe to a remote agent that supports streaming 
     {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "<section 2...>"
         }
       ],
@@ -460,7 +460,7 @@ Following is an example interaction between a client and an agent with non-textu
 {
 "jsonrpc": "2.0",
 "id": 9,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
@@ -468,11 +468,11 @@ Following is an example interaction between a client and an agent with non-textu
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "Analyze the attached report and generate high level overview"
       },
       {
-        "type": "file",
+        "kind": "file",
         "file": {
           "mimeType": "application/pdf",
           "data": "<base64-encoded-content>"
@@ -499,7 +499,7 @@ Following is an example interaction between a client and an agent with non-textu
       "role": "agent",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "analysis in progress, please wait"
         }
       ],
@@ -539,7 +539,7 @@ Following is an example interaction between a client and an agent with non-textu
     {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "<generated analysis content>"
         }
       ],
@@ -559,7 +559,7 @@ Both the client or the agent can request structured output from the other party.
 {
 "jsonrpc": "2.0",
 "id": 9,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
@@ -567,7 +567,7 @@ Both the client or the agent can request structured output from the other party.
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "Show me a list of my open IT tickets",
         "metadata": {
           "mimeType": "application/json",
@@ -604,7 +604,7 @@ Both the client or the agent can request structured output from the other party.
       "role": "agent",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "[{\"ticketNumber\":\"REQ12312\",\"description\":\"request for VPN access\"},{\"ticketNumber\":\"REQ23422\",\"description\":\"Add to DL - team-gcp-onboarding\"}]"
         }
       ],
