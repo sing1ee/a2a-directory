@@ -74,7 +74,7 @@ Allows a client to send content to a remote agent to start a new Task, resume an
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "tell me a joke"
       }
     ]
@@ -100,7 +100,7 @@ Allows a client to send content to a remote agent to start a new Task, resume an
       "name": "joke",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "Why did the chicken cross the road? To get to the other side!"
         }
       ]
@@ -143,7 +143,7 @@ Clients may use this method to retrieve the generated artifacts for a Task. The 
     {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "Why did the chicken cross the road? To get to the other side!"
         }
       ]
@@ -154,7 +154,7 @@ Clients may use this method to retrieve the generated artifacts for a Task. The 
       "role": "user",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "tell me a joke"
         }
       ]
@@ -282,7 +282,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "request a new phone for me"
       }
     ]
@@ -305,7 +305,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
     "message": {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "Select a phone type (iPhone/Android)"
         }
       ]
@@ -329,7 +329,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "Android"
       }
     ]
@@ -355,7 +355,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
       "name": "order-confirmation",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "I have ordered a new Android device for you. Your request number is R12443"
         }
       ],
@@ -381,11 +381,11 @@ For clients and remote agents capable of communicating over HTTP with SSE, clien
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "write a long paper describing the attached pictures"
       },
       {
-        "type": "file",
+        "kind": "file",
         "file": {
           "mimeType": "image/png",
           "data": "<base64-encoded-content>"
@@ -439,7 +439,7 @@ A disconnected client may resubscribe to a remote agent that supports streaming 
     {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "<section 2...>"
         }
       ],
@@ -468,11 +468,11 @@ Following is an example interaction between a client and an agent with non-textu
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "Analyze the attached report and generate high level overview"
       },
       {
-        "type": "file",
+        "kind": "file",
         "file": {
           "mimeType": "application/pdf",
           "data": "<base64-encoded-content>"
@@ -499,7 +499,7 @@ Following is an example interaction between a client and an agent with non-textu
       "role": "agent",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "analysis in progress, please wait"
         }
       ],
@@ -539,7 +539,7 @@ Following is an example interaction between a client and an agent with non-textu
     {
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "<generated analysis content>"
         }
       ],
@@ -567,7 +567,7 @@ Both the client or the agent can request structured output from the other party.
     "role": "user",
     "parts": [
       {
-        "type": "text",
+        "kind": "text",
         "text": "Show me a list of my open IT tickets",
         "metadata": {
           "mimeType": "application/json",
@@ -604,7 +604,7 @@ Both the client or the agent can request structured output from the other party.
       "role": "agent",
       "parts": [
         {
-          "type": "text",
+          "kind": "text",
           "text": "[{\"ticketNumber\":\"REQ12312\",\"description\":\"request for VPN access\"},{\"ticketNumber\":\"REQ23422\",\"description\":\"Add to DL - team-gcp-onboarding\"}]"
         }
       ],
