@@ -21,7 +21,7 @@ All A2A messages follow the JSON-RPC 2.0 format with the following base structur
 
 ```typescript
 interface JSONRPCMessage {
-  jsonrpc?: "2.0";
+  jsonrpc: "2.0";
   id?: number | string | null;
   method?: string;
   params?: unknown;
@@ -264,7 +264,7 @@ bun run a2a:cli
 $ bun x tsx src/cli.ts
 A2A Terminal Client
 Agent URL: http://localhost:41241
-Attempting to fetch agent card from: http://localhost:41241/.well-known/agent.json
+Attempting to fetch agent card from: http://localhost:41241/.well-known/agent-card.json
 ✓ Agent Card Found:
   Name:        Coder Agent
   Description: An agent that generates code based on natural language instructions and streams file outputs.
