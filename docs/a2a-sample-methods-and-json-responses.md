@@ -59,7 +59,7 @@ metadata:
 }
 ```
 
-### Send a Task
+### Send a Message
 Allows a client to send content to a remote agent to start a new Task, resume an interrupted Task, or reopen a completed Task. A Task interrupt may be caused due to an agent requiring additional user input or a runtime error.
 
 #### Request
@@ -67,7 +67,7 @@ Allows a client to send content to a remote agent to start a new Task, resume an
 {
 "jsonrpc": "2.0",
 "id": 1,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "message": {
@@ -275,7 +275,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
 {
 "jsonrpc": "2.0",
 "id": 1,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "message": {
@@ -321,7 +321,7 @@ A Task may pause to be executed on the remote agent if it requires additional us
 {
 "jsonrpc": "2.0",
 "id": 2,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
@@ -368,12 +368,12 @@ A Task may pause to be executed on the remote agent if it requires additional us
 ```
 
 ### Streaming Support
-For clients and remote agents capable of communicating over HTTP with SSE, clients can send the RPC request with method `tasks/sendSubscribe` when creating a new Task.
+For clients and remote agents capable of communicating over HTTP with SSE, clients can send the RPC request with method `message/stream` when creating a new Task.
 
 #### Request
 ```json
 {
-"method": "tasks/sendSubscribe",
+"method": "message/stream",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
@@ -460,7 +460,7 @@ Following is an example interaction between a client and an agent with non-textu
 {
 "jsonrpc": "2.0",
 "id": 9,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
@@ -559,7 +559,7 @@ Both the client or the agent can request structured output from the other party.
 {
 "jsonrpc": "2.0",
 "id": 9,
-"method": "tasks/send",
+"method": "message/send",
 "params": {
   "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
   "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
