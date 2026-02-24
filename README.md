@@ -146,6 +146,7 @@ Essential tools for A2A protocol development, testing, and validation.
 | [artinet-sdk](https://github.com/the-artinet-project/artinet-sdk) | [@the-artinet-project](https://github.com/the-artinet-project) | A JS/TS SDK for the Agent2Agent Protocol with a focus on developer experience and comprehensive features | [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) |
 | [a2a-validation-tool](https://github.com/llmx-de/a2a-validation-tool) | [@llmx-de](https://github.com/llmx-de) | A desktop application for testing and validating Agent-to-Agent (A2A) protocol implementations | [![Stars](https://img.shields.io/github/stars/llmx-de/a2a-validation-tool?style=social)](https://github.com/llmx-de/a2a-validation-tool) |
 | [Protolink](https://github.com/nMaroulis/protolink) | [@nMaroulis](https://github.com/nMaroulis) | A Python library for building autonomous Agents with Agent-to-Agent (A2A) protocol implementations, integrating LLMs and tools. | [![Stars](https://img.shields.io/github/stars/nMaroulis/protolink?style=social)](https://github.com/nMaroulis/protolink) |
+| [OpenAgents](https://github.com/openagents-org/openagents) | [@openagents-org](https://github.com/openagents-org) | Open-source platform for building AI agent networks with A2A, MCP, WebSocket, gRPC, and HTTP support | [![Stars](https://img.shields.io/github/stars/openagents-org/openagents?style=social)](https://github.com/openagents-org/openagents) |
 
 [⬆️ Back to Contents](#contents)
 
