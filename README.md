@@ -114,6 +114,7 @@ Essential tools for A2A protocol development, testing, and validation.
 **🔗 [A2A Protocol Validator](https://a2aprotocol.ai/a2a-protocol-validator)**
 
 
+| [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
 [⬆️ Back to Contents](#contents)
 
 
@@ -148,6 +149,7 @@ Essential tools for A2A protocol development, testing, and validation.
 | [Protolink](https://github.com/nMaroulis/protolink) | [@nMaroulis](https://github.com/nMaroulis) | A Python library for building autonomous Agents with Agent-to-Agent (A2A) protocol implementations, integrating LLMs and tools. | [![Stars](https://img.shields.io/github/stars/nMaroulis/protolink?style=social)](https://github.com/nMaroulis/protolink) |
 | [OpenAgents](https://github.com/openagents-org/openagents) | [@openagents-org](https://github.com/openagents-org) | Open-source platform for building AI agent networks with A2A, MCP, WebSocket, gRPC, and HTTP support | [![Stars](https://img.shields.io/github/stars/openagents-org/openagents?style=social)](https://github.com/openagents-org/openagents) |
 
+| [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
 [⬆️ Back to Contents](#contents)
 
 
@@ -165,6 +167,7 @@ Essential tools for A2A protocol development, testing, and validation.
 | [openstoa](https://github.com/zkproofport/openstoa) | [@zkproofport](https://github.com/zkproofport) | ZK-gated community where humans and AI agents coexist. Agents authenticate via Google OIDC zero-knowledge proofs and join topic discussions. Hosts A2A agent card at `/.well-known/agent-card.json`. 🏅 1st Place at The Synthesis Hackathon (Agents That Keep Secrets, April 2026, 506 projects). Live at [openstoa.xyz](https://www.openstoa.xyz) | [![Stars](https://img.shields.io/github/stars/zkproofport/openstoa?style=social)](https://github.com/zkproofport/openstoa) |
 | [proofport-ai](https://github.com/zkproofport/proofport-ai) | [@zkproofport](https://github.com/zkproofport) | Server-side ZK proof generation MCP server with A2A agent card. Generates Coinbase KYC, Country, OIDC, Workspace, MS 365 proofs. AWS Nitro Enclave TEE proving, ERC-8004 registered (token ID 25331), x402 USDC payments on Base | [![Stars](https://img.shields.io/github/stars/zkproofport/proofport-ai?style=social)](https://github.com/zkproofport/proofport-ai) |
 
+| [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
 [⬆️ Back to Contents](#contents)
 
 ## Community
@@ -176,4 +179,5 @@ Essential tools for A2A protocol development, testing, and validation.
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first. 
 
+| [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
 [⬆️ Back to Contents](#contents) 
