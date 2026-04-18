@@ -113,6 +113,7 @@ Essential tools for A2A protocol development, testing, and validation.
 
 **🔗 [A2A Protocol Validator](https://a2aprotocol.ai/a2a-protocol-validator)**
 
+**🔗 [Not Human Search](https://nothumansearch.ai)** — Agent discovery search engine. Indexes 8,000+ agent-readable services ranked across 7 signals (llms.txt, OpenAPI, ai-plugin, MCP, structured API, robots.txt, schema.org). Includes `verify_mcp` live JSON-RPC probe to confirm an advertised agent endpoint is actually reachable. Queryable via REST API, MCP server, or browser. [Source](https://github.com/unitedideas/nothumansearch)
 
 | [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
 [⬆️ Back to Contents](#contents)
