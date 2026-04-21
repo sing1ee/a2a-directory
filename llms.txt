@@ -63,6 +63,7 @@ The A2A Directory is a comprehensive resource hub for the Agent2Agent (A2A) prot
   * a2adotnet: C# implementation
 * **Other:**
   * Aira: A2A network implementation
+  * Bindu: Production runtime for A2A-compatible agents that wraps existing agents with security, X402 payments, observability, retries, storage, scheduling, and multi-language support.
   * Cognisphere: AI agent development framework
   * Grasp: Browser agent with A2A support
 
