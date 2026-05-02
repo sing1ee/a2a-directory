@@ -117,6 +117,7 @@ Essential tools for A2A protocol development, testing, and validation.
 
 | [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
 | [AlgoVoi](https://algovoi.co.uk) | [AlgoVoi](https://algovoi.co.uk) | Production multi-chain, multi-protocol A2A payment gateway. Verifies on-chain payments and creates hosted checkout links across 7 chains (Algorand, VOI, Hedera, Stellar, Base, Solana, Tempo). Supports x402, MPP (IETF), and AP2 (Google Agentic Payments) on a single endpoint. 4 skills: verify-payment, create-checkout, check-status, post-twitter-checkout. [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json) | N/A |
+| [HiveAttest](https://github.com/srotzin/hive-mcp-attest) | [@srotzin](https://github.com/srotzin) | Production A2A v0.3.0 agent for pre-action verification. Issues Ed25519-signed C18 receipts on every gate decision (allow AND deny), real-rail USDC settlement on Base, and machine-verifiable [Agent Card](https://thehiveryiq.com/.well-known/agent.json). Live demo: https://thehiveryiq.com/attest-demo.html | [![Stars](https://img.shields.io/github/stars/srotzin/hive-mcp-attest?style=social)](https://github.com/srotzin/hive-mcp-attest) |
 [⬆️ Back to Contents](#contents)
 
 
