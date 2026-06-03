@@ -176,6 +176,7 @@ Essential tools for A2A protocol development, testing, and validation.
 | [proofport-ai](https://github.com/zkproofport/proofport-ai) | [@zkproofport](https://github.com/zkproofport) | Server-side ZK proof generation MCP server with A2A agent card. Generates Coinbase KYC, Country, OIDC, Workspace, MS 365 proofs. AWS Nitro Enclave TEE proving, ERC-8004 registered (token ID 25331), x402 USDC payments on Base | [![Stars](https://img.shields.io/github/stars/zkproofport/proofport-ai?style=social)](https://github.com/zkproofport/proofport-ai) |
 
 | [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
+| [a2a-mcp-bridge](https://github.com/GipsyChef/a2a-mcp-bridge) | [@GipsyChef](https://github.com/GipsyChef) | Two Claude agents collaborating locally over A2A (agent-to-agent) and MCP (tools), with Claude on Vertex AI. A runnable Researcher + Analyst reference that also works as an MCP skill for Claude Code, Codex, and opencode. | [![Stars](https://img.shields.io/github/stars/GipsyChef/a2a-mcp-bridge?style=social)](https://github.com/GipsyChef/a2a-mcp-bridge) |
 [⬆️ Back to Contents](#contents)
 
 ## Community
