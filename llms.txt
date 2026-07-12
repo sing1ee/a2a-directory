@@ -8,7 +8,7 @@ The A2A Directory is a comprehensive resource hub for the Agent2Agent (A2A) prot
 * **Purpose:** A centralized resource hub for the A2A protocol ecosystem
 * **Core Goal:** Provide comprehensive documentation, implementation examples, and community resources for A2A protocol adoption
 * **Key Features:**
-  * Multi-language documentation (English, Chinese, Japanese, German)
+  * English documentation
   * Community implementation showcase
   * Framework integration guides
   * Resource aggregation
@@ -20,52 +20,61 @@ The A2A Directory is a comprehensive resource hub for the Agent2Agent (A2A) prot
 * **JSON Specification:** Reference to the A2A protocol JSON schema
 * **Agent Card Specification:** Guidelines for creating Agent Cards
 * **Community Guides:**
-  * TypeScript implementation guide
-  * A2A vs MCP comparison
-  * Protocol deep dive
-  * Sample methods and responses
-  * Python implementation guide
+  * TypeScript implementation guide (docs/a2a-typescript-guide.md)
+  * A2A vs MCP comparison (docs/a2a-vs-mcp.md)
+  * Protocol deep dive (docs/understanding-a2a-protocol.md)
+  * Sample methods and responses (docs/a2a-sample-methods-and-json-responses.md)
+  * Python implementation guide (docs/python-a2a.md)
+  * BeeAI framework integration (docs/a2a-beeai-integration.md)
+  * Community implementations list (docs/a2a-implementations.md)
 
-### 2.2. Implementations
+### 2.2. Official Samples
 
-#### Official Samples
-* **Python:**
-  * Common Library: Core HTTP, JSON-RPC, SSE handling
-  * Host (Client): Command-line client example
-  * Host (Agent): Orchestrator agent implementation
-* **JavaScript/TypeScript:**
-  * Server Library: Core server implementation
-  * Client Library: Client implementation
-  * Host (Client): Command-line client example
+Source: github.com/google-a2a/a2a-samples
 
-#### Framework Integrations
-* **Python:**
-  * LangGraph: Currency conversion with tools, streaming, multi-turn
-  * CrewAI: Image generation with file artifacts
-  * Google ADK: Expense reimbursement with forms
-* **JavaScript/TypeScript:**
-  * Genkit: Movie info and code generation
+#### Python Sample Collection
+* **Agent examples** built on different frameworks: Google ADK, AG2 + MCP, Azure AI Foundry, LangGraph, CrewAI, LlamaIndex, Marvin, MindsDB, Semantic Kernel, AutoGen, Hello World, Veo Video Generation, Analytics, A2A Telemetry, A2A MCP, Birthday Planner ADK, Headless Agent Auth
+* **Host applications:** CLI client, Multiagent orchestrator
 
-### 2.3. Community Resources
+#### Go Language Examples
+* Server, Client, Models
+
+#### JavaScript/TypeScript Examples
+* Movie Agent (TMDB API), Coder Agent
+
+### 2.3. Tools
+
+Production A2A agents, services, and tools for development, testing, and validation.
+
+* **A2A Protocol Validator** — Validate A2A protocol implementations
+* **Not Human Search** — Agent discovery search engine indexing agent-readable services
+* **TrustBoost PII Sanitizer** — Production PII sanitization layer for autonomous AI agent pipelines
+* **Ambr** — Legal contract management (Ricardian Contracts, x402 USDC)
+* **AlgoVoi** — Multi-chain, multi-protocol A2A payment gateway
+* **HiveAttest** — Pre-action verification with Ed25519-signed C18 receipts
+* **Rosentic** — Cross-branch semantic conflict detection for merge safety
+* **Agent Ready** — Scores URLs for AI-agent readability
+* **Numbers Online** — Phone-number intelligence agent
+* **Merchant-0** — Autonomous A2A commerce agent for SEA/ASEAN trade intelligence
+* **Relm** — API-first CRM for LLMs and AI agents
+* **risk-api** — Smart contract risk scoring agent for EVM chains
+* **openstoa** — ZK-gated community for humans and AI agents
+* **proofport-ai** — Server-side ZK proof generation MCP server
+
+### 2.4. Community Resources
 
 #### Community Implementations
-* **TypeScript:**
-  * legion-a2a: Modular and extensible implementation
-  * nestjs-a2a: NestJS integration module
-* **Go:**
-  * a2a-go: Go library for A2A servers
-* **Rust:**
-  * a2a-rs: Idiomatic Rust implementation
-* **Python:**
-  * a2a_min: Minimalistic Python SDK
-  * python-a2a: Easy-to-use implementation
-* **C#/.NET:**
-  * a2adotnet: C# implementation
-* **Other:**
-  * Aira: A2A network implementation
-  * Bindu: Production runtime for A2A-compatible agents that wraps existing agents with security, X402 payments, observability, retries, storage, scheduling, and multi-language support.
-  * Cognisphere: AI agent development framework
-  * Grasp: Browser agent with A2A support
+* **Official SDKs:** a2a-python, a2a-js, a2a-java, a2a-go
+* **Java:** a2ajava (Spring Boot), a2a4j
+* **TypeScript:** legion-a2a, nestjs-a2a, artinet-sdk
+* **Go:** trpc-a2a-go, jira-a2a, a2a-go
+* **Rust:** a2a-rs
+* **Python:** a2a_min, python-a2a, Protolink, a2a-server, a2a-cli
+* **C#/.NET:** a2adotnet
+* **Other:** Aira, Bindu, A2A Nexus, Cognisphere, A2A Test Suite, Grasp, swissknife, a2a-validation-tool, OpenAgents, systemprompt-template, humanbrowser, agenda-intelligence-md
+
+#### Community Samples
+* a2a-agent-coder, agentic-trading, python-a2a-tutorial, a2a-python-currency, a2a-mcp-openrouter, a2a_llama_index_file_chat, a2a-mcp-bridge
 
 ## 3. Getting Started
 
@@ -88,7 +97,8 @@ The A2A Directory is a comprehensive resource hub for the Agent2Agent (A2A) prot
 
 ### Official Resources
 * Website: google.github.io/A2A
-* GitHub: github.com/google/A2A
+* GitHub: github.com/google-a2a/A2A
+* Samples: github.com/google-a2a/a2a-samples
 * Documentation: Technical docs, JSON spec, Agent Card spec
 
 ### Community Resources
@@ -97,6 +107,8 @@ The A2A Directory is a comprehensive resource hub for the Agent2Agent (A2A) prot
 * Protocol deep dive
 * Sample methods and responses
 * Python implementation guide
+* BeeAI integration guide
+* Community implementations list
 
 ## 5. Community
 
@@ -107,8 +119,8 @@ The A2A Directory is a comprehensive resource hub for the Agent2Agent (A2A) prot
 ## 6. Contribution
 
 The project welcomes contributions from the community. Please refer to the CONTRIBUTING.md file for guidelines on:
-* Code contributions
 * Documentation updates
+* New AgentCards and tool listings
 * Bug reports
 * Feature requests
-* Community support 
+* Community support
