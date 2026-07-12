@@ -22,14 +22,8 @@ Help us expand our documentation! You can contribute:
 - Implementation tutorials
 - Best practices and patterns
 
-Current documentation languages:
+Current documentation language:
 - 🇺🇸 English
-- 🇨🇳 Chinese
-- 🇯🇵 Japanese
-- 🇫🇷 French
-- 🇩🇪 German
-- 🇸🇦 Arabic
-- 🇪🇸 Spanish
 
 ### 3. Community Samples
 
@@ -68,25 +62,22 @@ We welcome pull requests! Here's how to submit one:
 1. Fork the repository
 2. Create a new branch for your feature/fix
 3. Make your changes
-4. Write or update tests if necessary
-5. Ensure all tests pass
-6. Submit a pull request
+4. Submit a pull request
 
 ## Project Structure
 
 The project is organized as follows:
 
 - `docs/`: Documentation files
-- `src/`: Source code
-- `tests/`: Test files
+- `images/`: Image assets
 
 ## Development Setup
 
+This is a documentation-only repository — no build step, dependencies, or tests are required.
+
 1. Clone the repository
-2. Install dependencies
-3. Run tests
-4. Make your changes
-5. Submit a pull request
+2. Make your changes to the relevant Markdown files
+3. Submit a pull request
 
 ## Commit Message Guidelines
 
