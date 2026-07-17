@@ -193,7 +193,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 [⬆️ Back to Contents](#contents)
 
 
-## A2A-Compatible Services
+## A2A Agents
 
 Hosted services and production agents that expose an A2A Agent Card or a native A2A endpoint. Each also appears in its primary section — collected here for discoverability by capability.
 
@@ -242,4 +242,4 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first. 
 
-[⬆️ Back to Contents](#contents) 
+[⬆️ Back to Contents](#contents)
