@@ -14,6 +14,8 @@
 - 🛠️ [Tools](#tools)
 - 🤝 [Community Implementations](#community-implementations)
 - 🎯 [Community Samples](#community-samples)
+- 🤖 [A2A-Compatible Services](#a2a-compatible-services)
+- 💰 [x402-Enabled Services](#x402-enabled-services)
 - 👥 [Community](#community)
 - 🤝 [Contributing](#contributing)
 
@@ -189,6 +191,47 @@ Production A2A agents, services, and tools for development, testing, and validat
 | [a2a_llama_index_file_chat](https://github.com/sing1ee/a2a_llama_index_file_chat) | [@sing1ee](https://github.com/sing1ee) | A LlamaIndex-based file chat agent supporting file upload/parsing, conversational interactions, streaming responses, and in-line citations | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a_llama_index_file_chat?style=social)](https://github.com/sing1ee/a2a_llama_index_file_chat) |
 | [a2a-mcp-bridge](https://github.com/GipsyChef/a2a-mcp-bridge) | [@GipsyChef](https://github.com/GipsyChef) | Two Claude agents collaborating locally over A2A (agent-to-agent) and MCP (tools), with Claude on Vertex AI. A runnable Researcher + Analyst reference that also works as an MCP skill for Claude Code, Codex, and opencode. | [![Stars](https://img.shields.io/github/stars/GipsyChef/a2a-mcp-bridge?style=social)](https://github.com/GipsyChef/a2a-mcp-bridge) |
 [⬆️ Back to Contents](#contents)
+
+
+## A2A-Compatible Services
+
+Hosted services and production agents that expose an A2A Agent Card or a native A2A endpoint. Each also appears in its primary section — collected here for discoverability by capability.
+
+| Name | Section | A2A Agent Card / Endpoint |
+|------|---------|---------------------------|
+| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [Tools](#tools) | [Agent Card](https://api.trustboost.dev/.well-known/agent-card.json) |
+| [Ambr](https://ambr.run) | [Tools](#tools) | [Agent Card](https://getamber.dev/.well-known/agent.json) |
+| [AlgoVoi](https://algovoi.co.uk) | [Tools](#tools) | [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json) |
+| [HiveAttest](https://github.com/srotzin/hive-mcp-attest) | [Tools](#tools) | [Agent Card](https://thehiveryiq.com/.well-known/agent.json) |
+| [Rosentic](https://rosentic.com) | [Tools](#tools) | [Agent Card](https://api.rosentic.com/.well-known/agent.json) |
+| [Agent Ready](https://agent-ready.dev) | [Tools](#tools) | [Agent Card](https://agent-ready.dev/.well-known/agent-card.json) |
+| [Numbers Online](https://numbers.online) | [Tools](#tools) | [Agent Card](https://numbers.online/.well-known/agent-card.json) |
+| [Merchant-0](https://merchant-0.com) | [Tools](#tools) | [Agent Card](https://merchant-0.com/.well-known/agent.json) |
+| [Relm](https://relmcrm.com) | [Tools](#tools) | [Agent Card](https://relmcrm.com/.well-known/agent-card.json) · endpoint `api.relmcrm.com/a2a` |
+| [risk-api](https://github.com/JleviEderer/risk-api) | [Tools](#tools) | A2A endpoint · [live](https://risk-api.life.conway.tech) |
+| [openstoa](https://github.com/zkproofport/openstoa) | [Tools](#tools) | Agent card at `/.well-known/agent-card.json` · [live](https://www.openstoa.xyz) |
+| [proofport-ai](https://github.com/zkproofport/proofport-ai) | [Tools](#tools) | A2A agent card |
+| [AgentServices](https://agentservices.to) | [Tools](#tools) | Agent card at `/.well-known/agent.json` |
+| [Agent Reputation (Agent Hub)](https://agentreputation.dev) | [Community Implementations](#community-implementations) | A2A agent card + remote MCP endpoint |
+| [humanbrowser](https://github.com/VirixLabs/humanbrowser) | [Community Implementations](#community-implementations) | [Hosted card](https://agent.humanbrowser.cloud/.well-known/agent-card.json) |
+[⬆️ Back to Contents](#contents)
+
+
+## x402-Enabled Services
+
+Services that accept x402 (HTTP 402 Payment Required) payments — typically USDC on Base. Each also appears in its primary section — collected here for discoverability by capability.
+
+| Name | Section | x402 Details |
+|------|---------|--------------|
+| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [Tools](#tools) | x402 compatible; payments anchored on Solana |
+| [Ambr](https://ambr.run) | [Tools](#tools) | x402 USDC payments |
+| [AlgoVoi](https://algovoi.co.uk) | [Tools](#tools) | x402 (also MPP, AP2) on a single endpoint |
+| [risk-api](https://github.com/JleviEderer/risk-api) | [Tools](#tools) | x402 payments, $0.10/query |
+| [proofport-ai](https://github.com/zkproofport/proofport-ai) | [Tools](#tools) | x402 USDC payments on Base |
+| [AgentServices](https://agentservices.to) | [Tools](#tools) | x402 USDC micropayments on Base |
+| [Bindu](https://github.com/getbindu/Bindu) | [Community Implementations](#community-implementations) | X402 payments via `bindufy()` runtime |
+[⬆️ Back to Contents](#contents)
+
 
 ## Community
 
