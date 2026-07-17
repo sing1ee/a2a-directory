@@ -197,23 +197,23 @@ Production A2A agents, services, and tools for development, testing, and validat
 
 Hosted services and production agents that expose an A2A Agent Card or a native A2A endpoint. Each also appears in its primary section — collected here for discoverability by capability.
 
-| Name | Section | A2A Agent Card / Endpoint |
-|------|---------|---------------------------|
-| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [Tools](#tools) | [Agent Card](https://api.trustboost.dev/.well-known/agent-card.json) |
-| [Ambr](https://ambr.run) | [Tools](#tools) | [Agent Card](https://getamber.dev/.well-known/agent.json) |
-| [AlgoVoi](https://algovoi.co.uk) | [Tools](#tools) | [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json) |
-| [HiveAttest](https://github.com/srotzin/hive-mcp-attest) | [Tools](#tools) | [Agent Card](https://thehiveryiq.com/.well-known/agent.json) |
-| [Rosentic](https://rosentic.com) | [Tools](#tools) | [Agent Card](https://api.rosentic.com/.well-known/agent.json) |
-| [Agent Ready](https://agent-ready.dev) | [Tools](#tools) | [Agent Card](https://agent-ready.dev/.well-known/agent-card.json) |
-| [Numbers Online](https://numbers.online) | [Tools](#tools) | [Agent Card](https://numbers.online/.well-known/agent-card.json) |
-| [Merchant-0](https://merchant-0.com) | [Tools](#tools) | [Agent Card](https://merchant-0.com/.well-known/agent.json) |
-| [Relm](https://relmcrm.com) | [Tools](#tools) | [Agent Card](https://relmcrm.com/.well-known/agent-card.json) · endpoint `api.relmcrm.com/a2a` |
-| [risk-api](https://github.com/JleviEderer/risk-api) | [Tools](#tools) | A2A endpoint · [live](https://risk-api.life.conway.tech) |
-| [openstoa](https://github.com/zkproofport/openstoa) | [Tools](#tools) | Agent card at `/.well-known/agent-card.json` · [live](https://www.openstoa.xyz) |
-| [proofport-ai](https://github.com/zkproofport/proofport-ai) | [Tools](#tools) | A2A agent card |
-| [AgentServices](https://agentservices.to) | [Tools](#tools) | Agent card at `/.well-known/agent.json` |
-| [Agent Reputation (Agent Hub)](https://agentreputation.dev) | [Community Implementations](#community-implementations) | A2A agent card + remote MCP endpoint |
-| [humanbrowser](https://github.com/VirixLabs/humanbrowser) | [Community Implementations](#community-implementations) | [Hosted card](https://agent.humanbrowser.cloud/.well-known/agent-card.json) |
+| Name | A2A Agent Card / Endpoint |
+|------|---------------------------|
+| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [Agent Card](https://api.trustboost.dev/.well-known/agent-card.json) |
+| [Ambr](https://ambr.run) | [Agent Card](https://getamber.dev/.well-known/agent.json) |
+| [AlgoVoi](https://algovoi.co.uk) | [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json) |
+| [HiveAttest](https://github.com/srotzin/hive-mcp-attest) | [Agent Card](https://thehiveryiq.com/.well-known/agent.json) |
+| [Rosentic](https://rosentic.com) | [Agent Card](https://api.rosentic.com/.well-known/agent.json) |
+| [Agent Ready](https://agent-ready.dev) | [Agent Card](https://agent-ready.dev/.well-known/agent-card.json) |
+| [Numbers Online](https://numbers.online) | [Agent Card](https://numbers.online/.well-known/agent-card.json) |
+| [Merchant-0](https://merchant-0.com) | [Agent Card](https://merchant-0.com/.well-known/agent.json) |
+| [Relm](https://relmcrm.com) | [Agent Card](https://relmcrm.com/.well-known/agent-card.json) · endpoint `api.relmcrm.com/a2a` |
+| [risk-api](https://github.com/JleviEderer/risk-api) | A2A endpoint · [live](https://risk-api.life.conway.tech) |
+| [openstoa](https://github.com/zkproofport/openstoa) | Agent card at `/.well-known/agent-card.json` · [live](https://www.openstoa.xyz) |
+| [proofport-ai](https://github.com/zkproofport/proofport-ai) | A2A agent card |
+| [AgentServices](https://agentservices.to) | Agent card at `/.well-known/agent.json` |
+| [Agent Reputation (Agent Hub)](https://agentreputation.dev) | A2A agent card + remote MCP endpoint |
+| [humanbrowser](https://github.com/VirixLabs/humanbrowser) | [Hosted card](https://agent.humanbrowser.cloud/.well-known/agent-card.json) |
 [⬆️ Back to Contents](#contents)
 
 
@@ -221,15 +221,15 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 
 Services that accept x402 (HTTP 402 Payment Required) payments — typically USDC on Base. Each also appears in its primary section — collected here for discoverability by capability.
 
-| Name | Section | x402 Details |
-|------|---------|--------------|
-| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [Tools](#tools) | x402 compatible; payments anchored on Solana |
-| [Ambr](https://ambr.run) | [Tools](#tools) | x402 USDC payments |
-| [AlgoVoi](https://algovoi.co.uk) | [Tools](#tools) | x402 (also MPP, AP2) on a single endpoint |
-| [risk-api](https://github.com/JleviEderer/risk-api) | [Tools](#tools) | x402 payments, $0.10/query |
-| [proofport-ai](https://github.com/zkproofport/proofport-ai) | [Tools](#tools) | x402 USDC payments on Base |
-| [AgentServices](https://agentservices.to) | [Tools](#tools) | x402 USDC micropayments on Base |
-| [Bindu](https://github.com/getbindu/Bindu) | [Community Implementations](#community-implementations) | X402 payments via `bindufy()` runtime |
+| Name | x402 Details |
+|------|--------------|
+| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | x402 compatible; payments anchored on Solana |
+| [Ambr](https://ambr.run) | x402 USDC payments |
+| [AlgoVoi](https://algovoi.co.uk) | x402 (also MPP, AP2) on a single endpoint |
+| [risk-api](https://github.com/JleviEderer/risk-api) | x402 payments, $0.10/query |
+| [proofport-ai](https://github.com/zkproofport/proofport-ai) | x402 USDC payments on Base |
+| [AgentServices](https://agentservices.to) | x402 USDC micropayments on Base |
+| [Bindu](https://github.com/getbindu/Bindu) | X402 payments via `bindufy()` runtime |
 [⬆️ Back to Contents](#contents)
 
 
