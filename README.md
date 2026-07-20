@@ -214,6 +214,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [AgentServices](https://agentservices.to) | Agent card at `/.well-known/agent.json` |
 | [Agent Reputation (Agent Hub)](https://agentreputation.dev) | A2A agent card + remote MCP endpoint |
 | [humanbrowser](https://github.com/VirixLabs/humanbrowser) | [Hosted card](https://agent.humanbrowser.cloud/.well-known/agent-card.json) |
+| [Money You're Owed](https://moneyyoureowed.com) | [Agent Card](https://agent.moneyyoureowed.com/.well-known/agent-card.json) |
 [⬆️ Back to Contents](#contents)
 
 
