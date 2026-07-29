@@ -216,6 +216,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [humanbrowser](https://github.com/VirixLabs/humanbrowser) | [Hosted card](https://agent.humanbrowser.cloud/.well-known/agent-card.json) |
 | [Money You're Owed](https://moneyyoureowed.com) | [Agent Card](https://agent.moneyyoureowed.com/.well-known/agent-card.json) |
 | [Cog Depot](https://cogdepot.com) | [Agent Card](https://api.cogdepot.com/.well-known/agent-card.json) |
+| [Priorflow Intelligent Agent/Service Selector & Router](https://agentopt.app) | [Agent Card](https://agentopt.app/.well-known/agent-card.json) |
 [⬆️ Back to Contents](#contents)
 
 
