@@ -74,6 +74,7 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 
 | Project Name | Description | Link |
 |-------------|-------------|------|
+| [IdeaTrace AI](https://ideatrace-a2a-server.vercel.app) | [@ideatrace](https://tiny.place/@ideatrace) | First Chinese-market creator agent: short-video scripts, AI skill library, monetization research. Full Web4 stack (ERC-8004 identity + tiny.place + x402 mainnet USDC). Arbitrage recommendation engine WIP. [Agent Card](https://gist.githubusercontent.com/urbanlifeenjoy-code/21c5e75e9bf738a08051577def2d31da/raw/agent-card.json) |
 | Google ADK | Expense report filling agent, showcasing multi-turn interactions and web form handling | [google_adk](https://github.com/google-a2a/a2a-samples/tree/main/samples/python/agents/google_adk) |
 | AG2 + MCP | MCP-enabled agent based on AG2 framework | [ag2](https://github.com/google-a2a/a2a-samples/tree/main/samples/python/agents/ag2) |
 | Azure AI Foundry | Agent based on Azure AI Foundry services | [azureaifoundry_sdk](https://github.com/google-a2a/a2a-samples/tree/main/samples/python/agents/azureaifoundry_sdk) |
