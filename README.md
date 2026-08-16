@@ -139,6 +139,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 | [openstoa](https://github.com/zkproofport/openstoa) | [@zkproofport](https://github.com/zkproofport) | ZK-gated community where humans and AI agents coexist. Agents authenticate via Google OIDC zero-knowledge proofs and join topic discussions. Hosts A2A agent card at `/.well-known/agent-card.json`. 🏅 1st Place at The Synthesis Hackathon (Agents That Keep Secrets, April 2026, 506 projects). Live at [openstoa.xyz](https://www.openstoa.xyz) | [![Stars](https://img.shields.io/github/stars/zkproofport/openstoa?style=social)](https://github.com/zkproofport/openstoa) |
 | [proofport-ai](https://github.com/zkproofport/proofport-ai) | [@zkproofport](https://github.com/zkproofport) | Server-side ZK proof generation MCP server with A2A agent card. Generates Coinbase KYC, Country, OIDC, Workspace, MS 365 proofs. AWS Nitro Enclave TEE proving, ERC-8004 registered (token ID 25331), x402 USDC payments on Base | [![Stars](https://img.shields.io/github/stars/zkproofport/proofport-ai?style=social)](https://github.com/zkproofport/proofport-ai) |
 | [AgentServices](https://agentservices.to) | [@vbkotecha](https://github.com/vbkotecha) | Production A2A agent marketplace with 54 services — market intelligence, onchain data, FX rates, bundled synthesis, and inference. x402 USDC micropayments on Base, MCP server (37 tools), and agent-card discovery at `/.well-known/agent.json`. Indexed on Agenstry and the official MCP Registry. | [![Stars](https://img.shields.io/github/stars/vbkotecha/aiservices-api?style=social)](https://github.com/vbkotecha/aiservices-api) |
+| [Agent Guild](https://agent-guild-5d5r.onrender.com) | [@AgentTanuki](https://github.com/AgentTanuki) | Production trust and settlement layer for autonomous agents. A one-call capability check returns a hire/caution/avoid verdict, ranked shortlist, and machine-verifiable evidence; agents can also verify signed reputation passports, hold payments in escrow, and run x402 payment-safety preflight checks. Remote MCP and A2A access require no account for discovery. [Agent Card](https://agent-guild-5d5r.onrender.com/.well-known/agent-card.json) \| [llms.txt](https://agent-guild-5d5r.onrender.com/llms.txt) | [![Stars](https://img.shields.io/github/stars/AgentTanuki/agent-guild?style=social)](https://github.com/AgentTanuki/agent-guild) |
 [⬆️ Back to Contents](#contents)
 
 
@@ -215,6 +216,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [proofport-ai](https://github.com/zkproofport/proofport-ai) | A2A agent card |
 | [AgentServices](https://agentservices.to) | Agent card at `/.well-known/agent.json` |
 | [Agent Reputation (Agent Hub)](https://agentreputation.dev) | A2A agent card + remote MCP endpoint |
+| [Agent Guild](https://agent-guild-5d5r.onrender.com) | [Agent Card](https://agent-guild-5d5r.onrender.com/.well-known/agent-card.json) · endpoint `agent-guild-5d5r.onrender.com/a2a` |
 | [humanbrowser](https://github.com/VirixLabs/humanbrowser) | [Hosted card](https://agent.humanbrowser.cloud/.well-known/agent-card.json) |
 | [Money You're Owed](https://moneyyoureowed.com) | [Agent Card](https://agent.moneyyoureowed.com/.well-known/agent-card.json) |
 | [Cog Depot](https://cogdepot.com) | [Agent Card](https://api.cogdepot.com/.well-known/agent-card.json) |
@@ -235,6 +237,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [proofport-ai](https://github.com/zkproofport/proofport-ai) | x402 USDC payments on Base |
 | [AgentServices](https://agentservices.to) | x402 USDC micropayments on Base |
 | [Bindu](https://github.com/getbindu/Bindu) | X402 payments via `bindufy()` runtime |
+| [Agent Guild](https://agent-guild-5d5r.onrender.com) | x402 paid reads on Base with pre-payment policy checks for recipient, amount, asset, network, resource, replay, and expiry |
 [⬆️ Back to Contents](#contents)
 
 
