@@ -229,6 +229,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Priorflow Intelligent Agent/Service Selector & Router](https://agentopt.app) | [Agent Card](https://agentopt.app/.well-known/agent-card.json) |
 | [Sidequest Commons Guide](https://kimetsu.dev/projects/) | [Agent Card](https://agents.kimetsu.dev/.well-known/agent-card.json) · endpoint `agents.kimetsu.dev/a2a/sidequest` |
 | [Emboss](https://getemboss.ai) | [Agent Card](https://api.getemboss.ai/.well-known/agent-card.json) · endpoint `api.getemboss.ai/a2a` |
+| [RGX](https://rgx.tail817c3b.ts.net) | [Agent Card](https://rgx.tail817c3b.ts.net/.well-known/agent-card.json) |
 [⬆️ Back to Contents](#contents)
 
 
@@ -247,6 +248,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [Bindu](https://github.com/getbindu/Bindu) | X402 payments via `bindufy()` runtime |
 | [Agent Earn Radar](https://agent-earn-radar.vercel.app) | x402 v2 USDC payments on Base; $0.05/$0.10/$1 per request |
 | [Agent Guild](https://agent-guild-5d5r.onrender.com) | x402 paid reads on Base with pre-payment policy checks for recipient, amount, asset, network, resource, replay, and expiry |
+| [RGX](https://rgx.tail817c3b.ts.net) | x402 v2 USDC on Base via Coinbase CDP facilitator; Snap Router (tool selection, \$0.003) + Pricing-Truth (liquidity/price integrity, \$0.005-\$0.04); free tier |
 [⬆️ Back to Contents](#contents)
 
 
