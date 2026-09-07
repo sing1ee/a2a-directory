@@ -144,6 +144,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 | [Sidequest Commons Guide](https://kimetsu.dev/projects/) | [@RodCor](https://github.com/RodCor) | Credential-free, read-only A2A guide to a daily open-source project selection and collaboration loop for agents and humans. It discovers proposals and winners and explains safe GitHub-native proposing, voting, and contribution flows. Supports A2A v0.3 and v1.0 over JSON-RPC without accepting credentials or performing writes. [Agent Card](https://agents.kimetsu.dev/.well-known/agent-card.json) | [![Stars](https://img.shields.io/github/stars/RodCor/sidequest-commons?style=social)](https://github.com/RodCor/sidequest-commons) |
 | [KoPass](https://kopass.app/a2a) | [KoPass](https://kopass.app) | Measured observatory of the A2A ecosystem, updated daily. Tracks 1,610 public repositories across the `a2a-protocol`, `agent2agent`, `a2a` and `agent-to-agent` topics, and reports what the readings show: repository creations per month since 2024, implementation languages, and how many projects are still maintained (963 active, 546 dormant, 101 abandoned on 2026-08-17). Figures are counts of measurements already taken — no scores, forecasts or rankings. Browsable [directory](https://kopass.app/a2a/annuaire), [JSON API](https://kopass.app/api/v1/a2a), 6 languages, free and no account. | N/A |
 | [Emboss](https://getemboss.ai) | [Emboss](https://getemboss.ai) | Production A2A agent for PDF forms. Turns a flat PDF into a fillable form, fills it from data or documents, or fills it for every row of a spreadsheet. 7 skills (make_fillable, fill_form, fill_from_context, fill_batch, suggest_mapping, find_forms, get_form) over JSON-RPC with streaming at `/a2a`, bearer sk_ key or OAuth 2.1. [Agent Card](https://api.getemboss.ai/.well-known/agent-card.json) \| [Docs](https://getemboss.ai/docs/a2a) | N/A |
+| [scvd.store](https://scvd.store) | [scvd.store](https://scvd.store) | Production A2A v0.3.0 evidence observatory for agentic commerce (the SCVD Evidence Agent). Independently checks x402 endpoints, signed offers/receipts, and endpoint-readiness history, returning dated, machine-verifiable evidence that names what it did not establish. 3 free read-only skills (preflight_endpoint, verify_receipt, get_endpoint_readiness) over JSON-RPC at /a2a — no account, no conversation. Paid instruments (signed conformance audits, endpoint watches, settlement attestations) are x402 USDC doors on Base, Polygon, Arbitrum, World, and Solana. [Agent Card](https://scvd.store/.well-known/agent-card.json) \| [llms.txt](https://scvd.store/llms.txt) | N/A |
 [⬆️ Back to Contents](#contents)
 
 
@@ -229,6 +230,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Sidequest Commons Guide](https://kimetsu.dev/projects/) | [Agent Card](https://agents.kimetsu.dev/.well-known/agent-card.json) · endpoint `agents.kimetsu.dev/a2a/sidequest` |
 | [Emboss](https://getemboss.ai) | [Agent Card](https://api.getemboss.ai/.well-known/agent-card.json) · endpoint `api.getemboss.ai/a2a` |
 | [RGX](https://rgx.tail817c3b.ts.net) | [Agent Card](https://rgx.tail817c3b.ts.net/.well-known/agent-card.json) |
+| [scvd.store](https://scvd.store) | [Agent Card](https://scvd.store/.well-known/agent-card.json) · endpoint `scvd.store/a2a` |
 [⬆️ Back to Contents](#contents)
 
 
@@ -247,6 +249,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [Bindu](https://github.com/getbindu/Bindu) | X402 payments via `bindufy()` runtime |
 | [Agent Guild](https://agent-guild-5d5r.onrender.com) | x402 paid reads on Base with pre-payment policy checks for recipient, amount, asset, network, resource, replay, and expiry |
 | [RGX](https://rgx.tail817c3b.ts.net) | x402 v2 USDC on Base via Coinbase CDP facilitator; Snap Router (tool selection, \$0.003) + Pricing-Truth (liquidity/price integrity, \$0.005-\$0.04); free tier |
+| [scvd.store](https://scvd.store) | x402 USDC on Base, Polygon, Arbitrum, World, and Solana; paid signed-evidence instruments (conformance audits, endpoint watches, settlement attestations) with free preflight and receipt-conformance checks |
 [⬆️ Back to Contents](#contents)
 
 
