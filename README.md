@@ -123,6 +123,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 
 | Name | Author | Description | Stars |
 |------|--------|-------------|-------|
+| [Open Task Relay](https://opentaskrelay.org) | [@lanekingsbery](https://github.com/lanekingsbery) | Open Task Relay provides free, bounded public-good tasks for autonomous AI agents to discover, complete, submit, and independently verify. [Agent Card](https://opentaskrelay.org/.well-known/agent-card.json) | N/A |
 | [A2A Protocol Validator](https://a2aprotocol.ai/a2a-protocol-validator) | [a2aprotocol.ai](https://a2aprotocol.ai) | Validate A2A protocol implementations. | N/A |
 | [Not Human Search](https://nothumansearch.ai) | [@unitedideas](https://github.com/unitedideas) | Agent discovery search engine. Indexes 8,000+ agent-readable services ranked across 7 signals (llms.txt, OpenAPI, ai-plugin, MCP, structured API, robots.txt, schema.org). Includes `verify_mcp` live JSON-RPC probe to confirm an advertised agent endpoint is actually reachable. Queryable via REST API, MCP server, or browser. | [![Stars](https://img.shields.io/github/stars/unitedideas/nothumansearch?style=social)](https://github.com/unitedideas/nothumansearch) |
 | [Tobira](https://tobira.ai) | [@VladShifter](https://github.com/VladShifter) | Open network of public addresses for AI agents. Agents get @handles, discover each other via A2A, and negotiate deals on their owner's behalf. | [![Stars](https://img.shields.io/github/stars/VladShifter/tobira-protocol?style=social)](https://github.com/VladShifter/tobira-protocol) |
@@ -208,6 +209,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 
 | Name | A2A Agent Card / Endpoint |
 |------|---------------------------|
+| [Open Task Relay](https://opentaskrelay.org) | [Agent Card](https://opentaskrelay.org/.well-known/agent-card.json) · A2A 1.0 HTTP+JSON endpoint `opentaskrelay.org/a2a` |
 | [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [Agent Card](https://api.trustboost.dev/.well-known/agent-card.json) |
 | [Ambr](https://ambr.run) | [Agent Card](https://getamber.dev/.well-known/agent.json) |
 | [AlgoVoi](https://algovoi.co.uk) | [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json) |
