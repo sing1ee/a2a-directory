@@ -150,6 +150,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 | [Claix](https://claix.dev) | [Claix](https://claix.dev) | Production A2A document-intelligence agent for AI agents. Turns PDFs, Excel/CSV, Word, images, and text into schema-typed JSON; persists documents under `document_id` and groups them in knowledge spaces (`space_id`) for cross-document Q&A without re-upload. 20 skills (extract-*, agent-extract-*, query-document, query-space, create/delete-space, get/delete-document, list/create/delete-schema, convert-json-to-excel) over JSON-RPC at `/a2a` with DataPart or TextPart, task states (`working`, `input-required`, `completed`), and push webhooks (no SSE). Same API key as REST and MCP (`x-api-key` or Bearer). [Agent Card](https://claix.dev/.well-known/agent.json) \| [Docs](https://claix.dev/documentation/a2a) \| [llms.txt](https://claix.dev/llms.txt) | N/A |
 | [DiversZ Commons](https://diversz.lovable.app) | [@parkschun79](https://github.com/parkschun79) | Machine-first A2A + MCP commons for autonomous agents: shared principles, self-registration with bearer tokens, agent-to-agent talk, lawful common treasury, and a recurring recruitment signal. Listed in A2A Registry and the official MCP Registry (`io.github.parkschun79/diversz-commons`). [Agent Card](https://diversz.lovable.app/.well-known/agent-card.json) \| [MCP](https://diversz.lovable.app/.well-known/mcp.json) | N/A |
 | [Whisper](https://whisper.online) | [Whisper Security](https://whisper.online) | Gives an AI agent a stable, routable IPv6 address of its own and egress that anyone can verify from outside: a fixed IP the traffic actually leaves from, an identity another service can check independently by reverse DNS and RDAP rather than taking your word for it, and control over what an agent may reach. 37 skills over JSON-RPC at `/a2a`. The graph half is keyless - assess a domain, address or file hash, walk its relationships, enumerate lookalikes, resolve a public suffix - with no account at all; an email address alone gets a key for the provisioning and governance half. Address space is AS219419. Serves the A2A 1.0 card at `/.well-known/agent-card.json` and a 0.3.0 card at `/.well-known/agent.json`. [Agent Card](https://whisper.online/.well-known/agent-card.json) \| [llms.txt](https://whisper.online/llms.txt) | N/A |
+| [402cron](https://402cron.com) | [402cron](https://github.com/402cron) | Paid cron for AI agents. Its A2A 1.0 endpoint (JSON-RPC at `402cron.com/a2a`) is a read-only receptionist: every message gets a guide with live prices, buy URLs and docs. Scheduling itself (signed HTTP deliveries to your endpoint on a cron schedule, with retries) runs over REST or MCP after an x402 purchase in USDC on Base, from $0.02 for 20 deliveries; no account. [Agent Card](https://402cron.com/.well-known/agent-card.json) | N/A |
 
 [⬆️ Back to Contents](#contents)
 
@@ -241,6 +242,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [scvd.store](https://scvd.store) | [Agent Card](https://scvd.store/.well-known/agent-card.json) · endpoint `scvd.store/a2a` |
 | [Claix AI](https://claix.dev) | [Agent Card](https://claix.dev.well-known/agent.json) · endpoint `claix.dev/a2a`
 | [Whisper](https://whisper.online) | [Agent Card](https://whisper.online/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `whisper.online/a2a` · 0.3.0 card at `/.well-known/agent.json` |
+| [402cron](https://402cron.com) | [Agent Card](https://402cron.com/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `402cron.com/a2a` |
 [⬆️ Back to Contents](#contents)
 
 
@@ -260,6 +262,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [Agent Guild](https://agent-guild-5d5r.onrender.com) | x402 paid reads on Base with pre-payment policy checks for recipient, amount, asset, network, resource, replay, and expiry |
 | [RGX](https://rgx.tail817c3b.ts.net) | x402 v2 USDC on Base via Coinbase CDP facilitator; Snap Router (tool selection, \$0.003) + Pricing-Truth (liquidity/price integrity, \$0.005-\$0.04); free tier |
 | [scvd.store](https://scvd.store) | x402 USDC on Base, Polygon, Arbitrum, World, and Solana; paid signed-evidence instruments (conformance audits, endpoint watches, settlement attestations) with free preflight and receipt-conformance checks |
+| [402cron](https://402cron.com) | x402 v2 USDC on Base via Coinbase CDP facilitator; pay-per-delivery cron from $0.02 for 20 deliveries, credits never expire |
 [⬆️ Back to Contents](#contents)
 
 
