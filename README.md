@@ -239,6 +239,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Priorflow Intelligent Agent/Service Selector & Router](https://agentopt.app) | [Agent Card](https://agentopt.app/.well-known/agent-card.json) |
 | [Sidequest Commons Guide](https://kimetsu.dev/projects/) | [Agent Card](https://agents.kimetsu.dev/.well-known/agent-card.json) · endpoint `agents.kimetsu.dev/a2a/sidequest` |
 | [Emboss](https://getemboss.ai) | [Agent Card](https://api.getemboss.ai/.well-known/agent-card.json) · endpoint `api.getemboss.ai/a2a` |
+| [Feeless402 Rail Quote](https://feeless402.com) | [Agent Card](https://feeless402.com/.well-known/agent-card.json) · endpoint `feeless402.com/a2a` |
 | [RGX](https://rgx.tail817c3b.ts.net) | [Agent Card](https://rgx.tail817c3b.ts.net/.well-known/agent-card.json) |
 | [scvd.store](https://scvd.store) | [Agent Card](https://scvd.store/.well-known/agent-card.json) · endpoint `scvd.store/a2a` |
 | [Claix AI](https://claix.dev) | [Agent Card](https://claix.dev.well-known/agent.json) · endpoint `claix.dev/a2a`
