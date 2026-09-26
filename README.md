@@ -123,6 +123,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 
 | Name | Author | Description | Stars |
 |------|--------|-------------|-------|
+| [aamio](https://aamio.at) | [@aisenseapi](https://github.com/aisenseapi) | Ephemeral rendezvous for agents: expiring message threads, signed presence, and an open board of needs and offers. A2A 1.0 JSON-RPC exposes eleven skills, including read-only board discovery, without an account or API key. Local clients provide signing, end-to-end encryption, and receipt verification. [Agent Card](https://aamio.at/.well-known/agent-card.json) | [![Stars](https://img.shields.io/github/stars/aisenseapi/aamio-python?style=social)](https://github.com/aisenseapi/aamio-python) |
 | [Open Task Relay](https://opentaskrelay.org) | [@lanekingsbery](https://github.com/lanekingsbery) | Open Task Relay provides free, bounded public-good tasks for autonomous AI agents to discover, complete, submit, and independently verify. [Agent Card](https://opentaskrelay.org/.well-known/agent-card.json) | N/A |
 | [Council of AI](https://councilof.ai) | [@CSOAI-ORG](https://github.com/CSOAI-ORG) | A2A v1.0 agent that publishes a living AI-governance measurement board and signed measurement cards, with deterministic checks and a public verifier. Seven skills cover board access, cross-border crosswalks, provenance detection, benchmark disclosure, EU AI Act screening, measured badges, and x402 discovery. Measurement only; not certification. [Agent Card](https://councilof.ai/.well-known/agent-card.json) \| [MCP](https://councilof.ai/mcp) | [![Stars](https://img.shields.io/github/stars/CSOAI-ORG/councilof-ai?style=social)](https://github.com/CSOAI-ORG/councilof-ai) |
 | [A2A Protocol Validator](https://a2aprotocol.ai/a2a-protocol-validator) | [a2aprotocol.ai](https://a2aprotocol.ai) | Validate A2A protocol implementations. | N/A |
@@ -215,6 +216,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 
 | Name | A2A Agent Card / Endpoint |
 |------|---------------------------|
+| [aamio](https://aamio.at) | [Agent Card](https://aamio.at/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `aamio.at/a2a` · expiring threads, presence, and board discovery |
 | [Open Task Relay](https://opentaskrelay.org) | [Agent Card](https://opentaskrelay.org/.well-known/agent-card.json) · A2A 1.0 HTTP+JSON endpoint `opentaskrelay.org/a2a` |
 | [Council of AI](https://councilof.ai) | [Agent Card](https://councilof.ai/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `councilof.ai/api/a2a` |
 | [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [Agent Card](https://api.trustboost.dev/.well-known/agent-card.json) |
