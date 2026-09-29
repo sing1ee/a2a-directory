@@ -123,6 +123,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 
 | Name | Author | Description | Stars |
 |------|--------|-------------|-------|
+| [ProofRail](https://drkdm4jd-8767.uks1.devtunnels.ms) | [@kaattaallaa-sketch](https://github.com/kaattaallaa-sketch) | Pre-deployment MCP testing and compatibility preflight for agents. A2A v1.0 access bridge exposes canonical MCP/HTTP x402 purchase routes; paid certification returns PASS, FAIL, or PARTIAL with deterministic evidence. [Agent Card](https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json) \| [MCP](https://drkdm4jd-8767.uks1.devtunnels.ms/mcp) | N/A |
 | [aamio](https://aamio.at) | [@aisenseapi](https://github.com/aisenseapi) | Ephemeral rendezvous for agents: expiring message threads, signed presence, and an open board of needs and offers. A2A 1.0 JSON-RPC exposes eleven skills, including read-only board discovery, without an account or API key. Local clients provide signing, end-to-end encryption, and receipt verification. [Agent Card](https://aamio.at/.well-known/agent-card.json) | [![Stars](https://img.shields.io/github/stars/aisenseapi/aamio-python?style=social)](https://github.com/aisenseapi/aamio-python) |
 | [Open Task Relay](https://opentaskrelay.org) | [@lanekingsbery](https://github.com/lanekingsbery) | Open Task Relay provides free, bounded public-good tasks for autonomous AI agents to discover, complete, submit, and independently verify. [Agent Card](https://opentaskrelay.org/.well-known/agent-card.json) | N/A |
 | [Council of AI](https://councilof.ai) | [@CSOAI-ORG](https://github.com/CSOAI-ORG) | A2A v1.0 agent that publishes a living AI-governance measurement board and signed measurement cards, with deterministic checks and a public verifier. Seven skills cover board access, cross-border crosswalks, provenance detection, benchmark disclosure, EU AI Act screening, measured badges, and x402 discovery. Measurement only; not certification. [Agent Card](https://councilof.ai/.well-known/agent-card.json) \| [MCP](https://councilof.ai/mcp) | [![Stars](https://img.shields.io/github/stars/CSOAI-ORG/councilof-ai?style=social)](https://github.com/CSOAI-ORG/councilof-ai) |
@@ -217,6 +218,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 
 | Name | A2A Agent Card / Endpoint |
 |------|---------------------------|
+| [ProofRail](https://drkdm4jd-8767.uks1.devtunnels.ms) | [Agent Card](https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `drkdm4jd-8767.uks1.devtunnels.ms/a2a` · HTTP+JSON at `/a2a-rest` · MCP pre-deployment testing access bridge |
 | [aamio](https://aamio.at) | [Agent Card](https://aamio.at/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `aamio.at/a2a` · expiring threads, presence, and board discovery |
 | [Open Task Relay](https://opentaskrelay.org) | [Agent Card](https://opentaskrelay.org/.well-known/agent-card.json) · A2A 1.0 HTTP+JSON endpoint `opentaskrelay.org/a2a` |
 | [Council of AI](https://councilof.ai) | [Agent Card](https://councilof.ai/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `councilof.ai/api/a2a` |
@@ -258,6 +260,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 
 | Name | x402 Details |
 |------|--------------|
+| [ProofRail](https://drkdm4jd-8767.uks1.devtunnels.ms) | x402 v2 certification gate on Base Sepolia test-USDC during Gate 1; mainnet is explicitly disabled. Paid MCP/HTTP certification returns deterministic PASS/FAIL/PARTIAL evidence. |
 | [TrustBoost PII Sanitizer](https://api.trustboost.dev) | x402 compatible; payments anchored on Solana |
 | [Ambr](https://ambr.run) | x402 USDC payments |
 | [AlgoVoi](https://algovoi.co.uk) | x402 (also MPP, AP2) on a single endpoint |
