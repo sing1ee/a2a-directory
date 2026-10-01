@@ -251,6 +251,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Whisper](https://whisper.online) | [Agent Card](https://whisper.online/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `whisper.online/a2a` · 0.3.0 card at `/.well-known/agent.json` |
 | [402cron](https://402cron.com) | [Agent Card](https://402cron.com/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `402cron.com/a2a` |
 | [crosscheck](https://crosscheckapi.com) | [Agent Card](https://crosscheckapi.com/.well-known/agent-card.json) · 4 skills · A2A 1.0 and 0.3 JSON-RPC endpoint `crosscheckapi.com/a2a` |
+| [VOLO](https://flyvolo.ai) | [Agent Card](https://flyvolo.ai/.well-known/agent-card.json) · A2A 1.0 and 0.3 JSON-RPC endpoint `mcp.flyvolo.ai/a2a` · how automation is changing specific occupations and degrees, task by task, with each judgement's evidence and limits; public, no key |
 [⬆️ Back to Contents](#contents)
 
 
