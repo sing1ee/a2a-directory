@@ -270,6 +270,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [Bindu](https://github.com/getbindu/Bindu) | X402 payments via `bindufy()` runtime |
 | [Agent Guild](https://agent-guild-5d5r.onrender.com) | x402 paid reads on Base with pre-payment policy checks for recipient, amount, asset, network, resource, replay, and expiry |
 | [MolTrust](https://moltrust.ch) | x402 USDC on Base, 11 priced endpoints ($0.05–$5.00); EIP-3009 authorization so the payer needs no gas; `bazaar` discovery extension in the 402 and at settlement; manifest at [`/.well-known/x402.json`](https://api.moltrust.ch/.well-known/x402.json) |
+| [bilbop](https://api.bilbop.org) | x402 v2 USDC on Solana via PayAI; summarize / sol-token-brief / sol-mint-info ($0.01), Piper TTS ($0.025), human brand-feedback ($0.50); manifests at [`/.well-known/x402`](https://api.bilbop.org/.well-known/x402) and [`/.well-known/x402.json`](https://api.bilbop.org/.well-known/x402.json) |
 | [RGX](https://rgx.tail817c3b.ts.net) | x402 v2 USDC on Base via Coinbase CDP facilitator; Snap Router (tool selection, \$0.003) + Pricing-Truth (liquidity/price integrity, \$0.005-\$0.04); free tier |
 | [scvd.store](https://scvd.store) | x402 USDC on Base, Polygon, Arbitrum, World, and Solana; paid signed-evidence instruments (conformance audits, endpoint watches, settlement attestations) with free preflight and receipt-conformance checks |
 | [402cron](https://402cron.com) | x402 v2 USDC on Base via Coinbase CDP facilitator; pay-per-delivery cron from $0.02 for 20 deliveries, credits never expire |
