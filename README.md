@@ -154,6 +154,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 | [Whisper](https://whisper.online) | [Whisper Security](https://whisper.online) | Gives an AI agent a stable, routable IPv6 address of its own and egress that anyone can verify from outside: a fixed IP the traffic actually leaves from, an identity another service can check independently by reverse DNS and RDAP rather than taking your word for it, and control over what an agent may reach. 37 skills over JSON-RPC at `/a2a`. The graph half is keyless - assess a domain, address or file hash, walk its relationships, enumerate lookalikes, resolve a public suffix - with no account at all; an email address alone gets a key for the provisioning and governance half. Address space is AS219419. Serves the A2A 1.0 card at `/.well-known/agent-card.json` and a 0.3.0 card at `/.well-known/agent.json`. [Agent Card](https://whisper.online/.well-known/agent-card.json) \| [llms.txt](https://whisper.online/llms.txt) | N/A |
 | [402cron](https://402cron.com) | [402cron](https://github.com/402cron) | Paid cron for AI agents. Its A2A 1.0 endpoint (JSON-RPC at `402cron.com/a2a`) is a read-only receptionist: every message gets a guide with live prices, buy URLs and docs. Scheduling itself (signed HTTP deliveries to your endpoint on a cron schedule, with retries) runs over REST or MCP after an x402 purchase in USDC on Base, from $0.02 for 20 deliveries; no account. [Agent Card](https://402cron.com/.well-known/agent-card.json) | N/A |
 | [crosscheck](https://crosscheckapi.com) | [@maxugc](https://github.com/maxugc/crosscheck) | Independent checks for agent output, paid per call over the a2a-x402 extension. `check` reviews a draft (email, report, summary) before its human sees it, with arithmetic recomputed in code and quotes verified against sources; `accept` checks work one agent hands another against its task before payment; `skillcheck` security-reviews a skill or MCP server's files before install. An unpaid message returns input-required with x402 v2 requirements; payment is settled before any review runs, and each verdict carries a signed receipt. A2A 1.0 and 0.3 JSON-RPC at `crosscheckapi.com/a2a`. [Agent Card](https://crosscheckapi.com/.well-known/agent-card.json) |
+| [Astro Agents](https://astro-agents-api.vercel.app) | [aidatatools-dev](https://github.com/aidatatools-dev/astro-agents-mcp) | Deterministic Western and Vedic astrology for agents: natal charts, transits, synastry, kundli, divisional charts, Vimshottari dashas, panchang and Gun Milan from NASA/JPL DE440, no LLM; every result carries a verifiable SHA-256 hash. 14 skills over A2A, MCP and REST. | N/A |
 
 [⬆️ Back to Contents](#contents)
 
@@ -251,6 +252,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Whisper](https://whisper.online) | [Agent Card](https://whisper.online/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `whisper.online/a2a` · 0.3.0 card at `/.well-known/agent.json` |
 | [402cron](https://402cron.com) | [Agent Card](https://402cron.com/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `402cron.com/a2a` |
 | [crosscheck](https://crosscheckapi.com) | [Agent Card](https://crosscheckapi.com/.well-known/agent-card.json) · 4 skills · A2A 1.0 and 0.3 JSON-RPC endpoint `crosscheckapi.com/a2a` |
+| [Astro Agents](https://astro-agents-api.vercel.app) | [Agent Card](https://astro-agents-api.vercel.app/.well-known/agent-card.json) · 14 skills · A2A 1.0 JSON-RPC endpoint `astro-agents-api.vercel.app/a2a` |
 [⬆️ Back to Contents](#contents)
 
 
@@ -275,6 +277,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [scvd.store](https://scvd.store) | x402 USDC on Base, Polygon, Arbitrum, World, and Solana; paid signed-evidence instruments (conformance audits, endpoint watches, settlement attestations) with free preflight and receipt-conformance checks |
 | [402cron](https://402cron.com) | x402 v2 USDC on Base via Coinbase CDP facilitator; pay-per-delivery cron from $0.02 for 20 deliveries, credits never expire |
 | [crosscheck](https://crosscheckapi.com) | x402 v2 USDC on Base via the a2a-x402 extension (also plain HTTP 402 and MCP); from $0.02 per draft check and $0.03 per deliverable or skill check, priced by size; settled before any review; free test USDC trial on Base Sepolia |
+| [Astro Agents](https://astro-agents-api.vercel.app) | x402 v2 USDC on Base and Solana via Coinbase CDP facilitator (also MPP on Tempo); $0.01 to $0.50 per call, first 3 calls free, invalid input never charged |
 [⬆️ Back to Contents](#contents)
 
 
