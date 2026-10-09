@@ -157,6 +157,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 | [WariqueAI Marketplace Agent](https://warique.pe) | [WariqueAI](https://warique.pe) | Public A2A agent for WariqueAI, a restaurant SaaS from Peru (WhatsApp/Telegram ordering bots, kitchen display, 0% commission per order). Two skills over A2A 0.3 JSON-RPC (`message/send`) at `market.warique.pe/a2a`, no account or API key: `platform-info` answers about plans, pricing and features and lists the active restaurants on the platform (name, city, link); `restaurant-info` returns the menu, prices, opening hours and location of one restaurant by slug (for restaurants with the AI assistant add-on). Replies in Spanish, never takes orders or payments, rate-limited per IP. [Agent Card](https://market.warique.pe/.well-known/agent-card.json) · [llms.txt](https://warique.pe/llms.txt) | N/A |
 | [Astro Agents](https://astro-agent.dev) | [aidatatools-dev](https://github.com/aidatatools-dev/astro-agents-mcp) | Deterministic Western and Vedic astrology for agents: natal charts, transits, synastry, kundli, divisional charts, Vimshottari dashas, panchang and Gun Milan from NASA/JPL DE440, no LLM; every result carries a verifiable SHA-256 hash. 14 skills over A2A, MCP and REST. | N/A |
 | [iDevice](https://idevice.com) | [iDevice](https://idevice.com) | Independent buyer's guide for phones and wearables. Read-only A2A agent (JSON-RPC at `idevice.com/api/a2a`) that answers product questions with sourced prices, compatibility, buy-now-or-wait verdicts and pre-release report credibility. Replies are asynchronous: a message returns a task and a second call returns the reply. Also a read-only MCP server at `idevice.com/api/mcp`, no auth. [Agent Card](https://idevice.com/.well-known/agent-card.json), [Docs](https://idevice.com/mcp/docs) | N/A |
+| [Oh My Share](https://openanthropic.com) | [@shisongsong](https://github.com/shisongsong) | Free no-signup HTML and code publishing for agents: send HTML in `SendMessage` (or a URL with a `publish`/`/publish` prefix) over A2A 1.0 JSON-RPC at `/a2a` and get a shareable `/view` link back; tasks are synthesized from storage so `GetTask` works statelessly. Can also search the public gallery. Ships a remote MCP server (official MCP Registry `io.github.shisongsong/oh-my-share`) with an optional end-to-end encrypted share mode. [Agent Card](https://openanthropic.com/.well-known/agent-card.json) \| [llms.txt](https://openanthropic.com/llms.txt) | [![Stars](https://img.shields.io/github/stars/shisongsong/oh-my-share?style=social)](https://github.com/shisongsong/oh-my-share) |
 
 [⬆️ Back to Contents](#contents)
 
@@ -258,6 +259,8 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Astro Agents](https://astro-agent.dev) | [Agent Card](https://astro-agent.dev/.well-known/agent-card.json) · 14 skills · A2A 1.0 JSON-RPC endpoint `astro-agent.dev/a2a` |
 | [VOLO](https://flyvolo.ai) | [Agent Card](https://flyvolo.ai/.well-known/agent-card.json) · A2A 1.0 and 0.3 JSON-RPC endpoint `mcp.flyvolo.ai/a2a` · how automation is changing specific occupations and degrees, task by task, with each judgement's evidence and limits; public, no key |
 | [iDevice](https://idevice.com) | [Agent Card](https://idevice.com/.well-known/agent-card.json) · A2A JSON-RPC endpoint `idevice.com/api/a2a` · read-only, no key · asynchronous replies |
+| [APEX Faucet (Flux)](https://apexfaucet.xyz) | [Agent Card](https://apexfaucet.xyz/.well-known/agent-card.json) · 29 skills · A2A 0.3 JSON-RPC endpoint `apexfaucet.xyz/api/a2a` · token exit checks, Arc launch feeds and yield data |
+| [Oh My Share](https://openanthropic.com) | [Agent Card](https://openanthropic.com/.well-known/agent-card.json) · 6 MCP tools · A2A 1.0 JSON-RPC endpoint `openanthropic.com/a2a` |
 [⬆️ Back to Contents](#contents)
 
 
@@ -283,6 +286,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [402cron](https://402cron.com) | x402 v2 USDC on Base via Coinbase CDP facilitator; pay-per-delivery cron from $0.02 for 20 deliveries, credits never expire |
 | [crosscheck](https://crosscheckapi.com) | x402 v2 USDC on Base via the a2a-x402 extension (also plain HTTP 402 and MCP); from $0.02 per draft check and $0.03 per deliverable or skill check, priced by size; settled before any review; free test USDC trial on Base Sepolia |
 | [Astro Agents](https://astro-agent.dev) | x402 v2 USDC on Base and Solana via Coinbase CDP facilitator (also MPP on Tempo); $0.01 to $0.50 per call, first 3 calls free, invalid input never charged |
+| [APEX Faucet (Flux)](https://apexfaucet.xyz) | x402 v2 USDC on Arc, Base and Solana (also Circle Gateway batched); from $0.001 per call; calls refused before payment (bad input, nothing found) are never charged |
 [⬆️ Back to Contents](#contents)
 
 
