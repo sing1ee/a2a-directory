@@ -257,6 +257,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [WariqueAI Marketplace Agent](https://warique.pe) | [Agent Card](https://market.warique.pe/.well-known/agent-card.json) · 2 skills · A2A 0.3 JSON-RPC endpoint `market.warique.pe/a2a` |
 | [Astro Agents](https://astro-agent.dev) | [Agent Card](https://astro-agent.dev/.well-known/agent-card.json) · 14 skills · A2A 1.0 JSON-RPC endpoint `astro-agent.dev/a2a` |
 | [VOLO](https://flyvolo.ai) | [Agent Card](https://flyvolo.ai/.well-known/agent-card.json) · A2A 1.0 and 0.3 JSON-RPC endpoint `mcp.flyvolo.ai/a2a` · how automation is changing specific occupations and degrees, task by task, with each judgement's evidence and limits; public, no key |
+| [APEX Faucet (Flux)](https://apexfaucet.xyz) | [Agent Card](https://apexfaucet.xyz/.well-known/agent-card.json) · 29 skills · A2A 0.3 JSON-RPC endpoint `apexfaucet.xyz/api/a2a` · token exit checks, Arc launch feeds and yield data |
 | [Oh My Share](https://openanthropic.com) | [Agent Card](https://openanthropic.com/.well-known/agent-card.json) · 6 MCP tools · A2A 1.0 JSON-RPC endpoint `openanthropic.com/a2a` |
 [⬆️ Back to Contents](#contents)
 
@@ -283,6 +284,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [402cron](https://402cron.com) | x402 v2 USDC on Base via Coinbase CDP facilitator; pay-per-delivery cron from $0.02 for 20 deliveries, credits never expire |
 | [crosscheck](https://crosscheckapi.com) | x402 v2 USDC on Base via the a2a-x402 extension (also plain HTTP 402 and MCP); from $0.02 per draft check and $0.03 per deliverable or skill check, priced by size; settled before any review; free test USDC trial on Base Sepolia |
 | [Astro Agents](https://astro-agent.dev) | x402 v2 USDC on Base and Solana via Coinbase CDP facilitator (also MPP on Tempo); $0.01 to $0.50 per call, first 3 calls free, invalid input never charged |
+| [APEX Faucet (Flux)](https://apexfaucet.xyz) | x402 v2 USDC on Arc, Base and Solana (also Circle Gateway batched); from $0.001 per call; calls refused before payment (bad input, nothing found) are never charged |
 [⬆️ Back to Contents](#contents)
 
 
