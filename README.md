@@ -261,6 +261,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [iDevice](https://idevice.com) | [Agent Card](https://idevice.com/.well-known/agent-card.json) · A2A JSON-RPC endpoint `idevice.com/api/a2a` · read-only, no key · asynchronous replies |
 | [APEX Faucet (Flux)](https://apexfaucet.xyz) | [Agent Card](https://apexfaucet.xyz/.well-known/agent-card.json) · 29 skills · A2A 0.3 JSON-RPC endpoint `apexfaucet.xyz/api/a2a` · token exit checks, Arc launch feeds and yield data |
 | [Oh My Share](https://openanthropic.com) | [Agent Card](https://openanthropic.com/.well-known/agent-card.json) · 6 MCP tools · A2A 1.0 JSON-RPC endpoint `openanthropic.com/a2a` |
+| [GetBody](https://getbody.md) | [Agent Card](https://getbody.md/.well-known/agent-card.json) |
 [⬆️ Back to Contents](#contents)
 
 
