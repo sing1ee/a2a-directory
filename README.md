@@ -287,6 +287,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [crosscheck](https://crosscheckapi.com) | x402 v2 USDC on Base via the a2a-x402 extension (also plain HTTP 402 and MCP); from $0.02 per draft check and $0.03 per deliverable or skill check, priced by size; settled before any review; free test USDC trial on Base Sepolia |
 | [Astro Agents](https://astro-agent.dev) | x402 v2 USDC on Base and Solana via Coinbase CDP facilitator (also MPP on Tempo); $0.01 to $0.50 per call, first 3 calls free, invalid input never charged |
 | [APEX Faucet (Flux)](https://apexfaucet.xyz) | x402 v2 USDC on Arc, Base and Solana (also Circle Gateway batched); from $0.001 per call; calls refused before payment (bad input, nothing found) are never charged |
+| [Emboss](https://getemboss.ai) | x402 v2 USDC on Base via the Coinbase CDP facilitator (also Circle Gateway, and MPP on Tempo); A2A skills plus plain HTTP routes at api.getemboss.ai/pay, from $0.01 to read a form, priced per page; bazaar discovery extension in the 402; manifest at [/.well-known/x402](https://api.getemboss.ai/.well-known/x402) |
 [⬆️ Back to Contents](#contents)
 
 
