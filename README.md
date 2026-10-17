@@ -266,6 +266,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [GetBody](https://getbody.md) | [Agent Card](https://getbody.md/.well-known/agent-card.json) |
 | [ScalpStream Research](https://scalpstream.com) | [Agent Card](https://feed.scalpstream.com/.well-known/agent-card.json) · A2A 0.3.0 JSON-RPC endpoint `feed.scalpstream.com/a2a` · scouts at `{fuelscout,airscout,borderscout,recallscout}.scalpstream.com/a2a` |
 | [Surfing Dog Search](https://surfingdog.ai/search) | [Agent Card](https://surfingdog.ai/.well-known/agent-card.json) · 2 skills · A2A 0.3 JSON-RPC endpoint `surfingdog.ai/a2a` · no account |
+| [CareJobs.Now Healthcare Jobs Agent](https://carejobs.now) | [Agent Card](https://carejobs.now/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `carejobs.now/api/a2a` · US healthcare job and posted-pay search, no account |
 [⬆️ Back to Contents](#contents)
 
 
