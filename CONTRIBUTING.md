@@ -8,7 +8,7 @@ Thank you for your interest in contributing to the A2A Directory! This document 
 
 We welcome contributions of new AgentCards! When contributing an AgentCard:
 
-- Follow the [Agent Card Specification](https://google.github.io/A2A/#/documentation?id=agent-card)
+- Follow the [Agent Card Specification](https://a2a-protocol.org/latest/specification/#8-agent-discovery-the-agent-card)
 - Include clear documentation of the agent's capabilities
 - Provide examples of usage
 - Ensure compatibility with the A2A protocol
