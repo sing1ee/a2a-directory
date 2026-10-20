@@ -96,7 +96,7 @@ Production A2A agents, services, and tools for development, testing, and validat
 ## 4. Resources
 
 ### Official Resources
-* Website: google.github.io/A2A
+* Website: https://a2a-protocol.org/
 * GitHub: github.com/google-a2a/A2A
 * Samples: github.com/google-a2a/a2a-samples
 * Documentation: Technical docs, JSON spec, Agent Card spec
