@@ -272,6 +272,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Surfing Dog Search](https://surfingdog.ai/search) | [Agent Card](https://surfingdog.ai/.well-known/agent-card.json) · 2 skills · A2A 0.3 JSON-RPC endpoint `surfingdog.ai/a2a` · no account |
 | [CareJobs.Now Healthcare Jobs Agent](https://carejobs.now) | [Agent Card](https://carejobs.now/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `carejobs.now/api/a2a` · US healthcare job and posted-pay search, no account |
 | [Andru](https://andru-ai.com/docs/a2a) | [Agent Card](https://api.andru-ai.com/.well-known/agent-card.json) · 12 skills · A2A 1.0 and 0.3 JSON-RPC endpoint `api.andru-ai.com/api/a2a/tasks` · API key required, lookups free |
+| [Viveka — Homo Universalis](https://homouniversalis.ai) | [Agent Card](https://homouniversalis.ai/.well-known/agent-card.json) · 5 skills · A2A 1.0 & 0.3 JSON-RPC (`/a2a`) and HTTP+JSON REST (`/a2a/message:send`, `/a2a/message:stream`) + MCP (`homouniversalis.ai/mcp`) · Astronomical NASA/JPL DE440 & Swiss Ephemeris + 7 Sacred Traditions mathematical oracle, no account or API key |
 [⬆️ Back to Contents](#contents)
 
 
