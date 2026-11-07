@@ -274,6 +274,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [CareJobs.Now Healthcare Jobs Agent](https://carejobs.now) | [Agent Card](https://carejobs.now/.well-known/agent-card.json) · A2A 1.0 JSON-RPC endpoint `carejobs.now/api/a2a` · US healthcare job and posted-pay search, no account |
 | [Andru](https://andru-ai.com/docs/a2a) | [Agent Card](https://api.andru-ai.com/.well-known/agent-card.json) · 12 skills · A2A 1.0 and 0.3 JSON-RPC endpoint `api.andru-ai.com/api/a2a/tasks` · API key required, lookups free |
 | [CodeTrendy Listing Search Agent](https://codetrendy.com) | [Agent Card](https://codetrendy.com/.well-known/agent-card.json) · 1 skill · A2A 1.0 JSON-RPC endpoint `codetrendy.com/api/a2a` · read-only startup and SaaS directory search, no account |
+| [Ruzora Hiring Agent](https://www.ruzora.com/developers/mcp) | [Agent Card](https://www.ruzora.com/.well-known/agent-card.json) · 8 skills · A2A 1.0 JSON-RPC endpoint `mcp.ruzora.com/a2a` · hiring senior software engineers in Latin America: search blind profiles of vetted engineers, verify a Ruzora Vetted badge, send a free coding challenge, request a vetted shortlist; discovery skills need no auth, buyer actions need work-email verification · MCP server at `mcp.ruzora.com/mcp` |
 [⬆️ Back to Contents](#contents)
 
 
