@@ -32,13 +32,13 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 - 🔒 Opaque Execution: Agents interact without sharing internal logic
 
 **Official Links:**
-- 🌐 Website: [google.github.io/A2A](https://google.github.io/A2A)
+- 🌐 Website: [a2a-protocol.org](https://a2a-protocol.org/)
 - 📦 GitHub: [https://github.com/google-a2a/A2A](https://github.com/google-a2a/A2A)
 
 ## Getting Started
 
 1. **Learn the Basics**
-   - 📖 Read the [technical documentation](https://google.github.io/A2A/#/documentation)
+   - 📖 Read the [technical documentation](https://a2a-protocol.org/latest/)
    - 🎥 Watch the [demo video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4)
 
 2. **Run Samples**
@@ -53,9 +53,9 @@ A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communic
 ## Resources
 
 ### Official Documentation
-- 🇺🇸 [Technical Documentation](https://google.github.io/A2A/#/documentation)
+- 🇺🇸 [Technical Documentation](https://a2a-protocol.org/latest/)
 - 🇺🇸 [JSON Specification](https://github.com/google-a2a/A2A/tree/main/specification)
-- 🇺🇸 [Agent Card Specification](https://google-a2a.github.io/A2A/specification/#5-agent-discovery-the-agent-card)
+- 🇺🇸 [Agent Card Specification](https://a2a-protocol.org/latest/specification/#8-agent-discovery-the-agent-card)
 
 ### Community Documentation
 - 🇺🇸 [A2A TypeScript Guide](docs/a2a-typescript-guide.md) — Comprehensive guide to implementing A2A in TypeScript
