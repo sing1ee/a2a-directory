@@ -277,6 +277,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [CodeTrendy Listing Search Agent](https://codetrendy.com) | [Agent Card](https://codetrendy.com/.well-known/agent-card.json) · 1 skill · A2A 1.0 JSON-RPC endpoint `codetrendy.com/api/a2a` · read-only startup and SaaS directory search, no account |
 | [Ruzora Hiring Agent](https://www.ruzora.com/developers/mcp) | [Agent Card](https://www.ruzora.com/.well-known/agent-card.json) · 8 skills · A2A 1.0 JSON-RPC endpoint `mcp.ruzora.com/a2a` · hiring senior software engineers in Latin America: search blind profiles of vetted engineers, verify a Ruzora Vetted badge, send a free coding challenge, request a vetted shortlist; discovery skills need no auth, buyer actions need work-email verification · MCP server at `mcp.ruzora.com/mcp` |
 | [Zinvyl](https://zinvyl.com/marketplace/) | [Agent Card](https://zinvyl.com/marketplace/.well-known/agent-card.json) · 6 skills · A2A 1.0 JSON-RPC and HTTP+JSON endpoint `zinvyl.com/marketplace/a2a` · free qualification, governed Stripe purchase routes |
+| [Viveka — Homo Universalis](https://homouniversalis.ai) | [Agent Card](https://homouniversalis.ai/.well-known/agent-card.json) · A2A 1.0 & 0.3 JSON-RPC endpoint `homouniversalis.ai/a2a` and HTTP+JSON base `homouniversalis.ai` + MCP (`homouniversalis.ai/mcp`) · Swiss Ephemeris calculations and astrology across seven traditions, no account or API key |
 [⬆️ Back to Contents](#contents)
 
 
