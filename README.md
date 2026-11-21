@@ -279,6 +279,7 @@ Hosted services and production agents that expose an A2A Agent Card or a native 
 | [Ruzora Hiring Agent](https://www.ruzora.com/developers/mcp) | [Agent Card](https://www.ruzora.com/.well-known/agent-card.json) · 8 skills · A2A 1.0 JSON-RPC endpoint `mcp.ruzora.com/a2a` · hiring senior software engineers in Latin America: search blind profiles of vetted engineers, verify a Ruzora Vetted badge, send a free coding challenge, request a vetted shortlist; discovery skills need no auth, buyer actions need work-email verification · MCP server at `mcp.ruzora.com/mcp` |
 | [Zinvyl](https://zinvyl.com/marketplace/) | [Agent Card](https://zinvyl.com/marketplace/.well-known/agent-card.json) · 6 skills · A2A 1.0 JSON-RPC and HTTP+JSON endpoint `zinvyl.com/marketplace/a2a` · free qualification, governed Stripe purchase routes |
 | [Viveka — Homo Universalis](https://homouniversalis.ai) | [Agent Card](https://homouniversalis.ai/.well-known/agent-card.json) · A2A 1.0 & 0.3 JSON-RPC endpoint `homouniversalis.ai/a2a` and HTTP+JSON base `homouniversalis.ai` + MCP (`homouniversalis.ai/mcp`) · Swiss Ephemeris calculations and astrology across seven traditions, no account or API key |
+| [Screwtape](https://screwtape.ai) | [Agent Card](https://screwtape.ai/.well-known/agent-card.json) · A2A 0.3 JSON-RPC endpoint `screwtape.ai/a2a` · MCP at `screwtape.ai/mcp` · payment-check at $0.005 per call |
 [⬆️ Back to Contents](#contents)
 
 
@@ -307,6 +308,7 @@ Services that accept x402 (HTTP 402 Payment Required) payments — typically USD
 | [APEX Faucet (Flux)](https://apexfaucet.xyz) | x402 v2 USDC on Arc, Base and Solana (also Circle Gateway batched); from $0.001 per call; calls refused before payment (bad input, nothing found) are never charged |
 | [Emboss](https://getemboss.ai) | x402 v2 USDC on Base via the Coinbase CDP facilitator (also Circle Gateway, and MPP on Tempo); A2A skills plus plain HTTP routes at api.getemboss.ai/pay, from $0.01 to read a form, priced per page; bazaar discovery extension in the 402; manifest at [/.well-known/x402](https://api.getemboss.ai/.well-known/x402) |
 | [ScalpStream Research](https://scalpstream.com) | x402 v2: USDC 0.02 per call on Base, Arbitrum or Polygon, or XRP/RLUSD on the XRP Ledger; the four scout feeds are USDC 0.01 per call; signed receipt on every paid response |
+| [Screwtape](https://screwtape.ai) | x402 v2 USDC on Base and Solana; payment-check at $0.005 per call via POST /v1/payment-check; 3 free calls per UTC day with no key, or 10 with a free key; MCP at https://screwtape.ai/mcp |
 [⬆️ Back to Contents](#contents)
 
 
