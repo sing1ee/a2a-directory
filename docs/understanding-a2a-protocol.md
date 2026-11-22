@@ -36,7 +36,7 @@ The A2A Protocol offers numerous advantages for organizations and developers:
 
 To begin using the A2A Protocol:
 
-1. Review the [documentation](https://google.github.io/A2A/#/)
+1. Review the [documentation](https://a2a-protocol.org/latest/)
 2. Explore the [code samples](https://github.com/google/A2A/tree/main/samples)
 3. Join the [community](https://github.com/google/A2A/discussions)
 
