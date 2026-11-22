@@ -1,18 +1,18 @@
-# A2A 技术介绍与资源
+# A2A Technical Overview and Resources
 
-这份文档汇总 A2A 协议的入门资料、官方样例、开发工具和社区资源。Agent 服务目录请查看[项目首页](../README.md)。
+This guide brings together introductory material, official samples, developer tools, and community resources for the A2A protocol. Browse the [project homepage](../README.md) for the agent directory.
 
 <a id="contents"></a>
-## 目录
+## Contents
 
-- [协议概览](#overview)
-- [快速开始](#getting-started)
-- [文档与规范](#resources)
-- [官方样例](#official-samples)
-- [开发工具与社区实现](#tools)
-- [社区样例](#community-samples)
-- [x402 服务](#x402-enabled-services)
-- [社区与贡献](#community)
+- [Protocol Overview](#overview)
+- [Getting Started](#getting-started)
+- [Documentation and Specifications](#resources)
+- [Official Samples](#official-samples)
+- [Tools and Community Implementations](#tools)
+- [Community Samples](#community-samples)
+- [x402-Enabled Services](#x402-enabled-services)
+- [Community and Contributing](#community)
 
 ---
 
