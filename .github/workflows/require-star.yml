@@ -1,0 +1,88 @@
+name: Check PR author star
+
+# This workflow uses the base repository's token and reads only GitHub API data.
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  check-star:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check whether the PR author starred the repository
+        env:
+          PR_TOKEN: ${{ github.token }}
+          STARGAZERS_READ_TOKEN: ${{ secrets.STARGAZERS_READ_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from http.client import HTTPException
+          from itertools import count
+          from pathlib import Path
+          from urllib.error import HTTPError
+          from urllib.request import Request, urlopen
+
+          event = json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())
+          author_id = event['pull_request']['user']['id']
+          pr_number = event['pull_request']['number']
+          repo_url = f"{os.environ['GITHUB_API_URL']}/repos/{os.environ['GITHUB_REPOSITORY']}"
+          pr_token = os.environ['PR_TOKEN']
+          read_token = os.environ['STARGAZERS_READ_TOKEN'] or pr_token
+
+          def github_json(url, token, state=None):
+              request = Request(url, headers={
+                  'Accept': 'application/vnd.github+json',
+                  'Authorization': f'Bearer {token}',
+                  'X-GitHub-Api-Version': '2026-03-10',
+                  'User-Agent': 'a2a-directory-pr-star-check',
+              })
+              if state is not None:
+                  request.method = 'PATCH'
+                  request.add_header('Content-Type', 'application/json')
+                  request.data = json.dumps({'state': state}).encode()
+              with urlopen(request, timeout=15) as response:
+                  return json.load(response), response.headers.get('Link', '')
+
+          def author_has_star():
+              stargazer_ids = set()
+              for page in count(1):
+                  stargazers, links = github_json(
+                      f'{repo_url}/stargazers?per_page=100&page={page}', read_token
+                  )
+                  if not isinstance(stargazers, list):
+                      raise ValueError('Expected a list of stargazers')
+                  for stargazer in stargazers:
+                      user_id = stargazer['id']
+                      if type(user_id) is not int or user_id <= 0:
+                          raise ValueError('Invalid stargazer ID')
+                      if user_id == author_id:
+                          return True
+                      stargazer_ids.add(user_id)
+                  if 'rel="next"' not in links:
+                      break
+
+              # A restricted or incomplete listing can look like a successful response.
+              repository, _ = github_json(repo_url, read_token)
+              star_count = repository['stargazers_count']
+              if type(star_count) is not int or len(stargazer_ids) != star_count:
+                  raise ValueError('Stargazer listing did not match the repository star count')
+              return False
+
+          try:
+              starred = author_has_star()
+          except HTTPError as error:
+              print(f'::warning::Star lookup returned HTTP {error.code}. Leaving PR #{pr_number} open.')
+          except (HTTPException, OSError, ValueError, TypeError, KeyError) as error:
+              print(f'::warning::Star lookup was inconclusive ({type(error).__name__}). Leaving PR #{pr_number} open.')
+          else:
+              if starred:
+                  print(f'PR #{pr_number} author has starred the repository.')
+              else:
+                  github_json(f'{repo_url}/pulls/{pr_number}', pr_token, state='closed')
+                  print(f'Closed PR #{pr_number} because its author had not starred the repository.')
+          PY

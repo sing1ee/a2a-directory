@@ -59,10 +59,13 @@ If you find a bug or have a feature request, please open an issue on GitHub. Whe
 
 We welcome pull requests! Here's how to submit one:
 
-1. Fork the repository
-2. Create a new branch for your feature/fix
-3. Make your changes
-4. Submit a pull request
+1. Star this repository on GitHub.
+2. Fork the repository and create a branch for your changes.
+3. Make your changes and submit a pull request.
+
+GitHub Actions checks whether you have starred the repository when you open or reopen a pull request. If the check confirms you have not starred it, the pull request closes automatically. If the lookup fails, the pull request stays open. If the workflow closes your pull request, star the repository before asking a maintainer to reopen it.
+
+Maintainers can set the `STARGAZERS_READ_TOKEN` Actions secret if the default workflow token cannot read the [stargazer list](https://docs.github.com/en/rest/activity/starring#list-stargazers). Use a fine-grained personal access token from a repository admin or collaborator, scoped to this repository with read access to Metadata. The repository's [Actions event policy](https://docs.github.com/en/actions/how-tos/administer/control-workflow-execution) must allow `pull_request_target`.
 
 ## Project Structure
 
@@ -106,4 +109,4 @@ By contributing to this project, you agree that your contributions will be licen
 
 ## Questions?
 
-If you have any questions about contributing, please open an issue or contact the maintainers. 
+If you have any questions about contributing, please open an issue or contact the maintainers.
