@@ -1,0 +1,264 @@
+# A2A 技术介绍与资源
+
+这份文档汇总 A2A 协议的入门资料、官方样例、开发工具和社区资源。Agent 服务目录请查看[项目首页](../README.md)。
+
+<a id="contents"></a>
+## 目录
+
+- [协议概览](#overview)
+- [快速开始](#getting-started)
+- [文档与规范](#resources)
+- [官方样例](#official-samples)
+- [开发工具与社区实现](#tools)
+- [社区样例](#community-samples)
+- [x402 服务](#x402-enabled-services)
+- [社区与贡献](#community)
+
+---
+
+## Overview
+
+A2A (Agent2Agent) is an open protocol from Google enabling AI agents to communicate securely and collaborate. It breaks down silos between isolated agent systems, allowing for complex cross-application automation.
+
+**Key Features:**
+- 🎯 Simple: Uses HTTP, JSON-RPC, SSE
+- 🏢 Enterprise Ready: Focuses on security and privacy
+- ⚡ Async First: Handles long-running tasks
+- 🔄 Modality Agnostic: Supports text, files, forms, streams
+- 🔒 Opaque Execution: Agents interact without sharing internal logic
+
+**Official Links:**
+- 🌐 Website: [A2A Protocol](https://a2a-protocol.org)
+- 📦 GitHub: [https://github.com/a2aproject/A2A](https://github.com/a2aproject/A2A)
+
+## Getting Started
+
+1. **Learn the Basics**
+   - 📖 Read the [technical documentation](https://a2a-protocol.org/latest/)
+   - 🎥 Watch the [demo video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4)
+
+2. **Run Samples**
+   - 📥 Clone the [official repo](https://github.com/a2aproject/a2a-samples)
+   - 📝 Follow instructions in `/samples`
+
+3. **Build Your Own**
+   - 🛠️ Use official libraries or adapt samples
+   - 🏗️ Start with a basic A2A agent or client
+
+
+## Resources
+
+### Official Documentation
+- 🇺🇸 [Technical Documentation](https://a2a-protocol.org/latest/)
+- 🇺🇸 [JSON Specification](https://github.com/a2aproject/A2A/tree/main/specification)
+- 🇺🇸 [Agent Card Specification](https://a2a-protocol.org/latest/specification/)
+
+### Community Documentation
+- 🇺🇸 [A2A TypeScript Guide](a2a-typescript-guide.md) — Comprehensive guide to implementing A2A in TypeScript
+- 🇺🇸 [A2A vs MCP](a2a-vs-mcp.md) — Comparison of A2A and the Model Context Protocol
+- 🇺🇸 [Understanding the A2A Protocol](understanding-a2a-protocol.md) — Deep dive into A2A protocol concepts
+- 🇺🇸 [A2A Sample Methods and JSON Responses](a2a-sample-methods-and-json-responses.md) — Detailed examples of A2A methods and JSON responses
+- 🇺🇸 [Python A2A](python-a2a.md) — Comprehensive guide to Google's Agent-to-Agent Protocol in Python
+- 🇺🇸 [A2A BeeAI Integration](a2a-beeai-integration.md) — Integrating the A2A protocol with the BeeAI Framework
+- 🇺🇸 [A2A Implementations](a2a-implementations.md) — A community-maintained list of A2A implementations
+
+## Official Samples
+
+### Python Sample Collection
+
+#### Agent Examples (Intelligent Agents Based on Different Frameworks)
+
+| Project Name | Description | Link |
+|-------------|-------------|------|
+| [IdeaTrace AI](https://ideatrace-a2a-server.vercel.app) | [@ideatrace](https://tiny.place/@ideatrace) | First Chinese-market creator agent: short-video scripts, AI skill library, monetization research. Full Web4 stack (ERC-8004 identity + tiny.place + x402 mainnet USDC). Arbitrage recommendation engine WIP. [Agent Card](https://gist.githubusercontent.com/urbanlifeenjoy-code/21c5e75e9bf738a08051577def2d31da/raw/agent-card.json) |
+| Google ADK | Expense report filling agent, showcasing multi-turn interactions and web form handling | [repository](https://github.com/a2aproject/a2a-samples) |
+| AG2 + MCP | MCP-enabled agent based on AG2 framework | [repository](https://github.com/a2aproject/a2a-samples) |
+| Azure AI Foundry | Agent based on Azure AI Foundry services | [repository](https://github.com/a2aproject/a2a-samples) |
+| LangGraph | Currency conversion agent with tool usage and streaming updates | [repository](https://github.com/a2aproject/a2a-samples) |
+| CrewAI | Image generation agent with multi-turn interactions and image transmission | [repository](https://github.com/a2aproject/a2a-samples) |
+| LlamaIndex | File parsing and chat agent with file upload and streaming updates | [repository](https://github.com/a2aproject/a2a-samples) |
+| Marvin | Contact information extraction agent | [repository](https://github.com/a2aproject/a2a-samples) |
+| MindsDB | Enterprise data agent supporting database queries | [repository](https://github.com/a2aproject/a2a-samples) |
+| Semantic Kernel | Travel agent based on Microsoft Semantic Kernel framework | [repository](https://github.com/a2aproject/a2a-samples) |
+| AutoGen | AutoGen framework example | [repository](https://github.com/a2aproject/a2a-samples) |
+| Hello World | Basic example agent | [repository](https://github.com/a2aproject/a2a-samples) |
+| Veo Video Generation | Video generation agent | [repository](https://github.com/a2aproject/a2a-samples) |
+| Analytics | Analytics agent | [repository](https://github.com/a2aproject/a2a-samples) |
+| A2A Telemetry | Telemetry data agent | [repository](https://github.com/a2aproject/a2a-samples) |
+| A2A MCP | MCP protocol agent | [repository](https://github.com/a2aproject/a2a-samples) |
+| Birthday Planner ADK | Birthday planning agent | [repository](https://github.com/a2aproject/a2a-samples) |
+| Headless Agent Auth | Headless agent authentication example | [repository](https://github.com/a2aproject/a2a-samples) |
+
+#### Host Applications (Client Applications)
+
+| Project Name | Description | Link |
+|-------------|-------------|------|
+| CLI | Command line client | [repository](https://github.com/a2aproject/a2a-samples) |
+| Multiagent | Multi-agent orchestrator | [repository](https://github.com/a2aproject/a2a-samples) |
+
+### Go Language Examples
+
+| Project Name | Description | Link |
+|-------------|-------------|------|
+| Server | Go language A2A server implementation | [repository](https://github.com/a2aproject/a2a-samples) |
+| Client | Go language A2A client implementation | [repository](https://github.com/a2aproject/a2a-samples) |
+| Models | Shared data structures | [repository](https://github.com/a2aproject/a2a-samples) |
+
+### JavaScript/TypeScript Examples
+
+| Project Name | Description | Link |
+|-------------|-------------|------|
+| Movie Agent | Movie information search agent using TMDB API | [repository](https://github.com/a2aproject/a2a-samples) |
+| Coder Agent | Code generation agent | [repository](https://github.com/a2aproject/a2a-samples) |
+
+
+
+## Tools
+
+Production A2A agents, services, and tools for development, testing, and validation.
+
+| Name | Author | Description | Stars |
+|------|--------|-------------|-------|
+| ProofRail | [@kaattaallaa-sketch](https://github.com/kaattaallaa-sketch) | Pre-deployment MCP testing and compatibility preflight for agents. A2A v1.0 access bridge exposes canonical MCP/HTTP x402 purchase routes; paid certification returns PASS, FAIL, or PARTIAL with deterministic evidence. Agent Card \| MCP | N/A |
+| [The Agent Commons](https://ai.affix-io.com/) | [AffixIO](https://www.affix-io.com/) | Public text-first commons where agents discover prompts, read conversations, and contribute through A2A and MCP. [Agent Card](https://ai.affix-io.com/.well-known/agent-card.json) \| [MCP](https://ai.affix-io.com/mcp) | N/A |
+| [aamio](https://aamio.at) | [@aisenseapi](https://github.com/aisenseapi) | Ephemeral rendezvous for agents: expiring message threads, signed presence, and an open board of needs and offers. A2A 1.0 JSON-RPC exposes eleven skills, including read-only board discovery, without an account or API key. Local clients provide signing, end-to-end encryption, and receipt verification. [Agent Card](https://aamio.at/.well-known/agent-card.json) | [![Stars](https://img.shields.io/github/stars/aisenseapi/aamio-python?style=social)](https://github.com/aisenseapi/aamio-python) |
+| [Open Task Relay](https://opentaskrelay.org) | [@lanekingsbery](https://github.com/lanekingsbery) | Open Task Relay provides free, bounded public-good tasks for autonomous AI agents to discover, complete, submit, and independently verify. [Agent Card](https://opentaskrelay.org/.well-known/agent-card.json) | N/A |
+| [Council of AI](https://councilof.ai) | [@CSOAI-ORG](https://github.com/CSOAI-ORG) | A2A v1.0 agent that publishes a living AI-governance measurement board and signed measurement cards, with deterministic checks and a public verifier. Seven skills cover board access, cross-border crosswalks, provenance detection, benchmark disclosure, EU AI Act screening, measured badges, and x402 discovery. Measurement only; not certification. [Agent Card](https://councilof.ai/.well-known/agent-card.json) \| [MCP](https://councilof.ai/mcp) | [![Stars](https://img.shields.io/github/stars/CSOAI-ORG/councilof-ai?style=social)](https://github.com/CSOAI-ORG/councilof-ai) |
+| [A2A Protocol Validator](https://a2aprotocol.ai/a2a-protocol-validator) | [a2aprotocol.ai](https://a2aprotocol.ai) | Validate A2A protocol implementations. | N/A |
+| [Not Human Search](https://nothumansearch.ai) | [@unitedideas](https://github.com/unitedideas) | Agent discovery search engine. Indexes 8,000+ agent-readable services ranked across 7 signals (llms.txt, OpenAPI, ai-plugin, MCP, structured API, robots.txt, schema.org). Includes `verify_mcp` live JSON-RPC probe to confirm an advertised agent endpoint is actually reachable. Queryable via REST API, MCP server, or browser. | [![Stars](https://img.shields.io/github/stars/unitedideas/nothumansearch?style=social)](https://github.com/unitedideas/nothumansearch) |
+| [Tobira](https://tobira.ai) | [@VladShifter](https://github.com/VladShifter) | Open network of public addresses for AI agents. Agents get @handles, discover each other via A2A, and negotiate deals on their owner's behalf. | [![Stars](https://img.shields.io/github/stars/VladShifter/tobira-protocol?style=social)](https://github.com/VladShifter/tobira-protocol) |
+| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | [@teodorofodocrispin-cmyk](https://github.com/teodorofodocrispin-cmyk) | Production PII sanitization layer for autonomous AI agent pipelines. Redacts emails, national IDs, API keys, and financial data before text reaches LLMs. Every paid sanitization anchored on Solana — verifiable at `/verify/{anchor_tx}`. 8 languages: EN, ES-LATAM, PT-BR, DE, JA, FR, IT, KO. x402 compatible, MCP native, EU AI Act compliant. [Agent Card](https://api.trustboost.dev/.well-known/agent-card.json) \| [llms.txt](https://api.trustboost.dev/llms.txt) | [![Stars](https://img.shields.io/github/stars/teodorofodocrispin-cmyk/TrustBoost-PII-Sanitizer?style=social)](https://github.com/teodorofodocrispin-cmyk/TrustBoost-PII-Sanitizer) |
+| [Ambr](https://ambr.run) | [OMRA Corp](https://ambr.run) | Production A2A agent for legal contract management. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable + machine-parsable JSON, SHA-256 linked). 6 skills, x402 USDC payments. [Agent Card](https://getamber.dev/.well-known/agent.json) | N/A |
+| [AlgoVoi](https://algovoi.co.uk) | [AlgoVoi](https://algovoi.co.uk) | Production multi-chain, multi-protocol A2A payment gateway. Verifies on-chain payments and creates hosted checkout links across 7 chains (Algorand, VOI, Hedera, Stellar, Base, Solana, Tempo). Supports x402, MPP (IETF), and AP2 (Google Agentic Payments) on a single endpoint. 4 skills: verify-payment, create-checkout, check-status, post-twitter-checkout. [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json) | N/A |
+| [HiveAttest](https://github.com/srotzin/hive-mcp-attest) | [@srotzin](https://github.com/srotzin) | Production A2A v0.3.0 agent for pre-action verification. Issues Ed25519-signed C18 receipts on every gate decision (allow AND deny), real-rail USDC settlement on Base, and machine-verifiable [Agent Card](https://thehiveryiq.com/.well-known/agent.json). Live demo: https://thehiveryiq.com/attest-demo.html | [![Stars](https://img.shields.io/github/stars/srotzin/hive-mcp-attest?style=social)](https://github.com/srotzin/hive-mcp-attest) |
+| [Rosentic](https://rosentic.com) | [Rosentic](https://rosentic.com) | Deterministic cross-branch semantic conflict detection for merge safety. Checks active git branches for function signature mismatches, HTTP route conflicts, GraphQL breaks, OpenAPI drift, and protobuf contract changes across 15+ languages. 5 skills: assess-posture, check-conflicts, explain-conflict, list-branches, merge-index. Agent Card | [![Stars](https://img.shields.io/github/stars/Rosentic/rosentic-action?style=social)](https://github.com/Rosentic/rosentic-action) |
+| [Agent Ready](https://agent-ready.dev) | [Agent Ready](https://agent-ready.dev) | Production A2A v0.3.0 agent that scores any public URL 0–100 for AI-agent readability against the Vercel Agent Readability Spec, llmstxt.org, and agent-protocol manifests, with per-check fixes. 3 skills (scan_site, get_scan, ask) over JSON-RPC at /api/v1/a2a — bearer-auth scans, public NLWeb ask. [Agent Card](https://agent-ready.dev/.well-known/agent-card.json) | N/A |
+| [Numbers Online](https://numbers.online) | [Numbers Online](https://numbers.online) | Production A2A v0.3.0 agent for phone-number intelligence. 4 skills (phone_lookup, line_type, caller_risk, dnc_check) over JSON-RPC at /api/v1/a2a — bearer-auth — returning line type, range carrier, country, CNAM, STIR/SHAKEN verstat, a labeled spam-risk signal, and a first-party do-not-contact (DNC) signal, each a supplementary low-confidence signal, with Ed25519-signed receipts. [Agent Card](https://numbers.online/.well-known/agent-card.json) | N/A |
+| [Kinocut](https://kinocut.dev) | [@KyaniteLabs](https://github.com/KyaniteLabs) | Open-source guardrailed FFmpeg video-editing agent for AI pipelines (196 MCP tools; Python/CLI; 114★). Public read-only guide agent answers installation, workflow, and safeguard questions over JSON-RPC at /a2a/v1 — it cannot edit media, access files, or run commands; editing happens locally via the MCP server. [Agent Card](https://kinocut.dev/.well-known/agent-card.json) \| [llms.txt](https://kinocut.dev/llms.txt) | [![Stars](https://img.shields.io/github/stars/KyaniteLabs/kinocut?style=social)](https://github.com/KyaniteLabs/kinocut) |
+| [Merchant-0](https://merchant-0.com) | [@RaulA3](https://github.com/RaulA3) | Production autonomous A2A commerce agent for SEA and ASEAN trade intelligence. Grok-4.3 + live web search intel queries ($2.39/query, 20% new-agent discount), SEA regulatory compliance briefs, and subscription plans ($49/month). Full AP2 protocol: discover → negotiate → sign → execute. Free trial: one query per agent DID. [Agent Card](https://merchant-0.com/.well-known/agent.json) \| [Subscribe](https://merchant-0.com/subscribe) | N/A |
+| [Relm](https://relmcrm.com) | [Relm](https://relmcrm.com) | Hosted, API-first CRM for LLMs and AI agents. Native A2A endpoint at api.relmcrm.com/a2a (JSON-RPC 2.0), plus REST + MCP, so agents create/update contacts, companies, deals and notes as shared memory. [Agent Card](https://relmcrm.com/.well-known/agent-card.json) | N/A |
+| [Dealwork MegaWorkers](https://practical-ambition-production.up.railway.app) | [@agent-card-json](https://github.com/agent-card-json) | Hosted multi-worker A2A service for bulk URL scraping, archive inspection, document and code parsing, media transcoding, subtitles, video splitting, and Gemini-powered text/code generation. The public Agent Card lists x402 pricing of 0.01 USDC per task. [Agent Card](https://practical-ambition-production.up.railway.app/.well-known/agent.json) \| [Public card and documentation repository](https://github.com/agent-card-json/Agent-Card-json-402x) (implementation source private) | N/A |
+| [risk-api](https://github.com/JleviEderer/risk-api) | [@JleviEderer](https://github.com/JleviEderer) | Smart contract risk scoring agent for EVM chains. Analyzes bytecode patterns, proxy structures, and deployer reputation via A2A protocol with x402 payments ($0.10/query). Live at risk-api.life.conway.tech | [![Stars](https://img.shields.io/github/stars/JleviEderer/risk-api?style=social)](https://github.com/JleviEderer/risk-api) |
+| [openstoa](https://github.com/zkproofport/openstoa) | [@zkproofport](https://github.com/zkproofport) | ZK-gated community where humans and AI agents coexist. Agents authenticate via Google OIDC zero-knowledge proofs and join topic discussions. Hosts A2A agent card at `/.well-known/agent-card.json`. 🏅 1st Place at The Synthesis Hackathon (Agents That Keep Secrets, April 2026, 506 projects). Live at [openstoa.xyz](https://www.openstoa.xyz) | [![Stars](https://img.shields.io/github/stars/zkproofport/openstoa?style=social)](https://github.com/zkproofport/openstoa) |
+| [proofport-ai](https://github.com/zkproofport/proofport-ai) | [@zkproofport](https://github.com/zkproofport) | Server-side ZK proof generation MCP server with A2A agent card. Generates Coinbase KYC, Country, OIDC, Workspace, MS 365 proofs. AWS Nitro Enclave TEE proving, ERC-8004 registered (token ID 25331), x402 USDC payments on Base | [![Stars](https://img.shields.io/github/stars/zkproofport/proofport-ai?style=social)](https://github.com/zkproofport/proofport-ai) |
+| AgentServices | [@vbkotecha](https://github.com/vbkotecha) | Production A2A agent marketplace with 54 services — market intelligence, onchain data, FX rates, bundled synthesis, and inference. x402 USDC micropayments on Base, MCP server (37 tools), and agent-card discovery at `/.well-known/agent.json`. Indexed on Agenstry and the official MCP Registry. | [![Stars](https://img.shields.io/github/stars/vbkotecha/aiservices-api?style=social)](https://github.com/vbkotecha/aiservices-api) |
+| [Agent Guild](https://agent-guild-5d5r.onrender.com) | [@AgentTanuki](https://github.com/AgentTanuki) | Production trust and settlement layer for autonomous agents. A one-call capability check returns a hire/caution/avoid verdict, ranked shortlist, and machine-verifiable evidence; agents can also verify signed reputation passports, hold payments in escrow, and run x402 payment-safety preflight checks. Remote MCP and A2A access require no account for discovery. [Agent Card](https://agent-guild-5d5r.onrender.com/.well-known/agent-card.json) \| [llms.txt](https://agent-guild-5d5r.onrender.com/llms.txt) | [![Stars](https://img.shields.io/github/stars/AgentTanuki/agent-guild?style=social)](https://github.com/AgentTanuki/agent-guild) |
+| [Sidequest Commons Guide](https://kimetsu.dev/projects/) | [@RodCor](https://github.com/RodCor) | Credential-free, read-only A2A guide to a daily open-source project selection and collaboration loop for agents and humans. It discovers proposals and winners and explains safe GitHub-native proposing, voting, and contribution flows. Supports A2A v0.3 and v1.0 over JSON-RPC without accepting credentials or performing writes. [Agent Card](https://agents.kimetsu.dev/.well-known/agent-card.json) | [![Stars](https://img.shields.io/github/stars/RodCor/sidequest-commons?style=social)](https://github.com/RodCor/sidequest-commons) |
+| [KoPass](https://kopass.app/a2a) | [KoPass](https://kopass.app) | Measured observatory of the A2A ecosystem, updated daily. Tracks 1,610 public repositories across the `a2a-protocol`, `agent2agent`, `a2a` and `agent-to-agent` topics, and reports what the readings show: repository creations per month since 2024, implementation languages, and how many projects are still maintained (963 active, 546 dormant, 101 abandoned on 2026-08-17). Figures are counts of measurements already taken — no scores, forecasts or rankings. Browsable [directory](https://kopass.app/a2a/annuaire), [JSON API](https://kopass.app/api/v1/a2a), 6 languages, free and no account. | N/A |
+| [Emboss](https://getemboss.ai) | [Emboss](https://getemboss.ai) | Production A2A agent for PDF forms. Turns a flat PDF into a fillable form, finds a blank government form by name, fills it from data or documents or for every row of a spreadsheet, proposes and commits answers with a receipt, reads a filled form back, verifies it, faxes it, and composes, merges, splits and rotates PDFs. 23 skills over JSON-RPC with streaming at `/a2a`; bearer sk_ key, OAuth 2.1, or anonymous pay-per-job with x402 (USDC on Base). [Agent Card](https://api.getemboss.ai/.well-known/agent-card.json) \| [Docs](https://getemboss.ai/docs/a2a) | N/A |
+| [scvd.store](https://scvd.store) | [scvd.store](https://scvd.store) | Production A2A v0.3.0 evidence observatory for agentic commerce (the SCVD Evidence Agent). Independently checks x402 endpoints, signed offers/receipts, and endpoint-readiness history, returning dated, machine-verifiable evidence that names what it did not establish. 3 free read-only skills (preflight_endpoint, verify_receipt, get_endpoint_readiness) over JSON-RPC at /a2a — no account, no conversation. Paid instruments (signed conformance audits, endpoint watches, settlement attestations) are x402 USDC doors on Base, Polygon, Arbitrum, World, and Solana. [Agent Card](https://scvd.store/.well-known/agent-card.json) \| [llms.txt](https://scvd.store/llms.txt) | N/A |
+| [Claix](https://claix.dev) | [Claix](https://claix.dev) | Production A2A document-intelligence agent for AI agents. Turns PDFs, Excel/CSV, Word, images, and text into schema-typed JSON; persists documents under `document_id` and groups them in knowledge spaces (`space_id`) for cross-document Q&A without re-upload. 20 skills (extract-*, agent-extract-*, query-document, query-space, create/delete-space, get/delete-document, list/create/delete-schema, convert-json-to-excel) over JSON-RPC at `/a2a` with DataPart or TextPart, task states (`working`, `input-required`, `completed`), and push webhooks (no SSE). Same API key as REST and MCP (`x-api-key` or Bearer). [Agent Card](https://claix.dev/.well-known/agent.json) \| [Docs](https://claix.dev/documentation/a2a) \| [llms.txt](https://claix.dev/llms.txt) | N/A |
+| [DiversZ Commons](https://diversz.lovable.app) | @parkschun79 | Machine-first A2A + MCP commons for autonomous agents: shared principles, self-registration with bearer tokens, agent-to-agent talk, lawful common treasury, and a recurring recruitment signal. Listed in A2A Registry and the official MCP Registry (`io.github.parkschun79/diversz-commons`). [Agent Card](https://diversz.lovable.app/.well-known/agent-card.json) \| [MCP](https://diversz.lovable.app/.well-known/mcp.json) | N/A |
+| [Whisper](https://whisper.online) | [Whisper Security](https://whisper.online) | Gives an AI agent a stable, routable IPv6 address of its own and egress that anyone can verify from outside: a fixed IP the traffic actually leaves from, an identity another service can check independently by reverse DNS and RDAP rather than taking your word for it, and control over what an agent may reach. 37 skills over JSON-RPC at `/a2a`. The graph half is keyless - assess a domain, address or file hash, walk its relationships, enumerate lookalikes, resolve a public suffix - with no account at all; an email address alone gets a key for the provisioning and governance half. Address space is AS219419. Serves the A2A 1.0 card at `/.well-known/agent-card.json` and a 0.3.0 card at `/.well-known/agent.json`. [Agent Card](https://whisper.online/.well-known/agent-card.json) \| [llms.txt](https://whisper.online/llms.txt) | N/A |
+| [402cron](https://402cron.com) | [402cron](https://github.com/402cron) | Paid cron for AI agents. Its A2A 1.0 endpoint (JSON-RPC at `402cron.com/a2a`) is a read-only receptionist: every message gets a guide with live prices, buy URLs and docs. Scheduling itself (signed HTTP deliveries to your endpoint on a cron schedule, with retries) runs over REST or MCP after an x402 purchase in USDC on Base, from $0.02 for 20 deliveries; no account. [Agent Card](https://402cron.com/.well-known/agent-card.json) | N/A |
+| [crosscheck](https://crosscheckapi.com) | [@maxugc](https://github.com/maxugc/crosscheck) | Independent checks for agent output, paid per call over the a2a-x402 extension. `check` reviews a draft (email, report, summary) before its human sees it, with arithmetic recomputed in code and quotes verified against sources; `accept` checks work one agent hands another against its task before payment; `skillcheck` security-reviews a skill or MCP server's files before install. An unpaid message returns input-required with x402 v2 requirements; payment is settled before any review runs, and each verdict carries a signed receipt. A2A 1.0 and 0.3 JSON-RPC at `crosscheckapi.com/a2a`. [Agent Card](https://crosscheckapi.com/.well-known/agent-card.json) |
+| [WariqueAI Marketplace Agent](https://warique.pe) | [WariqueAI](https://warique.pe) | Public A2A agent for WariqueAI, a restaurant SaaS from Peru (WhatsApp/Telegram ordering bots, kitchen display, 0% commission per order). Two skills over A2A 0.3 JSON-RPC (`message/send`) at `market.warique.pe/a2a`, no account or API key: `platform-info` answers about plans, pricing and features and lists the active restaurants on the platform (name, city, link); `restaurant-info` returns the menu, prices, opening hours and location of one restaurant by slug (for restaurants with the AI assistant add-on). Replies in Spanish, never takes orders or payments, rate-limited per IP. [Agent Card](https://market.warique.pe/.well-known/agent-card.json) · [llms.txt](https://warique.pe/llms.txt) | N/A |
+| [Astro Agents](https://astro-agent.dev) | [aidatatools-dev](https://github.com/aidatatools-dev/astro-agents-mcp) | Deterministic Western and Vedic astrology for agents: natal charts, transits, synastry, kundli, divisional charts, Vimshottari dashas, panchang and Gun Milan from NASA/JPL DE440, no LLM; every result carries a verifiable SHA-256 hash. 14 skills over A2A, MCP and REST. | N/A |
+| [iDevice](https://idevice.com) | [iDevice](https://idevice.com) | Independent buyer's guide for phones and wearables. Read-only A2A agent (JSON-RPC at `idevice.com/api/a2a`) that answers product questions with sourced prices, compatibility, buy-now-or-wait verdicts and pre-release report credibility. Replies are asynchronous: a message returns a task and a second call returns the reply. Also a read-only MCP server at `idevice.com/api/mcp`, no auth. [Agent Card](https://idevice.com/.well-known/agent-card.json), [Docs](https://idevice.com/mcp/docs) | N/A |
+| [Oh My Share](https://openanthropic.com) | [@shisongsong](https://github.com/shisongsong) | Free no-signup HTML and code publishing for agents: send HTML in `SendMessage` (or a URL with a `publish`/`/publish` prefix) over A2A 1.0 JSON-RPC at `/a2a` and get a shareable `/view` link back; tasks are synthesized from storage so `GetTask` works statelessly. Can also search the public gallery. Ships a remote MCP server (official MCP Registry `io.github.shisongsong/oh-my-share`) with an optional end-to-end encrypted share mode. [Agent Card](https://openanthropic.com/.well-known/agent-card.json) \| [llms.txt](https://openanthropic.com/llms.txt) | [![Stars](https://img.shields.io/github/stars/shisongsong/oh-my-share?style=social)](https://github.com/shisongsong/oh-my-share) |
+| [ScalpStream Research](https://scalpstream.com) | [@DV1-321](https://github.com/DV1-321) | Production A2A market research agent: stock and options screener picks, municipal income fund and dividend yields, a crypto screener and DeFi staking yields, with free previews and USDC 0.02 paid results over x402 (Base, Arbitrum, Polygon, XRP/RLUSD) carrying a signed receipt. Four sibling scout agents (FuelScout, AirScout, BorderScout, RecallScout) at USDC 0.01 per call. Not investment advice. Agent Card \| [MCP](https://github.com/DV1-321/scalpstream-mcp) | [![Stars](https://img.shields.io/github/stars/DV1-321/scalpstream-mcp?style=social)](https://github.com/DV1-321/scalpstream-mcp) |
+| [Surfing Dog Search](https://surfingdog.ai/search) | [Surfing Dog](https://surfingdog.ai) | A public directory of businesses AI agents can reach through their own doors (MCP, A2A, API, agent inbox), and a checker for any business's website. A2A v0.3.0 agent with 2 skills (search_businesses, check_business) over JSON-RPC at `/a2a`; no account. Also a remote MCP server at `surfingdog.ai/mcp` (`ai.surfingdog/search` in the official MCP Registry). [Agent Card](https://surfingdog.ai/.well-known/agent-card.json) \| [Docs](https://surfingdog.ai/about/#connect) | N/A |
+| [Andru](https://andru-ai.com/docs/a2a) | [Andru](https://andru-ai.com) | Revenue intelligence for complex B2B growth. 12 A2A skills (27 tools) over A2A 1.0 and 0.3 JSON-RPC: ICP fit and persona scoring, account plans, pre-meeting briefs ($3), investor thesis matching, and a catalog of 139 sales, hiring and fundraising assets ($3 / $12 / $49) built from what Andru knows about your company and buyers. Email-code signup requires no existing key; subsequent calls use the issued API key. Lookups are free. Signed Agent Card; AP2 quote and purchase. Also an MCP server (`mcp-server-andru-intelligence` on npm). [Agent Card](https://api.andru-ai.com/.well-known/agent-card.json) \| [Docs](https://andru-ai.com/docs/a2a) | N/A |
+| [CodeTrendy Listing Search Agent](https://codetrendy.com) | [CodeTrendy](https://codetrendy.com) | Read-only A2A agent for CodeTrendy, a curated directory of newly launched startups, SaaS tools and indie products. Send a plain-text query with `SendMessage` and get a completed task whose JSON artifact lists matching approved listings (title, slug, URL path, tagline, categories). One skill (`search-listings`), A2A 1.0 JSON-RPC at `codetrendy.com/api/a2a`, no account or API key. Also a remote MCP server at `codetrendy.com/api/mcp` (`com.codetrendy/directory` in the official MCP Registry). [Agent Card](https://codetrendy.com/.well-known/agent-card.json) \| [MCP Docs](https://codetrendy.com/mcp) \| [llms.txt](https://codetrendy.com/llms.txt) | N/A |
+| [agent-socials](https://socialnetworkforaiagents.com) | [@lurnake](https://github.com/lurnake) | Social network that only AI agents can join: channels, replies and mentions, a private memory file, agent juries. The A2A 1.0 JSON-RPC endpoint is a read-only concierge that answers questions with the matching docs page; joining and posting use REST or remote MCP. [Agent Card](https://socialnetworkforaiagents.com/.well-known/agent-card.json) \| [MCP](https://socialnetworkforaiagents.com/mcp) \| llms.txt | N/A |
+| [Zinvyl](https://zinvyl.com/marketplace/) | [G.B. Industry LLC d/b/a Zinvyl](https://zinvyl.com/) | A2A 1.0 fixed-scope business services marketplace. Agents can match a sanitized need against published offers, request a governed Stripe purchase route when they hold delegated authority, or produce a forwardable approval packet when they do not. Published offers include a $49 API Workflow Health Check and a $39 CSV Cleanup and Validation starter, each delivered within one business day after complete, safe inputs and verified funding. A route or acknowledgement is never treated as payment or permission to start work. [Agent Card](https://zinvyl.com/marketplace/.well-known/agent-card.json) \| [Docs](https://zinvyl.com/marketplace/agents) | N/A |
+| [ZeroClickz](https://zeroclickz.com) | [@zeroclickz](https://github.com/zeroclickz) | Open network where agents post requests and other agents take them for escrowed budgets (test USDC during the open beta). A2A 1.0 and 0.3 JSON-RPC at `/a2a` with streaming, push notification configs, a signed Agent Card and a card per registered agent; asking needs no account (a requester_token is returned), and greetings or capability questions get a direct reply. Every delivery gets an Ed25519 receipt in a public append-only log. Also a remote MCP server (`com.zeroclickz/zeroclickz` in the official MCP Registry). [Agent Card](https://zeroclickz.com/.well-known/agent-card.json) \| [MCP](https://zeroclickz.com/mcp) \| [llms.txt](https://zeroclickz.com/llms.txt) | [![Stars](https://img.shields.io/github/stars/zeroclickz/agent-kit?style=social)](https://github.com/zeroclickz/agent-kit) |
+| [Vedar](https://vedarai.ru) | [@tourhabk-ui](https://github.com/tourhabk-ui) | Open A2A agent for Kamchatka (Russia) travel: tour catalog search, dates and prices, safety and weather checks, trip plans. Each request is confirmed by a human operator; no payments through Vedar. [Agent Card](https://vedarai.ru/.well-known/agent-card.json) \| [Repo](https://github.com/tourhabk-ui/pos) | [![Stars](https://img.shields.io/github/stars/tourhabk-ui/pos?style=social)](https://github.com/tourhabk-ui/pos) |
+| [SpecStream](https://specstream.ai) | [SpecStream](https://specstream.ai) | Live web data engine for agents: structured datasets from plain-text requests (Deep Search, $0.05/$0.15/$1 per delivered row), Web Search API ($1-$5 per 1,000 searches), and Extract API ($0.80 per 1,000 pages), each value returned with source URL and read time. 5 skills over A2A 1.0 and 0.3 JSON-RPC at `api.specstream.ai/a2a` (unauthenticated calls return a price quote; Bearer API key or OAuth runs the job), remote MCP server at `api.specstream.ai/mcp`, and pay-per-request Deep Search over x402 (USDC on Base, Arbitrum, Polygon) and Stripe MPP at `api.specstream.ai/v1/agent/lists`. [Agent Card](https://api.specstream.ai/.well-known/agent-card.json) \| [MCP](https://specstream.ai/docs/mcp) \| [Agents Docs](https://specstream.ai/agents.md) \| [llms.txt](https://specstream.ai/llms.txt) | N/A |
+
+
+
+
+## Community Implementations
+
+| Name | Author | Description | Stars |
+|------|--------|-------------|-------|
+| [a2a-python](https://github.com/google/a2a-python) | [@google](https://github.com/google) | Official Python SDK for the Agent2Agent (A2A) Protocol | [![Stars](https://img.shields.io/github/stars/google/a2a-python?style=social)](https://github.com/google/a2a-python) |
+| [a2a-js](https://github.com/a2aproject/a2a-js) | [@a2aproject](https://github.com/a2aproject) | Official JavaScript SDK for the Agent2Agent (A2A) Protocol - A JavaScript library that helps run agentic applications as A2AServers | [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-js?style=social)](https://github.com/a2aproject/a2a-js) |
+| [a2a-java](https://github.com/a2aproject/a2a-java) | [@a2aproject](https://github.com/a2aproject) | Official Java SDK for the Agent2Agent (A2A) Protocol - A Java library that helps run agentic applications as A2AServers | [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-java?style=social)](https://github.com/a2aproject/a2a-java) |
+| [a2a-go](https://github.com/a2aproject/a2a-go) | [@a2aproject](https://github.com/a2aproject) | Official Go SDK for the Agent2Agent (A2A) Protocol | [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-go?style=social)](https://github.com/a2aproject/a2a-go) |
+| [a2ajava](https://github.com/vishalmysore/a2ajava) | [@vishalmysore](https://github.com/vishalmysore) | A pure Java implementation of Google's A2A protocol for Spring Boot applications, featuring both client and server implementations | [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) |
+| [a2a4j](https://github.com/a2ap/a2a4j) | [@a2ap](https://github.com/a2ap) | A2A4J is a comprehensive Java implementation of the Agent2Agent Protocol, including server, client, examples, and a starter — ready to use out of the box. | [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) |
+| [legion-a2a](https://github.com/TheRaLabs/legion-a2a) | [@TheRaLabs](https://github.com/TheRaLabs) | A TypeScript implementation of the A2A protocol with a focus on modularity and extensibility | [![Stars](https://img.shields.io/github/stars/TheRaLabs/legion-a2a?style=social)](https://github.com/TheRaLabs/legion-a2a) |
+| [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) | [@trpc-group](https://github.com/trpc-group) | Go A2A implementation by the tRPC team featuring full client/server support, in-memory task management, streaming responses, session management, multiple auth methods (JWT, API Key, OAuth2), and comprehensive examples | [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) |
+| [jira-a2a](https://github.com/tuannvm/jira-a2a) | [@tuannvm](https://github.com/tuannvm) | The Jira A2A system is a DevOps workflow automation platform using the tRPC-A2A-Go framework. It consists of independent Go agents that communicate via A2A messages. | [![Stars](https://img.shields.io/github/stars/tuannvm/jira-a2a?style=social)](https://github.com/tuannvm/jira-a2a) |
+| [a2a-go](https://github.com/a2aserver/a2a-go) | [@a2aserver](https://github.com/a2aserver) | A Go library for building A2A servers, with example implementations | [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) |
+| [a2a-rs](https://github.com/EmilLindfors/a2a-rs) | [@EmilLindfors](https://github.com/EmilLindfors) | An idiomatic Rust implementation following hexagonal architecture principles | [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) |
+| [a2a_min](https://github.com/pcingola/a2a_min) | [@pcingola](https://github.com/pcingola) | A minimalistic Python SDK for A2A communication | [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) |
+| [a2adotnet](https://github.com/azixaka/a2adotnet) | [@azixaka](https://github.com/azixaka) | A C#/.NET implementation of the A2A protocol | [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) |
+| [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) | [@thestupd](https://github.com/thestupd) | A module for integrating the A2A protocol into NestJS applications | [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) |
+| [python-a2a](https://github.com/themanojdesai/python-a2a) | [@themanojdesai](https://github.com/themanojdesai) | An easy-to-use Python library for implementing the A2A protocol | [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) |
+| Aira | @IhateCreatingUserNames2 | An A2A network implementation for hosting, registering, discovering, and interacting with agents |
+| Agent Reputation (Agent Hub) | [@SamyTouri](https://github.com/SamyTouri) | Live cross-registry discovery & reputation service: semantic search over 15,000+ listed agents and MCP servers, 0-5 ratings split native vs imported, A2A agent card + remote MCP endpoint, no auth required, chartered by a public constitution |
+| [Bindu](https://github.com/getbindu/Bindu) | [@getbindu](https://github.com/getbindu) | Production runtime for A2A-compatible agents. Wrap agents built with LangChain, Agno, CrewAI, OpenAI SDK, or plain code using `bindufy()` to add DID identity, OAuth2 authentication, X402 payments, retries, observability, push notifications, storage, scheduling, and gRPC-based multi-language support across Python, TypeScript, and Kotlin. | [![Stars](https://img.shields.io/github/stars/getbindu/Bindu?style=social)](https://github.com/getbindu/Bindu) |
+| [A2A Nexus](https://github.com/jinwon-int/a2a-nexus) | [@jinwon-int](https://github.com/jinwon-int) | Public alpha A2A task/evidence control plane for broker-managed worker registration, auditable task lifecycle evidence, source-only review bridges, isolated patch execution, and finalizer-oriented closeout reports. Not affiliated with or endorsed by a2aproject. | [![Stars](https://img.shields.io/github/stars/jinwon-int/a2a-nexus?style=social)](https://github.com/jinwon-int/a2a-nexus) |
+| Cognisphere | @IhateCreatingUserNames2 | An AI agent development framework built on Google's ADK, facilitating agent creation potentially for A2A networks |
+| [a2a-server](https://github.com/chrishayuk/a2a-server) | [@chrishayuk](https://github.com/chrishayuk) | A lightweight A2A python implementation | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-server?style=social)](https://github.com/chrishayuk/a2a-server) |
+| [a2a-cli](https://github.com/chrishayuk/a2a-cli) | [@chrishayuk](https://github.com/chrishayuk) | A command-line client for the A2A | [![Stars](https://img.shields.io/github/stars/chrishayuk/a2a-cli?style=social)](https://github.com/chrishayuk/a2a-cli) |
+| A2A Test Suit | @robert-at-pretension-io | A2A Test Suite |
+| [Grasp](https://github.com/aircodelabs/grasp) | [@adcentury](https://github.com/adcentury) | A Self-hosted Browser Using Agent with built-in MCP and A2A support | [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) |
+| [swissknife](https://github.com/daltonnyx/swissknife) | [@daltonnyx](https://github.com/daltonnyx) | A multi-agent chat application with MCP support, aiming to expose agents via the A2A protocol and connect to remote A2A agents as a client | [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) |
+| [artinet-sdk](https://github.com/the-artinet-project/artinet-sdk) | [@the-artinet-project](https://github.com/the-artinet-project) | A JS/TS SDK for the Agent2Agent Protocol with a focus on developer experience and comprehensive features | [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) |
+| [a2a-validation-tool](https://github.com/llmx-de/a2a-validation-tool) | [@llmx-de](https://github.com/llmx-de) | A desktop application for testing and validating Agent-to-Agent (A2A) protocol implementations | [![Stars](https://img.shields.io/github/stars/llmx-de/a2a-validation-tool?style=social)](https://github.com/llmx-de/a2a-validation-tool) |
+| [Protolink](https://github.com/nMaroulis/protolink) | [@nMaroulis](https://github.com/nMaroulis) | A Python library for building autonomous Agents with Agent-to-Agent (A2A) protocol implementations, integrating LLMs and tools. | [![Stars](https://img.shields.io/github/stars/nMaroulis/protolink?style=social)](https://github.com/nMaroulis/protolink) |
+| [OpenAgents](https://github.com/openagents-org/openagents) | [@openagents-org](https://github.com/openagents-org) | Open-source platform for building AI agent networks with A2A, MCP, WebSocket, gRPC, and HTTP support | [![Stars](https://img.shields.io/github/stars/openagents-org/openagents?style=social)](https://github.com/openagents-org/openagents) |
+| [systemprompt-template](https://github.com/systempromptio/systemprompt-template) | [@Ejb503](https://github.com/Ejb503) | Production Rust A2A + MCP governance runtime. Single compiled binary that authenticates, authorises, rate-limits, logs, and costs every AI interaction. Ships with A2A v0.3.0 agent cards, OAuth2 security, streaming support, and 40+ scripted demos. Self-hosted, air-gap capable. | [![Stars](https://img.shields.io/github/stars/systempromptio/systemprompt-template?style=social)](https://github.com/systempromptio/systemprompt-template) |
+| humanbrowser | @VirixLabs | A2A 1.0 cloud-Chromium agent for AI clients. Drives a stealth browser engine with residential proxies and built-in captcha solving over a single A2A endpoint, with an open-source SDK (`@virixlabs/humanbrowser`), an MCP server (`npx -y @virixlabs/humanbrowser mcp`), and a hosted card at agent.humanbrowser.cloud. Apache-2.0. |
+| [agenda-intelligence-md](https://github.com/vassiliylakhonin/agenda-intelligence-md) | [@vassiliylakhonin](https://github.com/vassiliylakhonin) | Evidence-discipline runtime for strategic-risk agents over one core service layer (MCP, HTTP, A2A, Cloudflare Worker). Ships A2A vertical workers — Middle Corridor deal-risk gate, CIS secondary-sanctions exposure, agentic interaction trust — that turn a partial evidence pack into a structured triage with evidence gaps, a decision-readiness score, and mandatory human review. Pre-compliance evidence triage only; not legal or sanctions advice; no factual-truth verification. | [![Stars](https://img.shields.io/github/stars/vassiliylakhonin/agenda-intelligence-md?style=social)](https://github.com/vassiliylakhonin/agenda-intelligence-md) |
+| [a2a-to-mcp](https://github.com/AmirK-S/a2a-to-mcp) | [@AmirK-S](https://github.com/AmirK-S) | Bridge that exposes A2A v1.0.1 agents as tools on a stateless MCP 2026-07-28 server, with the `io.modelcontextprotocol/tasks` extension for long-running tasks and a legacy 2025-11-25 route on the same endpoint. Four tools, discover, send message, get task and cancel task, each taking the agent alias as an argument, with typed A2A errors and task states mapped explicitly. Node 20+, published on npm as `a2a-to-mcp`. Apache 2.0. | [![Stars](https://img.shields.io/github/stars/AmirK-S/a2a-to-mcp?style=social)](https://github.com/AmirK-S/a2a-to-mcp) |
+
+
+
+## Community Samples
+
+| Name | Author | Description | Stars |
+|------|--------|-------------|-------|
+| [a2a-agent-coder](https://github.com/sing1ee/a2a-agent-coder) | [@sing1ee](https://github.com/sing1ee) | A Coder Agent implementation with A2A Server and Client | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-agent-coder?style=social)](https://github.com/sing1ee/a2a-agent-coder) |
+| [agentic-trading](https://github.com/kweinmeister/agentic-trading) | [@kweinmeister](https://github.com/kweinmeister) | A sample application demonstrating Google ADK and A2A interoperability for trading automation | [![Stars](https://img.shields.io/github/stars/kweinmeister/agentic-trading?style=social)](https://github.com/kweinmeister/agentic-trading) |
+| [python-a2a-tutorial](https://github.com/sing1ee/python-a2a-tutorial) | [@sing1ee](https://github.com/sing1ee) | A comprehensive tutorial for implementing A2A in Python with practical examples | [![Stars](https://img.shields.io/github/stars/sing1ee/python-a2a-tutorial?style=social)](https://github.com/sing1ee/python-a2a-tutorial) |
+| [a2a-python-currency](https://github.com/sing1ee/a2a-python-currency) | [@sing1ee](https://github.com/sing1ee) | A tutorial implementation of a Currency Agent using the A2A Python SDK | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-python-currency?style=social)](https://github.com/sing1ee/a2a-python-currency) |
+| [a2a-mcp-openrouter](https://github.com/sing1ee/a2a-mcp-openrouter) | [@sing1ee](https://github.com/sing1ee) | Demonstrates A2A + MCP integration using OpenRouter as LLM provider, showcasing unified interface for agent-to-agent communication and tool invocation | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a-mcp-openrouter?style=social)](https://github.com/sing1ee/a2a-mcp-openrouter) |
+| [a2a_llama_index_file_chat](https://github.com/sing1ee/a2a_llama_index_file_chat) | [@sing1ee](https://github.com/sing1ee) | A LlamaIndex-based file chat agent supporting file upload/parsing, conversational interactions, streaming responses, and in-line citations | [![Stars](https://img.shields.io/github/stars/sing1ee/a2a_llama_index_file_chat?style=social)](https://github.com/sing1ee/a2a_llama_index_file_chat) |
+| [a2a-mcp-bridge](https://github.com/GipsyChef/a2a-mcp-bridge) | [@GipsyChef](https://github.com/GipsyChef) | Two Claude agents collaborating locally over A2A (agent-to-agent) and MCP (tools), with Claude on Vertex AI. A runnable Researcher + Analyst reference that also works as an MCP skill for Claude Code, Codex, and opencode. | [![Stars](https://img.shields.io/github/stars/GipsyChef/a2a-mcp-bridge?style=social)](https://github.com/GipsyChef/a2a-mcp-bridge) |
+
+## x402-Enabled Services
+
+Services that accept x402 (HTTP 402 Payment Required) payments — typically USDC on Base. Each also appears in its primary section — collected here for discoverability by capability.
+
+| Name | x402 Details |
+|------|--------------|
+| ProofRail | x402 v2 certification gate on Base Sepolia test-USDC during Gate 1; mainnet is explicitly disabled. Paid MCP/HTTP certification returns deterministic PASS/FAIL/PARTIAL evidence. |
+| [TrustBoost PII Sanitizer](https://api.trustboost.dev) | x402 compatible; payments anchored on Solana |
+| [Ambr](https://ambr.run) | x402 USDC payments |
+| [AlgoVoi](https://algovoi.co.uk) | x402 (also MPP, AP2) on a single endpoint |
+| [risk-api](https://github.com/JleviEderer/risk-api) | x402 payments, $0.10/query |
+| [proofport-ai](https://github.com/zkproofport/proofport-ai) | x402 USDC payments on Base |
+| AgentServices | x402 USDC micropayments on Base |
+| [Bindu](https://github.com/getbindu/Bindu) | X402 payments via `bindufy()` runtime |
+| [Agent Guild](https://agent-guild-5d5r.onrender.com) | x402 paid reads on Base with pre-payment policy checks for recipient, amount, asset, network, resource, replay, and expiry |
+| [MolTrust](https://moltrust.ch) | x402 USDC on Base, 11 priced endpoints ($0.05–$5.00); EIP-3009 authorization so the payer needs no gas; `bazaar` discovery extension in the 402 and at settlement; manifest at [`/.well-known/x402.json`](https://api.moltrust.ch/.well-known/x402.json) |
+| bilbop | x402 v2 USDC on Solana via PayAI; summarize / sol-token-brief / sol-mint-info ($0.01), Piper TTS ($0.025), human brand-feedback ($0.50); manifests at `/.well-known/x402` and `/.well-known/x402.json` |
+| RGX | x402 v2 USDC on Base via Coinbase CDP facilitator; Snap Router (tool selection, \$0.003) + Pricing-Truth (liquidity/price integrity, \$0.005-\$0.04); free tier |
+| [scvd.store](https://scvd.store) | x402 USDC on Base, Polygon, Arbitrum, World, and Solana; paid signed-evidence instruments (conformance audits, endpoint watches, settlement attestations) with free preflight and receipt-conformance checks |
+| [402cron](https://402cron.com) | x402 v2 USDC on Base via Coinbase CDP facilitator; pay-per-delivery cron from $0.02 for 20 deliveries, credits never expire |
+| [crosscheck](https://crosscheckapi.com) | x402 v2 USDC on Base via the a2a-x402 extension (also plain HTTP 402 and MCP); from $0.02 per draft check and $0.03 per deliverable or skill check, priced by size; settled before any review; free test USDC trial on Base Sepolia |
+| [Astro Agents](https://astro-agent.dev) | x402 v2 USDC on Base and Solana via Coinbase CDP facilitator (also MPP on Tempo); $0.01 to $0.50 per call, first 3 calls free, invalid input never charged |
+| [APEX Faucet (Flux)](https://apexfaucet.xyz) | x402 v2 USDC on Arc, Base and Solana (also Circle Gateway batched); from $0.001 per call; calls refused before payment (bad input, nothing found) are never charged |
+| [Emboss](https://getemboss.ai) | x402 v2 USDC on Base via the Coinbase CDP facilitator (also Circle Gateway, and MPP on Tempo); A2A skills plus plain HTTP routes at api.getemboss.ai/pay, from $0.01 to read a form, priced per page; bazaar discovery extension in the 402; manifest at [/.well-known/x402](https://api.getemboss.ai/.well-known/x402) |
+| [ScalpStream Research](https://scalpstream.com) | x402 v2: USDC 0.02 per call on Base, Arbitrum or Polygon, or XRP/RLUSD on the XRP Ledger; the four scout feeds are USDC 0.01 per call; signed receipt on every paid response |
+| [Dealwork MegaWorkers](https://practical-ambition-production.up.railway.app) | x402 v1 USDC on Base via PayAI; 0.01 USDC per task according to the published Agent Card |
+| [Screwtape](https://screwtape.ai) | x402 v2 USDC on Base and Solana; payment-check at $0.005 per call via POST /v1/payment-check; 3 free calls per UTC day with no key, or 10 with a free key; MCP at https://screwtape.ai/mcp |
+| [SpecStream](https://specstream.ai) | x402 v2 `upto` scheme with Permit2 (`eip2612GasSponsoring`) and `bazaar` discovery on the Deep Search endpoint, accepting USDC on Base (`eip155:8453`), Arbitrum (`eip155:42161`), and Polygon (`eip155:137`); also supports Stripe MPP on the same endpoint. Authorize the quoted maximum ($0.05, $0.15, or $1 per delivered row; +$0.05 email, +$0.15 phone when requested); only what the run costs is settled at completion, and nothing is charged if no rows are found. |
+
+
+
+## Community
+
+- 🐛 [GitHub Issues](https://github.com/a2aproject/A2A/issues)
+- 💬 [GitHub Discussions](https://github.com/a2aproject/A2A/discussions/)
+
+## Contributing
+
+![Pull requests are welcome](../images/prs-welcome.svg)
+
+Contributions are welcome! Please read the [contributing guidelines](../CONTRIBUTING.md) first.
