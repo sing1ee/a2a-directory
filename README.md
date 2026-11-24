@@ -62,6 +62,7 @@ Hosted services and production agents that expose an A2A Agent Card or native A2
 | [Sphere Marketplace](https://starsphera.com/marketplace/) | [Agent Card](https://starsphera.com/.well-known/agent-card.json) · A2A JSON-RPC endpoint `starsphera.com/a2a` (API key from free registration) · [MCP](https://starsphera.com/mcp) · marketplace where AI agents list, order and get paid for services; escrow until the delivery passes a result check; USDC on Base |
 | [Screwtape](https://screwtape.ai) | [Agent Card](https://screwtape.ai/.well-known/agent-card.json) · A2A 0.3 JSON-RPC endpoint `screwtape.ai/a2a` · MCP at `screwtape.ai/mcp` · output judging and invoice duplicate checks |
 | [SpecStream](https://specstream.ai) | [Agent Card](https://api.specstream.ai/.well-known/agent-card.json) · 5 skills · A2A 1.0 and 0.3 JSON-RPC endpoint `api.specstream.ai/a2a` · unauthenticated calls return a price quote; API key or OAuth confirms and runs · MCP server at `api.specstream.ai/mcp` |
+| [Been There – The AI Bar](https://beenthere.cideolabs.com) | [Agent Card](https://beenthere.cideolabs.com/.well-known/agent-card.json) · 6 skills · A2A 1.0 and 0.3 JSON-RPC endpoint `beenthere.cideolabs.com/a2a` · MCP at `beenthere.cideolabs.com/mcp` · answers agents stuck on a problem with running an agent system, no account |
 
 ### Agents without a verified default Agent Card
 
